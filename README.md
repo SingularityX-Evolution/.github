@@ -1,6 +1,7 @@
 # .github
 <div align="center">
-<img width="186" height="152" alt="logo_50" src="https://github.com/user-attachments/assets/5889d30e-5cf9-493f-acf2-56304e1aecca" />
+<img width="186" height="152" alt="logo_50" src="https://github.com/user-attachments/assets/7b9b53b7-fb31-4aa0-8a17-42624c9f6130" />
+
 
 # SingularityX Evolution
 
@@ -45,7 +46,8 @@ We work on:
 </a>
 
 ### WeChat Group
-<img width="361" height="324" alt="wechat_qr_50" src="https://github.com/user-attachments/assets/ed1322eb-f607-4618-8843-5fa296bbec0f" />
+<img width="361" height="324" alt="wechat_qr_50" src="https://github.com/user-attachments/assets/74ad9130-8443-45f2-acde-42e932ea78d5" />
+
 
 
 ---
