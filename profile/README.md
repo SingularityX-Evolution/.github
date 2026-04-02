@@ -1,4 +1,3 @@
-# .github
 <div align="center">
 <img width="186" height="152" alt="logo_50" src="https://github.com/user-attachments/assets/dfd87583-4f8d-4e71-bd71-1f1b04910853" />
 
