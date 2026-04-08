@@ -12,6 +12,9 @@
     <a href="https://discord.gg/aW4J2u2eU">
       <img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord" />
     </a>
+    <a href="https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=375rf86d-9fe7-4081-a734-8ab488273f88">
+      <img src="https://img.shields.io/badge/Feishu-Join%20Group-00B96B?style=for-the-badge&logo=lark&logoColor=white" alt="Join Feishu Group" />
+    </a>
     <img src="https://img.shields.io/badge/Status-Evolving-black?style=for-the-badge" alt="Status" />
   </p>
 
@@ -43,9 +46,17 @@ We work on:
   <img src="https://img.shields.io/badge/Join%20Discord-aW4J2u2eU-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Invite" />
 </a>
 
-### WeChat Group
-<img width="361" height="324" alt="wechat_qr_50" src="https://github.com/user-attachments/assets/4b4cb19f-f053-4431-9d06-5a99edf57d9e" />
+### Feishu Group
 
+<a href="https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=375rf86d-9fe7-4081-a734-8ab488273f88">
+  <img src="https://img.shields.io/badge/Join%20Feishu-Group-00B96B?style=for-the-badge&logo=lark&logoColor=white" alt="Join Feishu Group" />
+</a>
+
+<br /><br />
+
+<a href="https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=375rf86d-9fe7-4081-a734-8ab488273f88">
+  <img width="361" alt="feishu_qr" src="你的飞书邀请图片地址" />
+</a>
 
 ---
 
@@ -53,12 +64,10 @@ We work on:
 
 * GitHub: [https://github.com/SingularityX-Evolution](https://github.com/SingularityX-Evolution)
 * Discord: [https://discord.gg/aW4J2u2eU](https://discord.gg/aW4J2u2eU)
-* WeChat: Scan QR above
+* Feishu: [https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=375rf86d-9fe7-4081-a734-8ab488273f88](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=375rf86d-9fe7-4081-a734-8ab488273f88)
 
 ---
 
 <div align="center">
   <sub>SingularityX Evolution · Open-source · Agents · Strategy · Simulation</sub>
 </div>
-
-
