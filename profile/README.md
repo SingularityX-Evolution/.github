@@ -25,6 +25,10 @@
   Our goal is to make every effective contribution <b>recordable</b>, <b>verifiable</b>, <b>assessable</b>, and <b>fairly allocated</b> under clear rules.
 </p>
 
+<p>
+  <b>中文版本：</b> <a href="README.zh-CN.md">README.zh-CN.md</a>
+</p>
+
 </div>
 
 ---
