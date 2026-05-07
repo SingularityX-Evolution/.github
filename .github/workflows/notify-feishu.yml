@@ -12,7 +12,6 @@ on:
 jobs:
   notify-feishu:
     if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'issues' || (github.event_name == 'issue_comment' && !github.event.issue.pull_request) }}
-
     runs-on: ubuntu-latest
 
     steps:
@@ -20,73 +19,109 @@ jobs:
         env:
           FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
         run: |
-          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          import os
+          import sys
+          import urllib.error
+          import urllib.request
 
-          if [ -z "${FEISHU_WEBHOOK:-}" ]; then
-            echo "FEISHU_WEBHOOK is empty. Please check GitHub Secrets."
-            exit 1
-          fi
+          webhook = os.environ.get("FEISHU_WEBHOOK", "").strip()
+          if not webhook:
+              print("FEISHU_WEBHOOK is empty. 请检查 GitHub Secrets 里是否有 FEISHU_WEBHOOK。")
+              sys.exit(1)
 
-          event_name="${GITHUB_EVENT_NAME}"
-          repo="${GITHUB_REPOSITORY}"
+          event_name = os.environ.get("GITHUB_EVENT_NAME", "")
+          repo = os.environ.get("GITHUB_REPOSITORY", "")
 
-          if [ "$event_name" = "workflow_dispatch" ]; then
-            text="GitHub 飞书机器人测试消息
+          if event_name == "workflow_dispatch":
+              text = "\n".join([
+                  "GitHub 飞书机器人测试消息",
+                  "",
+                  f"仓库：{repo}",
+                  "",
+                  "如果飞书群能看到这条消息，说明 FEISHU_WEBHOOK 和机器人 webhook 正常。"
+              ])
 
-仓库：${repo}
+          else:
+              with open(os.environ["GITHUB_EVENT_PATH"], "r", encoding="utf-8") as f:
+                  event = json.load(f)
 
-如果你能在飞书群看到这条消息，说明 GitHub Secret 和飞书 Webhook 都是正常的。"
+              issue = event.get("issue", {})
+              issue_number = issue.get("number", "")
+              issue_title = issue.get("title", "")
+              issue_url = issue.get("html_url", "")
 
-          elif [ "$event_name" = "issues" ]; then
-            issue_number="$(jq -r '.issue.number' "$GITHUB_EVENT_PATH")"
-            issue_title="$(jq -r '.issue.title' "$GITHUB_EVENT_PATH")"
-            issue_url="$(jq -r '.issue.html_url' "$GITHUB_EVENT_PATH")"
-            issue_user="$(jq -r '.issue.user.login' "$GITHUB_EVENT_PATH")"
-            issue_body="$(jq -r '.issue.body // ""' "$GITHUB_EVENT_PATH" | head -c 3500)"
+              if event_name == "issues":
+                  issue_user = issue.get("user", {}).get("login", "")
+                  issue_body = (issue.get("body") or "")[:3500]
 
-            text="GitHub 新 Issue
+                  text = "\n".join([
+                      "GitHub 新 Issue",
+                      "",
+                      f"仓库：{repo}",
+                      f"Issue：#{issue_number} {issue_title}",
+                      f"创建人：@{issue_user}",
+                      f"链接：{issue_url}",
+                      "",
+                      "Issue 内容：",
+                      issue_body
+                  ])
 
-仓库：${repo}
-Issue：#${issue_number} ${issue_title}
-创建人：@${issue_user}
-链接：${issue_url}
+              elif event_name == "issue_comment":
+                  comment = event.get("comment", {})
+                  comment_user = comment.get("user", {}).get("login", "")
+                  comment_url = comment.get("html_url", "")
+                  comment_body = (comment.get("body") or "")[:3500]
 
-Issue 内容：
-${issue_body}"
+                  text = "\n".join([
+                      "GitHub Issue 新评论",
+                      "",
+                      f"仓库：{repo}",
+                      f"Issue：#{issue_number} {issue_title}",
+                      f"评论人：@{comment_user}",
+                      f"Issue 链接：{issue_url}",
+                      f"评论链接：{comment_url}",
+                      "",
+                      "评论内容：",
+                      comment_body
+                  ])
 
-          elif [ "$event_name" = "issue_comment" ]; then
-            issue_number="$(jq -r '.issue.number' "$GITHUB_EVENT_PATH")"
-            issue_title="$(jq -r '.issue.title' "$GITHUB_EVENT_PATH")"
-            issue_url="$(jq -r '.issue.html_url' "$GITHUB_EVENT_PATH")"
-            comment_user="$(jq -r '.comment.user.login' "$GITHUB_EVENT_PATH")"
-            comment_url="$(jq -r '.comment.html_url' "$GITHUB_EVENT_PATH")"
-            comment_body="$(jq -r '.comment.body // ""' "$GITHUB_EVENT_PATH" | head -c 3500)"
+              else:
+                  print(f"Unsupported event: {event_name}")
+                  sys.exit(0)
 
-            text="GitHub Issue 新评论
+          payload = {
+              "msg_type": "text",
+              "content": {
+                  "text": text
+              }
+          }
 
-仓库：${repo}
-Issue：#${issue_number} ${issue_title}
-评论人：@${comment_user}
-Issue 链接：${issue_url}
-评论链接：${comment_url}
+          data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+          req = urllib.request.Request(
+              webhook,
+              data=data,
+              headers={"Content-Type": "application/json"},
+              method="POST"
+          )
 
-评论内容：
-${comment_body}"
+          try:
+              with urllib.request.urlopen(req, timeout=20) as resp:
+                  resp_body = resp.read().decode("utf-8", errors="replace")
+          except urllib.error.HTTPError as e:
+              resp_body = e.read().decode("utf-8", errors="replace")
+              print(resp_body)
+              sys.exit(1)
 
-          else
-            echo "Unsupported event: $event_name"
-            exit 0
-          fi
+          print("Feishu response:")
+          print(resp_body)
 
-          jq -n --arg text "$text" \
-            '{msg_type:"text",content:{text:$text}}' > payload.json
-
-          echo "Sending payload to Feishu..."
-          response="$(curl -sS -X POST "$FEISHU_WEBHOOK" \
-            -H 'Content-Type: application/json' \
-            --data @payload.json)"
-
-          echo "Feishu response:"
-          echo "$response"
-
-          echo "$response" | jq -e '((.code? // .StatusCode? // 0) == 0)' >/dev/null
+          try:
+              result = json.loads(resp_body)
+              code = result.get("code", result.get("StatusCode", 0))
+              if code != 0:
+                  sys.exit(1)
+          except json.JSONDecodeError:
+              pass
+          PY
