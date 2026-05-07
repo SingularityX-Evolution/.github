@@ -1,0 +1,44 @@
+name: Notify Feishu on GitHub issue comments
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  notify-feishu:
+    # 只处理 Issue 评论，不处理 PR 评论
+    if: ${{ !github.event.issue.pull_request }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send comment to Feishu
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+        run: |
+          set -euo pipefail
+
+          repo="${GITHUB_REPOSITORY}"
+          issue_number="$(jq -r '.issue.number' "$GITHUB_EVENT_PATH")"
+          issue_title="$(jq -r '.issue.title' "$GITHUB_EVENT_PATH")"
+          issue_url="$(jq -r '.issue.html_url' "$GITHUB_EVENT_PATH")"
+          comment_user="$(jq -r '.comment.user.login' "$GITHUB_EVENT_PATH")"
+          comment_url="$(jq -r '.comment.html_url' "$GITHUB_EVENT_PATH")"
+          comment_body="$(jq -r '.comment.body' "$GITHUB_EVENT_PATH" | head -c 2500)"
+
+          text="GitHub 悬赏 Issue 收到新评论
+
+仓库：${repo}
+Issue：#${issue_number} ${issue_title}
+评论人：@${comment_user}
+Issue 链接：${issue_url}
+评论链接：${comment_url}
+
+评论内容：
+${comment_body}"
+
+          jq -n --arg text "$text" \
+            '{msg_type:"text",content:{text:$text}}' > payload.json
+
+          curl -fsS -X POST "$FEISHU_WEBHOOK" \
+            -H 'Content-Type: application/json' \
+            --data @payload.json
