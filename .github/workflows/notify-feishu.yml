@@ -1,0 +1,92 @@
+name: Notify Feishu on GitHub Issues
+
+on:
+  issues:
+    types: [opened]
+
+  issue_comment:
+    types: [created]
+
+  workflow_dispatch:
+
+jobs:
+  notify-feishu:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event_name == 'issues' || (github.event_name == 'issue_comment' && !github.event.issue.pull_request) }}
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send notification to Feishu
+        env:
+          FEISHU_WEBHOOK: ${{ secrets.FEISHU_WEBHOOK }}
+        run: |
+          set -euo pipefail
+
+          if [ -z "${FEISHU_WEBHOOK:-}" ]; then
+            echo "FEISHU_WEBHOOK is empty. Please check GitHub Secrets."
+            exit 1
+          fi
+
+          event_name="${GITHUB_EVENT_NAME}"
+          repo="${GITHUB_REPOSITORY}"
+
+          if [ "$event_name" = "workflow_dispatch" ]; then
+            text="GitHub 飞书机器人测试消息
+
+仓库：${repo}
+
+如果你能在飞书群看到这条消息，说明 GitHub Secret 和飞书 Webhook 都是正常的。"
+
+          elif [ "$event_name" = "issues" ]; then
+            issue_number="$(jq -r '.issue.number' "$GITHUB_EVENT_PATH")"
+            issue_title="$(jq -r '.issue.title' "$GITHUB_EVENT_PATH")"
+            issue_url="$(jq -r '.issue.html_url' "$GITHUB_EVENT_PATH")"
+            issue_user="$(jq -r '.issue.user.login' "$GITHUB_EVENT_PATH")"
+            issue_body="$(jq -r '.issue.body // ""' "$GITHUB_EVENT_PATH" | head -c 3500)"
+
+            text="GitHub 新 Issue
+
+仓库：${repo}
+Issue：#${issue_number} ${issue_title}
+创建人：@${issue_user}
+链接：${issue_url}
+
+Issue 内容：
+${issue_body}"
+
+          elif [ "$event_name" = "issue_comment" ]; then
+            issue_number="$(jq -r '.issue.number' "$GITHUB_EVENT_PATH")"
+            issue_title="$(jq -r '.issue.title' "$GITHUB_EVENT_PATH")"
+            issue_url="$(jq -r '.issue.html_url' "$GITHUB_EVENT_PATH")"
+            comment_user="$(jq -r '.comment.user.login' "$GITHUB_EVENT_PATH")"
+            comment_url="$(jq -r '.comment.html_url' "$GITHUB_EVENT_PATH")"
+            comment_body="$(jq -r '.comment.body // ""' "$GITHUB_EVENT_PATH" | head -c 3500)"
+
+            text="GitHub Issue 新评论
+
+仓库：${repo}
+Issue：#${issue_number} ${issue_title}
+评论人：@${comment_user}
+Issue 链接：${issue_url}
+评论链接：${comment_url}
+
+评论内容：
+${comment_body}"
+
+          else
+            echo "Unsupported event: $event_name"
+            exit 0
+          fi
+
+          jq -n --arg text "$text" \
+            '{msg_type:"text",content:{text:$text}}' > payload.json
+
+          echo "Sending payload to Feishu..."
+          response="$(curl -sS -X POST "$FEISHU_WEBHOOK" \
+            -H 'Content-Type: application/json' \
+            --data @payload.json)"
+
+          echo "Feishu response:"
+          echo "$response"
+
+          echo "$response" | jq -e '((.code? // .StatusCode? // 0) == 0)' >/dev/null
