@@ -18,7 +18,7 @@
 
 ## 背景
 
-我们在一个量化交易项目中使用 Binance USD-M Futures 行情数据，当前重点品种为：
+我们在一个量化交易项目中使用 Binance USD-M Futures 行情数据，数据源链接为https://data.yutsing.work/0416-qml/tardis/binance-futures/，当前重点品种为：
 
 - BTCUSDT
 - ETHUSDT
