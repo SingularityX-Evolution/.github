@@ -44,4 +44,6 @@ Recommended subject:
 
 A valid submission should include reproducible code or a structured delivery package, README and running instructions, test results or an evaluation report, dependency and environment information, known limitations, and a contributor statement confirming that the contributor owns or has the right to submit the work.
 
+Once submitted, a submission may not be changed; SingularityX will provide a consolidated response within three calendar days after the task deadline.
+
 [← Back to homepage](../README.md)

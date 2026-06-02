@@ -48,7 +48,8 @@ CONTRIBUTING.md
 5. Keeps the previously removed redundant homepage consolidation paragraph out of both Chinese and English homepage files.
 6. Preserves exactly four independent challenge pages under `challenge-board/tasks/` and preserves their task periods, deliverable standards, recognition standards, and revised bounty tiers.
 7. Keeps private email submission as the default channel; public Pull Requests remain optional only when the contributor intentionally wants public disclosure.
-8. Updates task-page SHA256 records after removing the standalone version-block remarks.
+8. Updates task-page SHA256 records after current rule-text changes.
+9. Adds the submission-freeze and three-calendar-day consolidated-response rule to challenge pages, challenge-board submission guidance, homepage submission guidance, and the public challenge inquiry template.
 
 ## Challenge set
 

@@ -219,6 +219,8 @@ Pasting source code only into the email body is not recommended. A compressed pa
 
 SingularityX will record the submission time, submitted version, hash or commit reference, review process, reproducibility result, and bounty review outcome.
 
+Once submitted, a submission may not be changed; SingularityX will provide a consolidated response within three calendar days after the task deadline.
+
 ### Optional: public Pull Request
 
 Contributors who intend to make their submission publicly visible may fork the repository and submit a Pull Request. Public PR submissions are reviewed under the same technical criteria as private submissions. For competitive bounty challenges, private email submission is recommended to reduce premature disclosure of implementation details and avoid disputes over duplicated submissions.

@@ -218,6 +218,8 @@ join@singularityx.tech
 
 SingularityX 将记录提交时间、提交版本、hash 或 commit 引用、评审过程、复现结果和赏金评审结果。
 
+提交内容一经提交不得更改；任务截止后三个自然日内，SingularityX 会统一给出答复。
+
 ### 可选方式：公开 Pull Request
 
 贡献者如希望主动公开提交内容，可以 Fork 仓库并提交 Pull Request。公开 PR 与私密提交采用同一技术评审标准。对于竞争性悬赏挑战，建议优先使用私密邮箱提交，以减少实现细节过早公开和重复提交争议。
