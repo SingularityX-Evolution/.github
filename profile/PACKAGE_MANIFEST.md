@@ -1,11 +1,11 @@
 # Package Manifest
 
-Package: `SingularityX_public_homepage_bilingual_v1.0.0_first_public_version`
+Package: `SingularityX_public_homepage_bilingual_v2.0.0_second_version_s_a_only`
 
 | Item | Content |
 |---|---|
-| Package version | V1.0.0 (First Public Version) |
-| Release date | 2026-05-20 |
+| Package version | V2.0.0 (Second Version) |
+| Release date | 2026-06-12 |
 | Rule interpretation body | SingularityX |
 | Chinese rule interpretation body | 零界演化 |
 
@@ -16,10 +16,13 @@ Package: `SingularityX_public_homepage_bilingual_v1.0.0_first_public_version`
 assets/singularityx-logo.png
 README.md
 README.zh-CN.md
+MERGE_NOTES.md
 VALUE-DISTRIBUTION-PROTOCOL.md
 VALUE-DISTRIBUTION-PROTOCOL.zh-CN.md
 challenge-board/README.md
 challenge-board/README.zh-CN.md
+challenge-board/STATUS.md
+challenge-board/STATUS.zh-CN.md
 challenge-board/TASK_FILE_SHA256.txt
 challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md
 challenge-board/tasks/SX-CH-002-market-data-consistency.md
@@ -41,24 +44,29 @@ CONTRIBUTING.md
 
 ## Main changes in this package
 
-1. Marks the package as V1.0.0 (First Public Version) / V1.0.0（第一版）.
+1. Marks the package as V2.0.0 (Second Version) / V2.0.0（第二版）.
 2. Keeps version information and the rule-interpretation body fields in the bilingual homepage, challenge board, challenge pages, difficulty documents, contribution guide, important legal statement documents, and package manifest.
 3. Removes standalone explanatory paragraphs from version information and rule-interpretation blocks, while retaining the formal rule-interpretation body where applicable.
-4. Updates the important legal statement documents to cover platform bounty task boundaries, user responsibility, third-party rights, submitted-solution rights, and agreement to platform rules.
+4. Updates the important legal statement documents to cover platform bounty task boundaries, user responsibility, third-party rights, submitted-solution rights, non-certified submission use limits, and agreement to platform rules.
 5. Keeps the previously removed redundant homepage consolidation paragraph out of both Chinese and English homepage files.
-6. Preserves exactly four independent challenge pages under `challenge-board/tasks/` and preserves their task periods, deliverable standards, recognition standards, and revised bounty tiers.
+6. Preserves exactly four independent challenge pages under `challenge-board/tasks/` and updates their grade closure rules, deliverable standards, recognition standards, and S / A bounty tiers.
 7. Keeps private email submission as the default channel; public Pull Requests remain optional only when the contributor intentionally wants public disclosure.
 8. Updates task-page SHA256 records after current rule-text changes.
-9. Adds the submission-freeze and three-calendar-day consolidated-response rule to challenge pages, challenge-board submission guidance, homepage submission guidance, and the public challenge inquiry template.
+9. Adds the no-fixed-time-limit, per-grade closure, five-calendar-day response, and one-week desensitized public-display rules to challenge pages, challenge-board submission guidance, homepage submission guidance, and the public challenge inquiry template.
+10. Adds S / A grade status tables marking each remaining grade as open or closed.
+11. Clarifies concurrent-submission queueing and grade-closure handling.
+12. Defines response types within the five-calendar-day response window.
+13. Limits successful-certification display to desensitized summaries and reviewed public materials.
+14. Aligns task rules and intellectual-property statements so that non-certified, non-adopted, non-settled submissions are not directly used for production, commercialization, relicensing, or public release except for necessary review, audit, dispute, and compliance purposes.
 
 ## Challenge set
 
-| ID | Difficulty | CNY bounty cap | Task period | Task page |
+| ID | Difficulty | CNY bounty cap | Grade closure rule | Task page |
 |---|---:|---:|---:|---|
-| SX-CH-001 | Advanced | Up to RMB 7,200 | 21 calendar days | `challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md` |
-| SX-CH-002 | Hard | Up to RMB 9,000 | 21 calendar days | `challenge-board/tasks/SX-CH-002-market-data-consistency.md` |
-| SX-CH-003 | Hard | Up to RMB 9,600 | 21 calendar days | `challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md` |
-| SX-CH-004 | Flagship | Up to RMB 12,000 | 28 calendar days | `challenge-board/tasks/SX-CH-004-public-alpha-selection.md` |
+| SX-CH-001 | Advanced | Up to RMB 7,000 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md` |
+| SX-CH-002 | Hard | Up to RMB 8,800 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-002-market-data-consistency.md` |
+| SX-CH-003 | Hard | Up to RMB 9,500 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md` |
+| SX-CH-004 | Flagship | Up to RMB 12,000 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-004-public-alpha-selection.md` |
 
 ## Submission channel
 

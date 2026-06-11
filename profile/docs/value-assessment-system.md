@@ -2,8 +2,8 @@
 
 | Item | Content |
 |---|---|
-| Rule version | V1.0.0 (First Public Version) |
-| Release date | 2026-05-20 |
+| Rule version | V2.0.0 (Second Version) |
+| Release date | 2026-06-12 |
 | Rule interpretation body | SingularityX |
 
 

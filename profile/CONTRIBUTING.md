@@ -2,8 +2,8 @@
 
 | Item | Content |
 |---|---|
-| Rule version | V1.0.0 (First Public Version) |
-| Release date | 2026-05-20 |
+| Rule version | V2.0.0 (Second Version) |
+| Release date | 2026-06-12 |
 | Rule interpretation body | SingularityX |
 
 
@@ -50,6 +50,12 @@ Recommended subject:
 ```text
 [Challenge Submission] <Challenge ID> - <Contributor Name or GitHub Username>
 ```
+
+Once submitted, a submission may not be changed. SingularityX will provide a response within five calendar days after submission or upload. The response may include confirmation that the work has entered review, a request for non-substantive supplementary materials, initial-screen rejection, continued reproduction review, certification at a particular grade, or no grade certification.
+
+For the same S / A grade, the review queue is determined by the timestamp at which a complete submission reaches the official email address or approved upload channel. After a grade is certified and announced closed by SingularityX, new recognition applications for that grade will no longer be accepted. Submissions received before the closure announcement will still receive a response; however, SingularityX does not guarantee that the grade still has an available bounty slot or will continue into bounty review for that grade.
+
+After a grade certification succeeds, SingularityX will publicly display only a desensitized work summary, certification grade, challenge ID, and reviewed public materials for one week, without disclosing sensitive information, private code, account information, non-public strategy details, restricted data, or core confidential implementation details.
 
 ## Evidence bundle
 

@@ -37,11 +37,14 @@
 
 | Item | Content |
 |---|---|
-| Rule version | V1.0.0 (First Public Version) |
-| Release date | 2026-05-20 |
+| Rule version | V2.0.0 (Second Version) |
+| Release date | 2026-06-12 |
 | Scope | Public homepage, challenge board, four challenge statements, bounty review notes, public contribution-record and value-assessment framework, important legal statement |
 | Rule interpretation body | SingularityX |
 
+> **Bounty response time:** SingularityX will provide a response within five calendar days after submission or upload. The response may include confirmation that the work has entered review, a request for non-substantive supplementary materials, initial-screen rejection, continued reproduction review, certification at a particular grade, or no grade certification.
+>
+> **Grade status:** S / A grades are opened or closed independently; current status is available in [`challenge-board/STATUS.md`](./challenge-board/STATUS.md).
 
 ---
 
@@ -144,7 +147,7 @@ We do not want value allocation in an organization to become a system where:
 
 ## Open Challenges and Bounty Review
 
-Public challenges publish SingularityX engineering and research problems for reproducible financial research systems. Each challenge is reviewed against its linked challenge page, assigned difficulty level, CNY bounty cap, task period, reproducibility requirements, and acceptance requirements:
+Public challenges publish SingularityX engineering and research problems for reproducible financial research systems. Each challenge is reviewed against its linked challenge page, assigned difficulty level, CNY bounty cap, grade closure rule, reproducibility requirements, and acceptance requirements:
 
 ```text
 Read problem -> Implement artifact -> Prepare evidence package -> Private email submission by default / Public PR optional -> Reproducibility review -> Bounty review result
@@ -158,14 +161,16 @@ After review, accepted challenge deliverables may enter the bounty recognition p
 
 ## Current Challenges
 
-The following four GitHub-rendered Markdown pages are the complete current public challenge set. Each page is an independent public problem overview. Challenges are ordered by CNY bounty cap from low to high, and challenge IDs follow the same ascending bounty order. The homepage and challenge board present the challenge ID, title, difficulty level, task period, bounty cap, and link; opening the link displays the challenge background, core problem, task period, deliverable standards, recognition standards, and bounty tiers directly in GitHub. Task-page hashes are recorded in [`docs/challenge-source-integrity.md`](./docs/challenge-source-integrity.md) and [`challenge-board/TASK_FILE_SHA256.txt`](./challenge-board/TASK_FILE_SHA256.txt).
+The following four GitHub-rendered Markdown pages are the complete current public challenge set. The homepage table shows the bounty entry point, bounty cap, and current S / A open status only. Select “Open” to view the challenge background, core problem, grade recognition and closure rules, deliverable standards, recognition standards, and S / A bounty tiers directly in GitHub. The official status record is available in [`challenge-board/STATUS.md`](./challenge-board/STATUS.md), and task-page hashes are recorded in [`docs/challenge-source-integrity.md`](./docs/challenge-source-integrity.md) and [`challenge-board/TASK_FILE_SHA256.txt`](./challenge-board/TASK_FILE_SHA256.txt).
 
-| ID | Challenge | Chinese title | Difficulty | CNY bounty cap | Task period | Problem page |
-|---|---|---|---:|---:|---:|---|
-| SX-CH-001 | Multi-Hop Causal Chain Uncertainty Quantification | 自建因果链多跳推理的不确定性无法量化 | Advanced | RMB 7,200 | 21 calendar days | [Open problem page](./challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md) |
-| SX-CH-002 | Tardis Historical Data and Binance Real-Time Data Consistency | 提升 Tardis 历史数据与 Binance 实时采集数据在四个永续合约上的一致性，并定位剩余行情与因子差异原因 | Hard | RMB 9,000 | 21 calendar days | [Open problem page](./challenge-board/tasks/SX-CH-002-market-data-consistency.md) |
-| SX-CH-003 | Paper Strategy Runtime Contract for Real Backtesting | 从交易论文到真实回测的统一策略运行契约 | Hard | RMB 9,600 | 21 calendar days | [Open problem page](./challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md) |
-| SX-CH-004 | Robust High-Sharpe Alpha Mining from a Public Classic Strategy Pool | 公开经典策略池的稳健高夏普 Alpha 挖掘与样本外验证 | Flagship | RMB 12,000 | 28 calendar days | [Open problem page](./challenge-board/tasks/SX-CH-004-public-alpha-selection.md) |
+| ID | Challenge | Difficulty | Bounty cap | S | A | Page |
+|---|---|---:|---:|---:|---:|---|
+| SX-CH-001 | Causal-chain uncertainty quantification | Advanced | RMB 7,000 | Open | Open | [Open](./challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md) |
+| SX-CH-002 | Tardis / Binance market-data consistency | Hard | RMB 8,800 | Open | Open | [Open](./challenge-board/tasks/SX-CH-002-market-data-consistency.md) |
+| SX-CH-003 | Paper-strategy runtime contract | Hard | RMB 9,500 | Open | Open | [Open](./challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md) |
+| SX-CH-004 | High-Sharpe alpha mining from a public strategy pool | Flagship | RMB 12,000 | Open | Open | [Open](./challenge-board/tasks/SX-CH-004-public-alpha-selection.md) |
+
+S / A grades are opened or closed independently. When one grade is certified and announced closed, only that grade closes; other open grades under the same challenge remain unaffected. The official status page is [`challenge-board/STATUS.md`](./challenge-board/STATUS.md).
 
 ---
 
@@ -175,8 +180,8 @@ Difficulty and bounty caps are assigned at the challenge level. They are not sub
 
 | Difficulty | CNY bounty cap | Applicable challenge | Classification basis |
 |---:|---:|---|---|
-| Advanced | Up to RMB 7,200 | SX-CH-001 | Focused research problem around uncertainty modeling, calibration validation, and stopping-rule design, with a narrower integration scope than the full engineering challenges. |
-| Hard | Up to RMB 9,000–9,600 | SX-CH-002, SX-CH-003 | Reusable engineering framework, channel-level attribution, runtime contract, structured failure handling, or reproducible system design. |
+| Advanced | Up to RMB 7,000 | SX-CH-001 | Focused research problem around uncertainty modeling, calibration validation, and stopping-rule design, with a narrower integration scope than the full engineering challenges. |
+| Hard | Up to RMB 8,800–9,500 | SX-CH-002, SX-CH-003 | Reusable engineering framework, channel-level attribution, runtime contract, structured failure handling, or reproducible system design. |
 | Flagship | Up to RMB 12,000 | SX-CH-004 | Complete runnable alpha-mining and portfolio-selection module with cost-aware, anti-cheating, anti-overfitting, and reproducible engineering delivery. |
 
 For internal contribution tracking, SingularityX may associate accepted submissions with Contribution Unit references. Such records are used for contribution traceability and later review, and they are not tokens, securities, equity, salary promises, fixed cash values, fixed conversion ratios, or any additional payment commitment beyond the applicable CNY bounty cap.
@@ -184,6 +189,8 @@ For internal contribution tracking, SingularityX may associate accepted submissi
 ---
 
 ## Challenge Code Submission
+
+> **Response time:** SingularityX will provide a response within five calendar days after submission or upload. The response may include confirmation that the work has entered review, a request for non-substantive supplementary materials, initial-screen rejection, continued reproduction review, certification at a particular grade, or no grade certification.
 
 For competitive bounty challenges, SingularityX uses **private submission by default**. Public Pull Requests are accepted only when the contributor intentionally chooses to make the submitted code, report, and implementation details publicly visible.
 
@@ -219,7 +226,11 @@ Pasting source code only into the email body is not recommended. A compressed pa
 
 SingularityX will record the submission time, submitted version, hash or commit reference, review process, reproducibility result, and bounty review outcome.
 
-Once submitted, a submission may not be changed; SingularityX will provide a consolidated response within three calendar days after the task deadline.
+Once submitted, a submission may not be changed.
+
+For the same grade, the review queue is determined by the timestamp at which a complete submission reaches the official email address or approved upload channel. After a grade is certified and announced closed by SingularityX, new recognition applications for that grade will no longer be accepted. Submissions received before the closure announcement will still receive a response; however, SingularityX does not guarantee that the grade still has an available bounty slot or will continue into bounty review for that grade.
+
+After a grade certification succeeds, SingularityX will publicly display only a desensitized work summary, certification grade, challenge ID, and reviewed public materials for one week, without disclosing sensitive information, private code, account information, non-public strategy details, restricted data, or core confidential implementation details.
 
 ### Optional: public Pull Request
 
@@ -503,7 +514,7 @@ Users should independently determine the legality, appropriateness, and risks of
 
 Any content published, submitted, or uploaded by users must have lawful sources and clear ownership or rights, and must not infringe any third-party intellectual property rights, trade secrets, personal information, data rights, or other lawful rights and interests. Users shall bear all responsibility and losses arising from user content, data sources, code defects, infringement, violations of laws or regulations, or improper use of platform services. SingularityX has the right to delete, restrict, suspend, or terminate relevant content or accounts, and reserves the right to pursue legal liability.
 
-The intellectual property rights and related transferable rights in solutions submitted by solvers, including but not limited to source code, algorithmic logic, mathematical models, technical documentation, flowcharts, data-processing scripts, and reproduction materials, shall belong to SingularityX or be lawfully used by SingularityX according to the platform task rules. SingularityX retains the final interpretation right over task bonuses, acceptance criteria, review results, commissions, settlement methods, and related rules.
+The intellectual property rights and related interests in solutions submitted by solvers, including but not limited to source code, algorithmic logic, mathematical models, technical documentation, flowcharts, data-processing scripts, and reproduction materials, are handled under the applicable platform task rules. For work used only for review, not certified at any grade, not adopted, and not entering settlement, SingularityX may only perform necessary viewing, testing, storage, and processing for review, re-check, anti-cheating, security audit, dispute handling, and compliance retention, and may not directly use the core code, models, parameters, strategy logic, or implementation details for production, commercialization, relicensing, or public release. Work that is certified, adopted, or enters settlement is governed by the applicable challenge rules, settlement confirmation, or supplemental agreement for ownership, license, display, and payment. SingularityX retains the final interpretation right over task bonuses, acceptance criteria, review results, commissions, settlement methods, and related rules.
 
 By continuing to access, register with, publish tasks on, submit solutions to, or use the services of this platform, users are deemed to have read, understood, and agreed to this statement and the platform's complete user agreement, bounty rules, and privacy policy.
 
@@ -521,8 +532,7 @@ By continuing to access, register with, publish tasks on, submit solutions to, o
 </p>
 
 <p>
-  <b>Discord:</b> <a href="https://discord.gg/aW4J2u2eU">https://discord.gg/aW4J2u2eU</a><br/>
-  <b>Feishu:</b> <a href="https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=375rf86d-9fe7-4081-a734-8ab488273f88">https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=375rf86d-9fe7-4081-a734-8ab488273f88</a>
+  <b>Community invitations:</b> <a href="https://discord.gg/aW4J2u2eU">Discord</a> · <a href="https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=375rf86d-9fe7-4081-a734-8ab488273f88">Feishu</a>
 </p>
 
 </div>

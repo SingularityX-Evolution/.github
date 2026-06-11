@@ -2,29 +2,29 @@
 
 | 项目 | 内容 |
 |---|---|
-| 规则版本 | V1.0.0（第一版） |
-| 发布日期 | 2026-05-20 |
+| 规则版本 | V2.0.0（第二版） |
+| 发布日期 | 2026-06-12 |
 | 规则解释主体 | 零界演化 |
 
 
-每个挑战分配一个难度等级、任务周期和公开人民币赏金上限。难度和赏金上限按完整挑战维度设置，不是子任务报价、阶段付款或保证付款。
+每个挑战分配一个难度等级、等级关闭规则和公开人民币赏金上限。难度和赏金上限按完整挑战维度设置，不是子任务报价、阶段付款或保证付款。
 
 | 难度 | 人民币赏金上限 | 适用挑战 | 分级依据 |
 |---:|---:|---|---|
-| Advanced | 最高 7,200 元 | SX-CH-001 | 聚焦型研究问题，核心在于不确定性建模、校准验证与停止准则设计，工程集成范围小于完整系统型挑战。 |
-| Hard | 最高 9,000–9,600 元 | SX-CH-002, SX-CH-003 | 需要可复用工程框架、通道级归因、运行契约、结构化错误处理或可复现系统设计。 |
+| Advanced | 最高 7,000 元 | SX-CH-001 | 聚焦型研究问题，核心在于不确定性建模、校准验证与停止准则设计，工程集成范围小于完整系统型挑战。 |
+| Hard | 最高 8,800–9,500 元 | SX-CH-002, SX-CH-003 | 需要可复用工程框架、通道级归因、运行契约、结构化错误处理或可复现系统设计。 |
 | Flagship | 最高 12,000 元 | SX-CH-004 | 需要完整可运行的 Alpha 挖掘与组合筛选模块，并具备成本约束、反作弊、反过拟合和可复现工程交付能力。 |
 
 ## 当前挑战分级
 
 挑战按照人民币赏金上限从低到高排列。
 
-| ID | 题面页标题 | 难度 | 人民币赏金上限 | 任务周期 | 题面页 |
+| ID | 题面页标题 | 难度 | 人民币赏金上限 | 等级关闭规则 | 题面页 |
 |---|---|---:|---:|---:|---|
-| SX-CH-001 | 自建因果链多跳推理的不确定性无法量化 | Advanced | 7,200 元 | 21 个自然日 | `challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md` |
-| SX-CH-002 | 提升 Tardis 历史数据与 Binance 实时采集数据在四个永续合约上的一致性，并定位剩余行情与因子差异原因 | Hard | 9,000 元 | 21 个自然日 | `challenge-board/tasks/SX-CH-002-market-data-consistency.md` |
-| SX-CH-003 | 从交易论文到真实回测的统一策略运行契约 | Hard | 9,600 元 | 21 个自然日 | `challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md` |
-| SX-CH-004 | 公开经典策略池的稳健高夏普 Alpha 挖掘与样本外验证 | Flagship | 12,000 元 | 28 个自然日 | `challenge-board/tasks/SX-CH-004-public-alpha-selection.md` |
+| SX-CH-001 | 自建因果链多跳推理的不确定性无法量化 | Advanced | 7,000 元 | 无固定时间限制；S / A 各档独立关闭 | `challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md` |
+| SX-CH-002 | 提升 Tardis 历史数据与 Binance 实时采集数据在四个永续合约上的一致性，并定位剩余行情与因子差异原因 | Hard | 8,800 元 | 无固定时间限制；S / A 各档独立关闭 | `challenge-board/tasks/SX-CH-002-market-data-consistency.md` |
+| SX-CH-003 | 从交易论文到真实回测的统一策略运行契约 | Hard | 9,500 元 | 无固定时间限制；S / A 各档独立关闭 | `challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md` |
+| SX-CH-004 | 公开经典策略池的稳健高夏普 Alpha 挖掘与样本外验证 | Flagship | 12,000 元 | 无固定时间限制；S / A 各档独立关闭 | `challenge-board/tasks/SX-CH-004-public-alpha-selection.md` |
 
 实际赏金认定以提交成果、复现结果、评审结论、贡献证据、适用协议、合规要求和赏金评审流程为准。
 
