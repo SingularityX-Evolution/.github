@@ -23,8 +23,10 @@ This package merges the SingularityX organization homepage with the open researc
 - Keeps challenge submission private by email by default; public Pull Requests remain optional only for contributors who intentionally want public disclosure.
 - Records updated task-page hashes in `challenge-board/TASK_FILE_SHA256.txt` and `docs/challenge-source-integrity.md`.
 - Adds S / A grade status tables and concurrent-submission closure handling.
-- Defines five-calendar-day response types and limits certified-work display to desensitized summaries or reviewed public materials.
+- Defines five-business-day response types and limits certified-work display to desensitized summaries or reviewed public materials.
 - Clarifies that non-certified, non-adopted, non-settled submissions are not directly used for production, commercialization, relicensing, or public release except for necessary review, audit, dispute, and compliance purposes.
+- Adds the formal Phase 1 review-results notice and anonymized public submission directories for the SX-CH-001 results that received grade recognition and entered the public-material scope: 1 Grade B recognition and 1 Grade C recognition. Clarifies that Phase 1 received submitted materials for multiple public challenges, while submissions without grade recognition or outside the public-material scope are not listed or publicly released as code materials.
+- Publishes the provided public GitHub profiles for both anonymous contributors while keeping contributor identities anonymized and result-notice wording suitable for external presentation.
 
 ## Challenge set and bounty caps
 

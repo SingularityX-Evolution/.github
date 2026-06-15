@@ -13,9 +13,9 @@ Challenge pages are ordered by CNY bounty cap from low to high, and challenge ID
 
 | ID | Challenge title | Markdown page | SHA256 | Public-page scope |
 |---|---|---|---|---|
-| SX-CH-001 | 自建因果链多跳推理的不确定性无法量化 | `SX-CH-001-causal-chain-uncertainty.md` | `128f91f295398191a7e61b055435ff98f4de744a222c2cdd2b1035c974d6063e` | Public problem page with background, grade closure rules, deliverables, recognition standards, and S / A bounty tiers |
-| SX-CH-002 | 提升 Tardis 历史数据与 Binance 实时采集数据在四个永续合约上的一致性，并定位剩余行情与因子差异原因 | `SX-CH-002-market-data-consistency.md` | `0a2840c58374d32a871c244e6d29b0933658b1b2209543598f781683510d2b4a` | Public problem page with channels, grade closure rules, deliverables, hidden-evaluation standards, and S / A bounty tiers |
-| SX-CH-003 | 从交易论文到真实回测的统一策略运行契约 | `SX-CH-003-paper-strategy-runtime-contract.md` | `43263e9bc8109015f7d43d5f31f7bdfc0fe3d970f2de8def052a8fd957ab0ec6` | Public problem page with runtime contract scope, grade closure rules, deliverables, recognition standards, and S / A bounty tiers |
-| SX-CH-004 | 公开经典策略池的稳健高夏普 Alpha 挖掘与样本外验证 | `SX-CH-004-public-alpha-selection.md` | `10f031fadf475f54549ff368280996e3f7760a2ac08420e71fd0f1f49a6e69b5` | Public problem page with alpha-mining scope, grade closure rules, deliverables, hidden out-of-sample standards, and S / A bounty tiers |
+| SX-CH-001 | 自建因果链多跳推理的不确定性无法量化 | `SX-CH-001-causal-chain-uncertainty.md` | `e8101fd06a964985497ec2af567eb50ded9e4614085a011844628896d049f281` | Public problem page with background, grade closure rules, deliverables, recognition standards, and S / A bounty tiers |
+| SX-CH-002 | 提升 Tardis 历史数据与 Binance 实时采集数据在四个永续合约上的一致性，并定位剩余行情与因子差异原因 | `SX-CH-002-market-data-consistency.md` | `71e66c69149b3b6a0b9677f3163a2340f0657189ddb71c2294f42e6a0999d67c` | Public problem page with channels, grade closure rules, deliverables, hidden-evaluation standards, and S / A bounty tiers |
+| SX-CH-003 | 从交易论文到真实回测的统一策略运行契约 | `SX-CH-003-paper-strategy-runtime-contract.md` | `5fbc5de4c2bc131db8bdca2f5b30a4da11ad139a86da93bd93b0b5a4189d885a` | Public problem page with runtime contract scope, grade closure rules, deliverables, recognition standards, and S / A bounty tiers |
+| SX-CH-004 | 公开经典策略池的稳健高夏普 Alpha 挖掘与样本外验证 | `SX-CH-004-public-alpha-selection.md` | `b4c39a927db378ff9eaf44e15e804cf1b9477c5ca4e3e46568855eec03a048ce` | Public problem page with alpha-mining scope, grade closure rules, deliverables, hidden out-of-sample standards, and S / A bounty tiers |
 
 The SHA256 records are also available in [`challenge-board/TASK_FILE_SHA256.txt`](../challenge-board/TASK_FILE_SHA256.txt).

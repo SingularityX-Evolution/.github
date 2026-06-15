@@ -10,8 +10,6 @@
 
 <p>
   <a href="mailto:join@singularityx.tech"><img alt="Join SingularityX" src="https://img.shields.io/badge/Join-SingularityX-0A66C2?style=for-the-badge" /></a>
-  <a href="https://discord.gg/aW4J2u2eU"><img alt="Discord" src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
-  <a href="https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=375rf86d-9fe7-4081-a734-8ab488273f88"><img alt="Feishu" src="https://img.shields.io/badge/Feishu-Join-00B4D8?style=for-the-badge" /></a>
   <img alt="Open to all builders" src="https://img.shields.io/badge/Open%20to-All%20Builders-14B8A6?style=for-the-badge" />
   <img alt="Proof of Contribution" src="https://img.shields.io/badge/Proof%20of-Contribution-1D4ED8?style=for-the-badge" />
   <img alt="Human accountable" src="https://img.shields.io/badge/AI%20Assisted-Human%20Accountable-7C3AED?style=for-the-badge" />
@@ -39,10 +37,10 @@
 |---|---|
 | Rule version | V2.0.0 (Second Version) |
 | Release date | 2026-06-12 |
-| Scope | Public homepage, challenge board, four challenge statements, bounty review notes, public contribution-record and value-assessment framework, important legal statement |
+| Scope | Public homepage, challenge board, four challenge statements, bounty review notes, Phase 1 review results notice, anonymized public submission materials, public contribution-record and value-assessment framework, important legal statement |
 | Rule interpretation body | SingularityX |
 
-> **Bounty response time:** SingularityX will provide a response within five calendar days after submission or upload. The response may include confirmation that the work has entered review, a request for non-substantive supplementary materials, initial-screen rejection, continued reproduction review, certification at a particular grade, or no grade certification.
+> **Bounty response time:** SingularityX will provide a response within five business days after submission or upload. The response may include confirmation that the work has entered review, a request for non-substantive supplementary materials, initial-screen rejection, continued reproduction review, certification at a particular grade, or no grade certification.
 >
 > **Grade status:** S / A grades are opened or closed independently; current status is available in [`challenge-board/STATUS.md`](./challenge-board/STATUS.md).
 
@@ -55,6 +53,7 @@
 - [Who We Welcome](#who-we-welcome)
 - [What We Believe](#what-we-believe)
 - [Open Challenges and Bounty Review](#open-challenges-and-bounty-review)
+- [Phase 1 Review Results Notice](#phase-1-review-results-notice)
 - [Current Challenges](#current-challenges)
 - [Difficulty Levels and Bounty Caps](#difficulty-levels-and-bounty-caps)
 - [Challenge Code Submission](#challenge-code-submission)
@@ -65,7 +64,6 @@
 - [Compensation Structure After Joining: Fixed Compensation + Additional Contribution-Based Compensation](#compensation-structure-after-joining-fixed-compensation--additional-contribution-based-compensation)
 - [What We Are Building](#what-we-are-building)
 - [Important Legal Statement](#important-legal-statement)
-- [Community and Invitation Links](#community-and-invitation-links)
 - [How to Join Us](#how-to-join-us)
 
 
@@ -159,6 +157,14 @@ After review, accepted challenge deliverables may enter the bounty recognition p
 
 ---
 
+## Phase 1 Review Results Notice
+
+The Phase 1 public bounty period has ended. During Phase 1, submitted materials for multiple public challenges entered review. As of this notice date, only `SX-CH-001` has submissions that received grade recognition and entered the public code-material scope. This notice lists two recognized results for that challenge: `SX-CH-001-P1-B-001` as a Grade B recognition with a bounty of RMB 2,700, and `SX-CH-001-P1-C-001` as a Grade C recognition with a bounty of RMB 900. Submissions without grade recognition or outside the public-material scope are not listed in this notice and are not released as public code materials. The notice discloses only anonymous IDs, recognized grades, recognized bounty amounts, authorized public GitHub profiles, and public code materials. Contributors' legal names are not disclosed.
+
+- Review results notice: [`challenge-board/results/SX-CH-001-phase-1-results.md`](./challenge-board/results/SX-CH-001-phase-1-results.md)
+- Anonymized public submission materials: [`challenge-board/public-submissions/SX-CH-001/phase-1/`](./challenge-board/public-submissions/SX-CH-001/phase-1/)
+
+
 ## Current Challenges
 
 The following four GitHub-rendered Markdown pages are the complete current public challenge set. The homepage table shows the bounty entry point, bounty cap, and current S / A open status only. Select “Open” to view the challenge background, core problem, grade recognition and closure rules, deliverable standards, recognition standards, and S / A bounty tiers directly in GitHub. The official status record is available in [`challenge-board/STATUS.md`](./challenge-board/STATUS.md), and task-page hashes are recorded in [`docs/challenge-source-integrity.md`](./docs/challenge-source-integrity.md) and [`challenge-board/TASK_FILE_SHA256.txt`](./challenge-board/TASK_FILE_SHA256.txt).
@@ -190,7 +196,7 @@ For internal contribution tracking, SingularityX may associate accepted submissi
 
 ## Challenge Code Submission
 
-> **Response time:** SingularityX will provide a response within five calendar days after submission or upload. The response may include confirmation that the work has entered review, a request for non-substantive supplementary materials, initial-screen rejection, continued reproduction review, certification at a particular grade, or no grade certification.
+> **Response time:** SingularityX will provide a response within five business days after submission or upload. The response may include confirmation that the work has entered review, a request for non-substantive supplementary materials, initial-screen rejection, continued reproduction review, certification at a particular grade, or no grade certification.
 
 For competitive bounty challenges, SingularityX uses **private submission by default**. Public Pull Requests are accepted only when the contributor intentionally chooses to make the submitted code, report, and implementation details publicly visible.
 
@@ -520,25 +526,6 @@ By continuing to access, register with, publish tasks on, submit solutions to, o
 
 ---
 
-## Community and Invitation Links
-
-<div align="center">
-
-### Join the Community for Discussion and Collaboration
-
-<p>
-  <a href="https://discord.gg/aW4J2u2eU"><img alt="Join Discord" src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
-  <a href="https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=375rf86d-9fe7-4081-a734-8ab488273f88"><img alt="Join Feishu" src="https://img.shields.io/badge/Feishu-Join%20Chat-00B4D8?style=for-the-badge" /></a>
-</p>
-
-<p>
-  <b>Community invitations:</b> <a href="https://discord.gg/aW4J2u2eU">Discord</a> · <a href="https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=375rf86d-9fe7-4081-a734-8ab488273f88">Feishu</a>
-</p>
-
-</div>
-
----
-
 ## How to Join Us
 
 <div align="center">
@@ -546,8 +533,6 @@ By continuing to access, register with, publish tasks on, submit solutions to, o
 ### If you are interested in SingularityX, you are welcome to contact us
 
 **📮 join@singularityx.tech**
-
-**Community invitations:** [Discord](https://discord.gg/aW4J2u2eU) · [Feishu](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=375rf86d-9fe7-4081-a734-8ab488273f88)
 
 Please send your resume to the email address above and **make sure to include your GitHub profile link**.
 

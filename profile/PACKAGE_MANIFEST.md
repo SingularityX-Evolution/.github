@@ -28,6 +28,12 @@ challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md
 challenge-board/tasks/SX-CH-002-market-data-consistency.md
 challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md
 challenge-board/tasks/SX-CH-004-public-alpha-selection.md
+challenge-board/results/SX-CH-001-phase-1-results.md
+challenge-board/results/SX-CH-001-phase-1-results.zh-CN.md
+challenge-board/public-submissions/SX-CH-001/phase-1/README.md
+challenge-board/public-submissions/SX-CH-001/phase-1/README.zh-CN.md
+challenge-board/public-submissions/SX-CH-001/phase-1/SX-CH-001-P1-B-001/
+challenge-board/public-submissions/SX-CH-001/phase-1/SX-CH-001-P1-C-001/
 docs/difficulty-and-amounts.md
 docs/difficulty-and-amounts.zh-CN.md
 docs/challenge-source-integrity.md
@@ -52,12 +58,14 @@ CONTRIBUTING.md
 6. Preserves exactly four independent challenge pages under `challenge-board/tasks/` and updates their grade closure rules, deliverable standards, recognition standards, and S / A bounty tiers.
 7. Keeps private email submission as the default channel; public Pull Requests remain optional only when the contributor intentionally wants public disclosure.
 8. Updates task-page SHA256 records after current rule-text changes.
-9. Adds the no-fixed-time-limit, per-grade closure, five-calendar-day response, and one-week desensitized public-display rules to challenge pages, challenge-board submission guidance, homepage submission guidance, and the public challenge inquiry template.
+9. Adds the no-fixed-time-limit, per-grade closure, five-business-day response, and one-week desensitized public-display rules to challenge pages, challenge-board submission guidance, homepage submission guidance, and the public challenge inquiry template.
 10. Adds S / A grade status tables marking each remaining grade as open or closed.
 11. Clarifies concurrent-submission queueing and grade-closure handling.
-12. Defines response types within the five-calendar-day response window.
+12. Defines response types within the five-business-day response window.
 13. Limits successful-certification display to desensitized summaries and reviewed public materials.
 14. Aligns task rules and intellectual-property statements so that non-certified, non-adopted, non-settled submissions are not directly used for production, commercialization, relicensing, or public release except for necessary review, audit, dispute, and compliance purposes.
+15. Adds the formal Phase 1 review-results notice, anonymized public submission directories, and anonymized award records for the SX-CH-001 results that received grade recognition and entered the public-material scope: 1 Grade B recognition and 1 Grade C recognition. Clarifies that Phase 1 received submitted materials for multiple public challenges, while submissions without grade recognition or outside the public-material scope are not listed or publicly released as code materials.
+16. Publishes the provided public GitHub profiles for both anonymous contributors while keeping contributor identities anonymized and result-notice wording suitable for external presentation.
 
 ## Challenge set
 

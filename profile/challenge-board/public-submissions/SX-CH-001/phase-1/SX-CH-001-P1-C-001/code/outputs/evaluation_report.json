@@ -1,0 +1,2312 @@
+{
+  "method_comparisons": [
+    {
+      "method": "naive_product",
+      "brier_score": 0.14563127157516434,
+      "ece": 8.017891905964802e-17,
+      "mean_confidence": 0.1730628946098836,
+      "accuracy": 0.43,
+      "ci_coverage": 1.0
+    },
+    {
+      "method": "logit_aggregation",
+      "brier_score": 0.21688284632034635,
+      "ece": 1.1379786002407854e-17,
+      "mean_confidence": 0.5989692599624035,
+      "accuracy": 0.655,
+      "ci_coverage": 1.0
+    },
+    {
+      "method": "bayesian_update",
+      "brier_score": 0.21884765625,
+      "ece": 1.0684853169324814e-16,
+      "mean_confidence": 0.6472199717124741,
+      "accuracy": 0.4875,
+      "ci_coverage": 1.0
+    },
+    {
+      "method": "noisy_or",
+      "brier_score": 0.2314231738035265,
+      "ece": 1.1102230246251565e-16,
+      "mean_confidence": 0.9176981124296125,
+      "accuracy": 0.59,
+      "ci_coverage": 1.0
+    },
+    {
+      "method": "geometric_mean",
+      "brier_score": 0.21526397670062053,
+      "ece": 0.0,
+      "mean_confidence": 0.6272524816582065,
+      "accuracy": 0.655,
+      "ci_coverage": 1.0
+    },
+    {
+      "method": "ensemble",
+      "brier_score": 0.12270307142121878,
+      "ece": 1.601149768326593e-17,
+      "mean_confidence": 0.625,
+      "accuracy": 0.82,
+      "ci_coverage": 1.0
+    }
+  ],
+  "hop_count_trend": {
+    "entries": [
+      {
+        "n_hops": 1,
+        "n_samples": 26,
+        "win_rate": 0.8846153846153846,
+        "mean_conf": 0.8835419825843214
+      },
+      {
+        "n_hops": 2,
+        "n_samples": 35,
+        "win_rate": 0.7428571428571429,
+        "mean_conf": 0.7615492145120477
+      },
+      {
+        "n_hops": 3,
+        "n_samples": 53,
+        "win_rate": 0.8301886792452831,
+        "mean_conf": 0.8141240023128602
+      },
+      {
+        "n_hops": 4,
+        "n_samples": 79,
+        "win_rate": 0.7848101265822784,
+        "mean_conf": 0.7594951435888065
+      },
+      {
+        "n_hops": 5,
+        "n_samples": 96,
+        "win_rate": 0.53125,
+        "mean_conf": 0.6112729966888416
+      },
+      {
+        "n_hops": 6,
+        "n_samples": 59,
+        "win_rate": 0.559322033898305,
+        "mean_conf": 0.49747213174751387
+      },
+      {
+        "n_hops": 7,
+        "n_samples": 34,
+        "win_rate": 0.29411764705882354,
+        "mean_conf": 0.23303135339876843
+      },
+      {
+        "n_hops": 8,
+        "n_samples": 18,
+        "win_rate": 0.05555555555555555,
+        "mean_conf": 0.07049266711102459
+      }
+    ]
+  },
+  "calibration_by_method": {
+    "naive_product": {
+      "brier_score": 0.14563127157516434,
+      "ece": 8.017891905964802e-17,
+      "mce": 2.220446049250313e-16,
+      "num_samples": 400,
+      "bin_edges": [
+        0.0,
+        0.1,
+        0.30000000000000004,
+        0.5,
+        0.6000000000000001,
+        0.7000000000000001,
+        0.9
+      ],
+      "bin_confidences": [
+        0.04347826086956521,
+        0.125,
+        0.37037037037037035,
+        0.6,
+        0.6506024096385542,
+        0.7924528301886794,
+        0.9444444444444446
+      ],
+      "bin_frequencies": [
+        0.043478260869565216,
+        0.125,
+        0.37037037037037035,
+        0.6,
+        0.6506024096385542,
+        0.7924528301886793,
+        0.9444444444444444
+      ],
+      "bin_counts": [
+        46,
+        16,
+        54,
+        5,
+        83,
+        106,
+        90
+      ],
+      "reliability_slope": 0.9999999999999998,
+      "reliability_intercept": 3.9789378465185014e-16
+    },
+    "logit_aggregation": {
+      "brier_score": 0.21688284632034635,
+      "ece": 1.1379786002407854e-17,
+      "mce": 2.220446049250313e-16,
+      "num_samples": 400,
+      "bin_edges": [
+        0.0,
+        0.6000000000000001,
+        0.8,
+        0.9
+      ],
+      "bin_confidences": [
+        0.0,
+        0.628808864265928,
+        0.8666666666666669,
+        0.909090909090909
+      ],
+      "bin_frequencies": [
+        0.0,
+        0.628808864265928,
+        0.8666666666666667,
+        0.9090909090909091
+      ],
+      "bin_counts": [
+        13,
+        361,
+        15,
+        11
+      ],
+      "reliability_slope": 1.0000000000000002,
+      "reliability_intercept": -1.398557252453748e-16
+    },
+    "bayesian_update": {
+      "brier_score": 0.21884765625,
+      "ece": 1.0684853169324814e-16,
+      "mce": 1.1102230246251565e-16,
+      "num_samples": 400,
+      "bin_edges": [
+        0.0,
+        0.6000000000000001
+      ],
+      "bin_confidences": [
+        0.0,
+        0.6484375000000001
+      ],
+      "bin_frequencies": [
+        0.0,
+        0.6484375
+      ],
+      "bin_counts": [
+        15,
+        384
+      ],
+      "reliability_slope": 1.0,
+      "reliability_intercept": -1.4283507369719185e-16
+    },
+    "noisy_or": {
+      "brier_score": 0.2314231738035265,
+      "ece": 1.1102230246251565e-16,
+      "mce": 1.1102230246251565e-16,
+      "num_samples": 400,
+      "bin_edges": [
+        0.6000000000000001
+      ],
+      "bin_confidences": [
+        0.6297229219143575
+      ],
+      "bin_frequencies": [
+        0.6297229219143576
+      ],
+      "bin_counts": [
+        397
+      ],
+      "reliability_slope": 0.0,
+      "reliability_intercept": 0.0
+    },
+    "geometric_mean": {
+      "brier_score": 0.21526397670062053,
+      "ece": 0.0,
+      "mce": 0.0,
+      "num_samples": 400,
+      "bin_edges": [
+        0.0,
+        0.5,
+        0.6000000000000001,
+        0.8,
+        0.9
+      ],
+      "bin_confidences": [
+        0.0,
+        0.5960264900662252,
+        0.6407766990291263,
+        0.8,
+        0.9230769230769231
+      ],
+      "bin_frequencies": [
+        0.0,
+        0.5960264900662252,
+        0.6407766990291263,
+        0.8,
+        0.9230769230769231
+      ],
+      "bin_counts": [
+        12,
+        151,
+        206,
+        5,
+        26
+      ],
+      "reliability_slope": 1.0000000000000002,
+      "reliability_intercept": -4.955304304998353e-17
+    },
+    "ensemble": {
+      "brier_score": 0.12270307142121878,
+      "ece": 1.601149768326593e-17,
+      "mce": 2.220446049250313e-16,
+      "num_samples": 400,
+      "bin_edges": [
+        0.0,
+        0.1,
+        0.2,
+        0.30000000000000004,
+        0.4,
+        0.5,
+        0.6000000000000001,
+        0.7000000000000001,
+        0.8,
+        0.9
+      ],
+      "bin_confidences": [
+        0.033898305084745756,
+        0.1538461538461538,
+        0.28571428571428564,
+        0.35294117647058826,
+        0.4,
+        0.5,
+        0.6111111111111112,
+        0.7272727272727271,
+        0.828125,
+        0.9538461538461539
+      ],
+      "bin_frequencies": [
+        0.03389830508474576,
+        0.15384615384615385,
+        0.2857142857142857,
+        0.35294117647058826,
+        0.4,
+        0.5,
+        0.6111111111111112,
+        0.7272727272727273,
+        0.828125,
+        0.9538461538461539
+      ],
+      "bin_counts": [
+        59,
+        13,
+        7,
+        34,
+        5,
+        30,
+        36,
+        22,
+        64,
+        130
+      ],
+      "reliability_slope": 1.0000000000000002,
+      "reliability_intercept": -2.0850483591254843e-16
+    }
+  },
+  "best_method": "ensemble",
+  "summary": "Best method 'ensemble' achieves Brier Score 0.1227, ECE 0.0000. Meets S-tier threshold (Brier < 0.15).  Strong win-rate decay confirmed (Spearman rho=-0.90): win rate decreases as hop count increases.",
+  "failure_cases": [
+    {
+      "chain_id": "SYN-0107",
+      "n_hops": 6,
+      "predicted": 0.037037037037037035,
+      "actual": 1.0,
+      "error": 0.962962962962963,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0183",
+      "n_hops": 7,
+      "predicted": 0.037037037037037035,
+      "actual": 1.0,
+      "error": 0.962962962962963,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0051",
+      "n_hops": 6,
+      "predicted": 0.9444444444444444,
+      "actual": 0.0,
+      "error": 0.9444444444444444,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0194",
+      "n_hops": 4,
+      "predicted": 0.9444444444444444,
+      "actual": 0.0,
+      "error": 0.9444444444444444,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0309",
+      "n_hops": 3,
+      "predicted": 0.9444444444444444,
+      "actual": 0.0,
+      "error": 0.9444444444444444,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector"
+      ]
+    },
+    {
+      "chain_id": "SYN-0097",
+      "n_hops": 4,
+      "predicted": 0.9032258064516129,
+      "actual": 0.0,
+      "error": 0.9032258064516129,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0129",
+      "n_hops": 5,
+      "predicted": 0.9032258064516129,
+      "actual": 0.0,
+      "error": 0.9032258064516129,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0236",
+      "n_hops": 4,
+      "predicted": 0.9032258064516129,
+      "actual": 0.0,
+      "error": 0.9032258064516129,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0011",
+      "n_hops": 8,
+      "predicted": 0.15384615384615385,
+      "actual": 1.0,
+      "error": 0.8461538461538461,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment",
+        "sentiment",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0186",
+      "n_hops": 6,
+      "predicted": 0.15384615384615385,
+      "actual": 1.0,
+      "error": 0.8461538461538461,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0083",
+      "n_hops": 2,
+      "predicted": 0.828125,
+      "actual": 0.0,
+      "error": 0.828125,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic"
+      ]
+    },
+    {
+      "chain_id": "SYN-0096",
+      "n_hops": 5,
+      "predicted": 0.828125,
+      "actual": 0.0,
+      "error": 0.828125,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0102",
+      "n_hops": 4,
+      "predicted": 0.828125,
+      "actual": 0.0,
+      "error": 0.828125,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0189",
+      "n_hops": 3,
+      "predicted": 0.828125,
+      "actual": 0.0,
+      "error": 0.828125,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector"
+      ]
+    },
+    {
+      "chain_id": "SYN-0219",
+      "n_hops": 6,
+      "predicted": 0.828125,
+      "actual": 0.0,
+      "error": 0.828125,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0274",
+      "n_hops": 5,
+      "predicted": 0.828125,
+      "actual": 0.0,
+      "error": 0.828125,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0281",
+      "n_hops": 4,
+      "predicted": 0.828125,
+      "actual": 0.0,
+      "error": 0.828125,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0284",
+      "n_hops": 5,
+      "predicted": 0.828125,
+      "actual": 0.0,
+      "error": 0.828125,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0303",
+      "n_hops": 5,
+      "predicted": 0.828125,
+      "actual": 0.0,
+      "error": 0.828125,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0316",
+      "n_hops": 4,
+      "predicted": 0.828125,
+      "actual": 0.0,
+      "error": 0.828125,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0318",
+      "n_hops": 3,
+      "predicted": 0.828125,
+      "actual": 0.0,
+      "error": 0.828125,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector"
+      ]
+    },
+    {
+      "chain_id": "SYN-0024",
+      "n_hops": 4,
+      "predicted": 0.7272727272727273,
+      "actual": 0.0,
+      "error": 0.7272727272727273,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0105",
+      "n_hops": 3,
+      "predicted": 0.7272727272727273,
+      "actual": 0.0,
+      "error": 0.7272727272727273,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector"
+      ]
+    },
+    {
+      "chain_id": "SYN-0127",
+      "n_hops": 6,
+      "predicted": 0.7272727272727273,
+      "actual": 0.0,
+      "error": 0.7272727272727273,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0196",
+      "n_hops": 6,
+      "predicted": 0.7272727272727273,
+      "actual": 0.0,
+      "error": 0.7272727272727273,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0306",
+      "n_hops": 5,
+      "predicted": 0.7272727272727273,
+      "actual": 0.0,
+      "error": 0.7272727272727273,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0320",
+      "n_hops": 5,
+      "predicted": 0.7272727272727273,
+      "actual": 0.0,
+      "error": 0.7272727272727273,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0150",
+      "n_hops": 7,
+      "predicted": 0.2857142857142857,
+      "actual": 1.0,
+      "error": 0.7142857142857143,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0270",
+      "n_hops": 6,
+      "predicted": 0.2857142857142857,
+      "actual": 1.0,
+      "error": 0.7142857142857143,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0023",
+      "n_hops": 4,
+      "predicted": 0.34782608695652173,
+      "actual": 1.0,
+      "error": 0.6521739130434783,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0026",
+      "n_hops": 3,
+      "predicted": 0.34782608695652173,
+      "actual": 1.0,
+      "error": 0.6521739130434783,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector"
+      ]
+    },
+    {
+      "chain_id": "SYN-0035",
+      "n_hops": 6,
+      "predicted": 0.34782608695652173,
+      "actual": 1.0,
+      "error": 0.6521739130434783,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0065",
+      "n_hops": 5,
+      "predicted": 0.34782608695652173,
+      "actual": 1.0,
+      "error": 0.6521739130434783,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0113",
+      "n_hops": 6,
+      "predicted": 0.34782608695652173,
+      "actual": 1.0,
+      "error": 0.6521739130434783,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0197",
+      "n_hops": 7,
+      "predicted": 0.34782608695652173,
+      "actual": 1.0,
+      "error": 0.6521739130434783,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0295",
+      "n_hops": 5,
+      "predicted": 0.34782608695652173,
+      "actual": 1.0,
+      "error": 0.6521739130434783,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0358",
+      "n_hops": 7,
+      "predicted": 0.34782608695652173,
+      "actual": 1.0,
+      "error": 0.6521739130434783,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0062",
+      "n_hops": 6,
+      "predicted": 0.36363636363636365,
+      "actual": 1.0,
+      "error": 0.6363636363636364,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0122",
+      "n_hops": 4,
+      "predicted": 0.36363636363636365,
+      "actual": 1.0,
+      "error": 0.6363636363636364,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0304",
+      "n_hops": 6,
+      "predicted": 0.36363636363636365,
+      "actual": 1.0,
+      "error": 0.6363636363636364,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0375",
+      "n_hops": 4,
+      "predicted": 0.36363636363636365,
+      "actual": 1.0,
+      "error": 0.6363636363636364,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0025",
+      "n_hops": 6,
+      "predicted": 0.6111111111111112,
+      "actual": 0.0,
+      "error": 0.6111111111111112,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0054",
+      "n_hops": 5,
+      "predicted": 0.6111111111111112,
+      "actual": 0.0,
+      "error": 0.6111111111111112,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0157",
+      "n_hops": 6,
+      "predicted": 0.6111111111111112,
+      "actual": 0.0,
+      "error": 0.6111111111111112,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0172",
+      "n_hops": 5,
+      "predicted": 0.6111111111111112,
+      "actual": 0.0,
+      "error": 0.6111111111111112,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0188",
+      "n_hops": 5,
+      "predicted": 0.6111111111111112,
+      "actual": 0.0,
+      "error": 0.6111111111111112,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0224",
+      "n_hops": 3,
+      "predicted": 0.6111111111111112,
+      "actual": 0.0,
+      "error": 0.6111111111111112,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector"
+      ]
+    },
+    {
+      "chain_id": "SYN-0229",
+      "n_hops": 5,
+      "predicted": 0.6111111111111112,
+      "actual": 0.0,
+      "error": 0.6111111111111112,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0250",
+      "n_hops": 4,
+      "predicted": 0.6111111111111112,
+      "actual": 0.0,
+      "error": 0.6111111111111112,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0255",
+      "n_hops": 5,
+      "predicted": 0.6111111111111112,
+      "actual": 0.0,
+      "error": 0.6111111111111112,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0292",
+      "n_hops": 6,
+      "predicted": 0.6111111111111112,
+      "actual": 0.0,
+      "error": 0.6111111111111112,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0301",
+      "n_hops": 5,
+      "predicted": 0.6111111111111112,
+      "actual": 0.0,
+      "error": 0.6111111111111112,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0315",
+      "n_hops": 5,
+      "predicted": 0.6111111111111112,
+      "actual": 0.0,
+      "error": 0.6111111111111112,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0336",
+      "n_hops": 6,
+      "predicted": 0.6111111111111112,
+      "actual": 0.0,
+      "error": 0.6111111111111112,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0355",
+      "n_hops": 5,
+      "predicted": 0.6111111111111112,
+      "actual": 0.0,
+      "error": 0.6111111111111112,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0053",
+      "n_hops": 7,
+      "predicted": 0.4,
+      "actual": 1.0,
+      "error": 0.6,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0121",
+      "n_hops": 7,
+      "predicted": 0.4,
+      "actual": 1.0,
+      "error": 0.6,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0003",
+      "n_hops": 5,
+      "predicted": 0.5,
+      "actual": 0.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0027",
+      "n_hops": 5,
+      "predicted": 0.5,
+      "actual": 0.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0030",
+      "n_hops": 5,
+      "predicted": 0.5,
+      "actual": 1.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0048",
+      "n_hops": 5,
+      "predicted": 0.5,
+      "actual": 1.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0049",
+      "n_hops": 3,
+      "predicted": 0.5,
+      "actual": 1.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector"
+      ]
+    },
+    {
+      "chain_id": "SYN-0073",
+      "n_hops": 6,
+      "predicted": 0.5,
+      "actual": 0.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0081",
+      "n_hops": 5,
+      "predicted": 0.5,
+      "actual": 0.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0091",
+      "n_hops": 5,
+      "predicted": 0.5,
+      "actual": 1.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0093",
+      "n_hops": 5,
+      "predicted": 0.5,
+      "actual": 0.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0115",
+      "n_hops": 7,
+      "predicted": 0.5,
+      "actual": 0.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0147",
+      "n_hops": 5,
+      "predicted": 0.5,
+      "actual": 1.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0213",
+      "n_hops": 3,
+      "predicted": 0.5,
+      "actual": 0.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector"
+      ]
+    },
+    {
+      "chain_id": "SYN-0218",
+      "n_hops": 5,
+      "predicted": 0.5,
+      "actual": 1.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0230",
+      "n_hops": 6,
+      "predicted": 0.5,
+      "actual": 1.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0232",
+      "n_hops": 5,
+      "predicted": 0.5,
+      "actual": 0.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0245",
+      "n_hops": 7,
+      "predicted": 0.5,
+      "actual": 0.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0252",
+      "n_hops": 6,
+      "predicted": 0.5,
+      "actual": 1.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0279",
+      "n_hops": 6,
+      "predicted": 0.5,
+      "actual": 1.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0302",
+      "n_hops": 5,
+      "predicted": 0.5,
+      "actual": 1.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0328",
+      "n_hops": 4,
+      "predicted": 0.5,
+      "actual": 1.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0345",
+      "n_hops": 5,
+      "predicted": 0.5,
+      "actual": 0.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0359",
+      "n_hops": 5,
+      "predicted": 0.5,
+      "actual": 0.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0361",
+      "n_hops": 5,
+      "predicted": 0.5,
+      "actual": 0.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0371",
+      "n_hops": 1,
+      "predicted": 0.5,
+      "actual": 0.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0387",
+      "n_hops": 3,
+      "predicted": 0.5,
+      "actual": 1.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector"
+      ]
+    },
+    {
+      "chain_id": "SYN-0391",
+      "n_hops": 4,
+      "predicted": 0.5,
+      "actual": 0.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0392",
+      "n_hops": 4,
+      "predicted": 0.5,
+      "actual": 1.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0393",
+      "n_hops": 6,
+      "predicted": 0.5,
+      "actual": 0.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0396",
+      "n_hops": 6,
+      "predicted": 0.5,
+      "actual": 1.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0399",
+      "n_hops": 6,
+      "predicted": 0.5,
+      "actual": 1.0,
+      "error": 0.5,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0033",
+      "n_hops": 7,
+      "predicted": 0.4,
+      "actual": 0.0,
+      "error": 0.4,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0103",
+      "n_hops": 5,
+      "predicted": 0.4,
+      "actual": 0.0,
+      "error": 0.4,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0373",
+      "n_hops": 5,
+      "predicted": 0.4,
+      "actual": 0.0,
+      "error": 0.4,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0009",
+      "n_hops": 5,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0063",
+      "n_hops": 4,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0076",
+      "n_hops": 6,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0111",
+      "n_hops": 3,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector"
+      ]
+    },
+    {
+      "chain_id": "SYN-0125",
+      "n_hops": 4,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0137",
+      "n_hops": 5,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0138",
+      "n_hops": 4,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0142",
+      "n_hops": 4,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0143",
+      "n_hops": 4,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0149",
+      "n_hops": 3,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector"
+      ]
+    },
+    {
+      "chain_id": "SYN-0153",
+      "n_hops": 4,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0173",
+      "n_hops": 3,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector"
+      ]
+    },
+    {
+      "chain_id": "SYN-0174",
+      "n_hops": 5,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0187",
+      "n_hops": 5,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0214",
+      "n_hops": 5,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0217",
+      "n_hops": 6,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0249",
+      "n_hops": 6,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0259",
+      "n_hops": 2,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic"
+      ]
+    },
+    {
+      "chain_id": "SYN-0307",
+      "n_hops": 4,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0330",
+      "n_hops": 4,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0382",
+      "n_hops": 5,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0389",
+      "n_hops": 6,
+      "predicted": 0.6111111111111112,
+      "actual": 1.0,
+      "error": 0.38888888888888884,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0015",
+      "n_hops": 3,
+      "predicted": 0.36363636363636365,
+      "actual": 0.0,
+      "error": 0.36363636363636365,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector"
+      ]
+    },
+    {
+      "chain_id": "SYN-0017",
+      "n_hops": 5,
+      "predicted": 0.36363636363636365,
+      "actual": 0.0,
+      "error": 0.36363636363636365,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0018",
+      "n_hops": 4,
+      "predicted": 0.36363636363636365,
+      "actual": 0.0,
+      "error": 0.36363636363636365,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0020",
+      "n_hops": 5,
+      "predicted": 0.36363636363636365,
+      "actual": 0.0,
+      "error": 0.36363636363636365,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0114",
+      "n_hops": 5,
+      "predicted": 0.36363636363636365,
+      "actual": 0.0,
+      "error": 0.36363636363636365,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0160",
+      "n_hops": 4,
+      "predicted": 0.36363636363636365,
+      "actual": 0.0,
+      "error": 0.36363636363636365,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0263",
+      "n_hops": 5,
+      "predicted": 0.36363636363636365,
+      "actual": 0.0,
+      "error": 0.36363636363636365,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0006",
+      "n_hops": 2,
+      "predicted": 0.34782608695652173,
+      "actual": 0.0,
+      "error": 0.34782608695652173,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic"
+      ]
+    },
+    {
+      "chain_id": "SYN-0007",
+      "n_hops": 6,
+      "predicted": 0.34782608695652173,
+      "actual": 0.0,
+      "error": 0.34782608695652173,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0087",
+      "n_hops": 5,
+      "predicted": 0.34782608695652173,
+      "actual": 0.0,
+      "error": 0.34782608695652173,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0101",
+      "n_hops": 5,
+      "predicted": 0.34782608695652173,
+      "actual": 0.0,
+      "error": 0.34782608695652173,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0110",
+      "n_hops": 4,
+      "predicted": 0.34782608695652173,
+      "actual": 0.0,
+      "error": 0.34782608695652173,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0140",
+      "n_hops": 8,
+      "predicted": 0.34782608695652173,
+      "actual": 0.0,
+      "error": 0.34782608695652173,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment",
+        "sentiment",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0170",
+      "n_hops": 5,
+      "predicted": 0.34782608695652173,
+      "actual": 0.0,
+      "error": 0.34782608695652173,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0203",
+      "n_hops": 7,
+      "predicted": 0.34782608695652173,
+      "actual": 0.0,
+      "error": 0.34782608695652173,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0210",
+      "n_hops": 5,
+      "predicted": 0.34782608695652173,
+      "actual": 0.0,
+      "error": 0.34782608695652173,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0311",
+      "n_hops": 2,
+      "predicted": 0.34782608695652173,
+      "actual": 0.0,
+      "error": 0.34782608695652173,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic"
+      ]
+    },
+    {
+      "chain_id": "SYN-0341",
+      "n_hops": 4,
+      "predicted": 0.34782608695652173,
+      "actual": 0.0,
+      "error": 0.34782608695652173,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company"
+      ]
+    },
+    {
+      "chain_id": "SYN-0363",
+      "n_hops": 5,
+      "predicted": 0.34782608695652173,
+      "actual": 0.0,
+      "error": 0.34782608695652173,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical"
+      ]
+    },
+    {
+      "chain_id": "SYN-0374",
+      "n_hops": 2,
+      "predicted": 0.34782608695652173,
+      "actual": 0.0,
+      "error": 0.34782608695652173,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic"
+      ]
+    },
+    {
+      "chain_id": "SYN-0376",
+      "n_hops": 6,
+      "predicted": 0.34782608695652173,
+      "actual": 0.0,
+      "error": 0.34782608695652173,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic",
+        "sector",
+        "company",
+        "technical",
+        "sentiment"
+      ]
+    },
+    {
+      "chain_id": "SYN-0380",
+      "n_hops": 2,
+      "predicted": 0.34782608695652173,
+      "actual": 0.0,
+      "error": 0.34782608695652173,
+      "reason": "high_error",
+      "hop_types": [
+        "geopolitical",
+        "macroeconomic"
+      ]
+    }
+  ]
+}

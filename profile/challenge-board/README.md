@@ -15,6 +15,17 @@ Public problem pages present background, core problem, public task scope, grade 
 
 For competitive bounty challenges, private email submission is recommended by default. Public Pull Requests are appropriate only when the contributor intentionally chooses to disclose code, reports, and implementation details publicly.
 
+## Phase 1 Review Results Notice
+
+The Phase 1 public bounty period has ended. During Phase 1, submitted materials for multiple public challenges entered review. As of this notice date, this notice lists only the two `SX-CH-001` results that passed reproducibility checks, received grade recognition, and entered the public-material scope: 1 Grade B recognition and 1 Grade C recognition. Submissions without grade recognition or outside the public-material scope are not listed in this notice and are not released as public code materials.
+
+| Challenge ID | Phase status | Public recognized result in this notice | Public materials |
+|---|---|---|---|
+| SX-CH-001 | Phase 1 ended; public recognized results organized | 1 Grade B recognition, RMB 2,700; 1 Grade C recognition, RMB 900 | [Review results notice](./results/SX-CH-001-phase-1-results.md) / [public submission materials](./public-submissions/SX-CH-001/phase-1/) |
+
+Public materials are listed by anonymous ID only. Except for authorized public GitHub profiles, contributors' legal names and other identity information are not disclosed.
+
+
 ## Current public challenges
 
 | ID | Challenge | Chinese title | Difficulty | CNY bounty cap | Grade closure rule | Challenge content |
@@ -57,7 +68,7 @@ Recommended subject:
 
 A valid submission should include reproducible code or a structured delivery package, README and running instructions, test results or an evaluation report, dependency and environment information, known limitations, and a contributor statement confirming that the contributor owns or has the right to submit the work.
 
-Once submitted, a submission may not be changed; SingularityX will provide a response within five calendar days after submission or upload. The response may include confirmation that the work has entered review, a request for non-substantive supplementary materials, initial-screen rejection, continued reproduction review, certification at a particular grade, or no grade certification.
+Once submitted, a submission may not be changed; SingularityX will provide a response within five business days after submission or upload. The response may include confirmation that the work has entered review, a request for non-substantive supplementary materials, initial-screen rejection, continued reproduction review, certification at a particular grade, or no grade certification.
 
 After a grade certification succeeds, SingularityX will publicly display only a desensitized work summary, certification grade, challenge ID, and reviewed public materials for one week, without disclosing sensitive information, private code, account information, non-public strategy details, restricted data, or core confidential implementation details.
 

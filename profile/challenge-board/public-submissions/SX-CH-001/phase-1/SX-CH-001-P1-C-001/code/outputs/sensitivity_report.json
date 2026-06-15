@@ -1,0 +1,236 @@
+{
+  "Bayesian prior_belief": [
+    {
+      "param": "Bayesian prior_belief",
+      "value": 0.15,
+      "best_brier": 0.12279817052935217,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Bayesian prior_belief",
+      "value": 0.25,
+      "best_brier": 0.12303633133274677,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Bayesian prior_belief",
+      "value": 0.35,
+      "best_brier": 0.12244778683049966,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Bayesian prior_belief",
+      "value": 0.45,
+      "best_brier": 0.12281059308478665,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Bayesian prior_belief",
+      "value": 0.55,
+      "best_brier": 0.12281411487258262,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Bayesian prior_belief",
+      "value": 0.65,
+      "best_brier": 0.12235497543283973,
+      "best_method": "ensemble"
+    }
+  ],
+  "Bayesian likelihood_strength": [
+    {
+      "param": "Bayesian likelihood_strength",
+      "value": 0.2,
+      "best_brier": 0.12296375887184711,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Bayesian likelihood_strength",
+      "value": 0.35,
+      "best_brier": 0.12300450937950938,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Bayesian likelihood_strength",
+      "value": 0.5,
+      "best_brier": 0.12262404672193275,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Bayesian likelihood_strength",
+      "value": 0.7,
+      "best_brier": 0.12270307142121878,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Bayesian likelihood_strength",
+      "value": 0.85,
+      "best_brier": 0.12229330870417826,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Bayesian likelihood_strength",
+      "value": 1.0,
+      "best_brier": 0.1221510054007588,
+      "best_method": "ensemble"
+    }
+  ],
+  "Logit correlation_penalty": [
+    {
+      "param": "Logit correlation_penalty",
+      "value": 0.0,
+      "best_brier": 0.1228798806075694,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Logit correlation_penalty",
+      "value": 0.05,
+      "best_brier": 0.12304925912307564,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Logit correlation_penalty",
+      "value": 0.1,
+      "best_brier": 0.12353862143334177,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Logit correlation_penalty",
+      "value": 0.15,
+      "best_brier": 0.12270307142121878,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Logit correlation_penalty",
+      "value": 0.2,
+      "best_brier": 0.12273426511865485,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Logit correlation_penalty",
+      "value": 0.3,
+      "best_brier": 0.1218693633651064,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Logit correlation_penalty",
+      "value": 0.5,
+      "best_brier": 0.12196980424973773,
+      "best_method": "ensemble"
+    }
+  ],
+  "Logit prior_weight": [
+    {
+      "param": "Logit prior_weight",
+      "value": 0.2,
+      "best_brier": 0.1230254495992661,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Logit prior_weight",
+      "value": 0.5,
+      "best_brier": 0.12317898107370139,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Logit prior_weight",
+      "value": 1.0,
+      "best_brier": 0.12302054386615209,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Logit prior_weight",
+      "value": 1.5,
+      "best_brier": 0.12270307142121878,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Logit prior_weight",
+      "value": 2.0,
+      "best_brier": 0.12290227452491603,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Logit prior_weight",
+      "value": 3.0,
+      "best_brier": 0.1225677521527518,
+      "best_method": "ensemble"
+    }
+  ],
+  "Stopping confidence_floor": [
+    {
+      "param": "Stopping confidence_floor",
+      "value": 0.02,
+      "best_brier": 0.12270307142121878,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Stopping confidence_floor",
+      "value": 0.05,
+      "best_brier": 0.12270307142121878,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Stopping confidence_floor",
+      "value": 0.1,
+      "best_brier": 0.12270307142121878,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Stopping confidence_floor",
+      "value": 0.15,
+      "best_brier": 0.12270307142121878,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Stopping confidence_floor",
+      "value": 0.2,
+      "best_brier": 0.12270307142121878,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Stopping confidence_floor",
+      "value": 0.3,
+      "best_brier": 0.12270307142121878,
+      "best_method": "ensemble"
+    }
+  ],
+  "Stopping CI width threshold": [
+    {
+      "param": "Stopping CI width threshold",
+      "value": 0.15,
+      "best_brier": 0.12270307142121878,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Stopping CI width threshold",
+      "value": 0.25,
+      "best_brier": 0.12270307142121878,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Stopping CI width threshold",
+      "value": 0.35,
+      "best_brier": 0.12270307142121878,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Stopping CI width threshold",
+      "value": 0.45,
+      "best_brier": 0.12270307142121878,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Stopping CI width threshold",
+      "value": 0.55,
+      "best_brier": 0.12270307142121878,
+      "best_method": "ensemble"
+    },
+    {
+      "param": "Stopping CI width threshold",
+      "value": 0.65,
+      "best_brier": 0.12270307142121878,
+      "best_method": "ensemble"
+    }
+  ]
+}

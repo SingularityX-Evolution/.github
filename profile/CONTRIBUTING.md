@@ -51,7 +51,7 @@ Recommended subject:
 [Challenge Submission] <Challenge ID> - <Contributor Name or GitHub Username>
 ```
 
-Once submitted, a submission may not be changed. SingularityX will provide a response within five calendar days after submission or upload. The response may include confirmation that the work has entered review, a request for non-substantive supplementary materials, initial-screen rejection, continued reproduction review, certification at a particular grade, or no grade certification.
+Once submitted, a submission may not be changed. SingularityX will provide a response within five business days after submission or upload. The response may include confirmation that the work has entered review, a request for non-substantive supplementary materials, initial-screen rejection, continued reproduction review, certification at a particular grade, or no grade certification.
 
 For the same S / A grade, the review queue is determined by the timestamp at which a complete submission reaches the official email address or approved upload channel. After a grade is certified and announced closed by SingularityX, new recognition applications for that grade will no longer be accepted. Submissions received before the closure announcement will still receive a response; however, SingularityX does not guarantee that the grade still has an available bounty slot or will continue into bounty review for that grade.
 
