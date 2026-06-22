@@ -35,12 +35,14 @@
 
 | Item | Content |
 |---|---|
-| Rule version | V2.0.0 (Second Version) |
-| Release date | 2026-06-12 |
-| Scope | Public homepage, challenge board, four challenge statements, bounty review notes, Phase 1 review results notice, anonymized public submission materials, public contribution-record and value-assessment framework, important legal statement |
+| Rule version | V2.1.0 (Second Version) |
+| Release date | 2026-06-22 |
+| Scope | Public homepage, challenge board, four challenge statements, bounty review notes, Phase 1 review results notice, public contribution-record and value-assessment framework, important legal statement |
 | Rule interpretation body | SingularityX |
 
 > **Bounty response time:** SingularityX will provide a response within five business days after submission or upload. The response may include confirmation that the work has entered review, a request for non-substantive supplementary materials, initial-screen rejection, continued reproduction review, certification at a particular grade, or no grade certification.
+>
+> **Submission opportunities:** For each challenge, each contributor has one initial submission opportunity. If the initial submission is certified at Grade A, the contributor receives two additional submission opportunities for the same challenge, for a maximum of three submissions in total. Each delivered submission is an independent, immutable version.
 >
 > **Grade status:** S / A grades are opened or closed independently; current status is available in [`challenge-board/STATUS.md`](./challenge-board/STATUS.md).
 
@@ -159,10 +161,9 @@ After review, accepted challenge deliverables may enter the bounty recognition p
 
 ## Phase 1 Review Results Notice
 
-The Phase 1 public bounty period has ended. During Phase 1, submitted materials for multiple public challenges entered review. As of this notice date, only `SX-CH-001` has submissions that received grade recognition and entered the public code-material scope. This notice lists two recognized results for that challenge: `SX-CH-001-P1-B-001` as a Grade B recognition with a bounty of RMB 2,700, and `SX-CH-001-P1-C-001` as a Grade C recognition with a bounty of RMB 900. Submissions without grade recognition or outside the public-material scope are not listed in this notice and are not released as public code materials. The notice discloses only anonymous IDs, recognized grades, recognized bounty amounts, authorized public GitHub profiles, and public code materials. Contributors' legal names are not disclosed.
+The Phase 1 public bounty period has ended. During Phase 1, submitted materials for multiple public challenges entered review. The notice retains two recognized `SX-CH-001` results: `SX-CH-001-P1-B-001` as a Grade B recognition with a bounty of RMB 2,700, and `SX-CH-001-P1-C-001` as a Grade C recognition with a bounty of RMB 900. The related code materials and authorized public GitHub profiles completed a one-week public display and were withdrawn from the current public version on June 22, 2026. The current notice retains only anonymous IDs, recognized grades, recognized bounty amounts, and brief anonymized solution introductions; it does not disclose contributors' legal names, GitHub profiles, or code materials.
 
 - Review results notice: [`challenge-board/results/SX-CH-001-phase-1-results.md`](./challenge-board/results/SX-CH-001-phase-1-results.md)
-- Anonymized public submission materials: [`challenge-board/public-submissions/SX-CH-001/phase-1/`](./challenge-board/public-submissions/SX-CH-001/phase-1/)
 
 
 ## Current Challenges
@@ -232,9 +233,11 @@ Pasting source code only into the email body is not recommended. A compressed pa
 
 SingularityX will record the submission time, submitted version, hash or commit reference, review process, reproducibility result, and bounty review outcome.
 
-Once submitted, a submission may not be changed.
+For each challenge, each contributor has one initial submission opportunity. If the initial submission is certified at Grade A, the contributor receives two additional submission opportunities for the same challenge, for a maximum of three submissions in total.
 
-For the same grade, the review queue is determined by the timestamp at which a complete submission reaches the official email address or approved upload channel. After a grade is certified and announced closed by SingularityX, new recognition applications for that grade will no longer be accepted. Submissions received before the closure announcement will still receive a response; however, SingularityX does not guarantee that the grade still has an available bounty slot or will continue into bounty review for that grade.
+Each delivered submission is treated as an independent version and may not be changed after receipt. An additional opportunity must be used by delivering a new complete version and is counted separately.
+
+Each submission is placed in the review queue according to the timestamp at which its complete materials reach the official email address or approved upload channel. After a grade is certified and announced closed by SingularityX, new recognition applications for that grade will no longer be accepted. Additional submission opportunities do not reopen a closed grade and may be used only for a grade that remains open at the time of submission. Submissions received before the closure announcement will still receive a response; however, SingularityX does not guarantee that the grade still has an available bounty slot or will continue into bounty review for that grade.
 
 After a grade certification succeeds, SingularityX will publicly display only a desensitized work summary, certification grade, challenge ID, and reviewed public materials for one week, without disclosing sensitive information, private code, account information, non-public strategy details, restricted data, or core confidential implementation details.
 

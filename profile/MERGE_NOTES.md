@@ -2,15 +2,15 @@
 
 | Item | Content |
 |---|---|
-| Package version | V2.0.0 (Second Version) |
-| Release date | 2026-06-12 |
+| Package version | V2.1.0 (Second Version) |
+| Release date | 2026-06-22 |
 | Rule interpretation body | SingularityX / 零界演化 |
 
 This package merges the SingularityX organization homepage with the open research challenge homepage into a single external-facing GitHub homepage package.
 
 ## This revision
 
-- Marks this package as V2.0.0 (Second Version) / V2.0.0（第二版）.
+- Marks this package as V2.1.0 (Second Version) / V2.1.0（第二版）.
 - Keeps version information and rule-interpretation body fields in the homepage, challenge board, challenge pages, difficulty documents, contribution guide, package manifest, and important legal statement documents.
 - Updates the important legal statement documents to cover platform bounty task boundaries, user responsibility, third-party rights, submitted-solution rights, non-certified submission use limits, and agreement to platform rules.
 - Removes the redundant homepage consolidation paragraph from `README.md` and `README.zh-CN.md`.
@@ -23,10 +23,11 @@ This package merges the SingularityX organization homepage with the open researc
 - Keeps challenge submission private by email by default; public Pull Requests remain optional only for contributors who intentionally want public disclosure.
 - Records updated task-page hashes in `challenge-board/TASK_FILE_SHA256.txt` and `docs/challenge-source-integrity.md`.
 - Adds S / A grade status tables and concurrent-submission closure handling.
+- Establishes one initial submission opportunity per contributor per challenge; an initial Grade A certification unlocks two additional opportunities, for a maximum of three submissions per contributor per challenge. Each delivered version remains immutable, and additional opportunities do not reopen closed grades.
 - Defines five-business-day response types and limits certified-work display to desensitized summaries or reviewed public materials.
 - Clarifies that non-certified, non-adopted, non-settled submissions are not directly used for production, commercialization, relicensing, or public release except for necessary review, audit, dispute, and compliance purposes.
-- Adds the formal Phase 1 review-results notice and anonymized public submission directories for the SX-CH-001 results that received grade recognition and entered the public-material scope: 1 Grade B recognition and 1 Grade C recognition. Clarifies that Phase 1 received submitted materials for multiple public challenges, while submissions without grade recognition or outside the public-material scope are not listed or publicly released as code materials.
-- Publishes the provided public GitHub profiles for both anonymous contributors while keeping contributor identities anonymized and result-notice wording suitable for external presentation.
+- Retains the formal Phase 1 review-results notice, anonymized award records, and brief anonymized technical introductions for the two recognized SX-CH-001 results: 1 Grade B recognition and 1 Grade C recognition.
+- Records that the one-week public display of contributor code materials and authorized GitHub profiles ended on June 22, 2026; those materials, links, and directories are excluded from the current package.
 
 ## Challenge set and bounty caps
 
