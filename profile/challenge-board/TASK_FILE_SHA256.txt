@@ -1,4 +1,4 @@
-a51959bff7266eb10e0d473a4d7bf13f10fbac567ae8760f583b88e0650596fb  tasks/SX-CH-001-causal-chain-uncertainty.md
-b09893620aead4f2899f73cae444c1b8acdd76d705d54479bf12c759caf70ce9  tasks/SX-CH-002-market-data-consistency.md
-4098f0ae82ad00380a74bb1f909b7d858023fb3aa23fe4df61623fba3fea8526  tasks/SX-CH-003-paper-strategy-runtime-contract.md
-24f423b2c5184c92220de8796005bd52d0e1ac37385947a53b38a8156cb0d482  tasks/SX-CH-004-public-alpha-selection.md
+684c7f5ee98d3aab7537db0772ce9baaed0c8c6b56a16e6022bccd0d07849a1f  tasks/SX-CH-001-causal-chain-uncertainty.md
+8de53c3a844d41a35f2ac67ceee13e8bbc5a79c2455f6d6a7ccbb3cf61955e89  tasks/SX-CH-002-market-data-consistency.md
+361a1a08792b69ba80566f05c573bc1d3814945e05a2765522533d82dd4449a3  tasks/SX-CH-003-paper-strategy-runtime-contract.md
+56cc61708745a7b0b69b91ee57d94808c07015d5cc78e17c8a9ec529d53f34b2  tasks/SX-CH-004-public-alpha-selection.md

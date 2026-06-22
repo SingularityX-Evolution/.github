@@ -24,15 +24,17 @@ Two `SX-CH-001` submissions received Phase 1 recognition: one at Grade B and one
 | SX-CH-003 | Paper Strategy Runtime Contract for Real Backtesting | Open | Open | 2026-06-22 |
 | SX-CH-004 | Robust High-Sharpe Alpha Mining from a Public Classic Strategy Pool | Open | Open | 2026-06-22 |
 
-## Submission opportunities, grade closure, and concurrent-submission rules
+## Submission opportunities, Grade A-to-S upgrades, grade closure, and concurrent-submission rules
 
-1. For each challenge, each contributor has one initial submission opportunity. If the initial submission is certified at Grade A, the contributor receives two additional submission opportunities for the same challenge, for a maximum of three submissions in total.
-2. Each delivered submission is an independent version and may not be changed after receipt. An additional opportunity must be used by delivering a new complete version and is counted separately.
-3. Each submission enters the review queue according to the timestamp at which its complete materials reach the official email address or approved upload channel.
-4. After a grade is certified and announced closed by SingularityX, new recognition applications for that grade will no longer be accepted.
-5. Additional submission opportunities do not reopen a closed grade and may be used only for a grade that remains open at the time of submission.
-6. Submissions received before the closure announcement will still receive a response; however, SingularityX does not guarantee that the grade still has an available bounty slot or will continue into bounty review for that grade.
-7. Closure of one grade does not affect recognition applications for other open grades under the same challenge.
-8. When grade status changes, this file, the challenge board, and relevant challenge pages should be updated together.
+1. Each contributor has one initial submission opportunity per challenge. Only if that submission is certified at Grade A may the contributor submit one complete upgraded version within five calendar days (120 hours) from the time the Grade A certification confirmation email is sent. The deadline is determined by the sending timestamp recorded by SingularityX's email system; failure to submit within the window waives the upgrade opportunity. The maximum is two submissions per contributor per challenge.
+2. The upgraded submission may be used only to seek Grade S certification. If it meets the Grade S standard, final certification and settlement are at Grade S; if the Grade A bounty has already been paid, only the difference between the Grade S and Grade A bounties is paid. The same contributor may not collect both grade bounties for the same challenge.
+3. If the upgraded submission does not meet Grade S, the original Grade A certification remains effective and no duplicate Grade A certification or bounty is awarded.
+4. Both the initial submission and the upgraded submission are independent versions and may not be changed after receipt. The upgraded submission must be delivered as a new complete version and is counted separately.
+5. Each submission enters the review queue according to the timestamp at which its complete materials reach the official email address or approved upload channel.
+6. After a grade is certified and announced closed by SingularityX, new recognition applications for that grade will no longer be accepted.
+7. The Grade A-to-S upgrade opportunity does not reopen a closed Grade S and may be used only if Grade S remains open when the upgraded submission is received.
+8. Submissions received before the closure announcement will still receive a response; however, SingularityX does not guarantee that the grade still has an available bounty slot or will continue into bounty review for that grade.
+9. Closure of one grade does not affect recognition applications for other open grades under the same challenge.
+10. When grade status changes, this file, the challenge board, and relevant challenge pages should be updated together.
 
 [← Back to challenge board](./README.md)

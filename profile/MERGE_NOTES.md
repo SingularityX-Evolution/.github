@@ -23,11 +23,12 @@ This package merges the SingularityX organization homepage with the open researc
 - Keeps challenge submission private by email by default; public Pull Requests remain optional only for contributors who intentionally want public disclosure.
 - Records updated task-page hashes in `challenge-board/TASK_FILE_SHA256.txt` and `docs/challenge-source-integrity.md`.
 - Adds S / A grade status tables and concurrent-submission closure handling.
-- Establishes one initial submission opportunity per contributor per challenge; an initial Grade A certification unlocks two additional opportunities, for a maximum of three submissions per contributor per challenge. Each delivered version remains immutable, and additional opportunities do not reopen closed grades.
+- Establishes one initial submission opportunity per contributor per challenge. A Grade A certification unlocks one Grade S-only upgraded submission within five calendar days (120 hours) after the confirmation email is sent, for a maximum of two submissions; a successful upgrade is settled at Grade S with any paid Grade A bounty credited, while an unsuccessful upgrade preserves the original Grade A certification without duplicate payment. The upgrade opportunity does not reopen a closed Grade S.
 - Defines five-business-day response types and limits certified-work display to desensitized summaries or reviewed public materials.
 - Clarifies that non-certified, non-adopted, non-settled submissions are not directly used for production, commercialization, relicensing, or public release except for necessary review, audit, dispute, and compliance purposes.
 - Presents the Phase 1 review results as a public-facing announcement with anonymized award records and brief solution summaries for the two recognized SX-CH-001 results: 1 Grade B recognition and 1 Grade C recognition.
 - Records that the one-week public display of contributor code materials and authorized GitHub profiles ended on June 22, 2026; those materials, links, and directories are excluded from the current package.
+- Clarifies the SX-CH-001 calibration and uncertainty-quantification rules: real-chain outcomes must be generated independently after model predictions, confidence intervals must represent genuine epistemic uncertainty, and hop-order or cross-method prediction resampling does not satisfy grade-certification requirements.
 
 ## Challenge set and bounty caps
 
