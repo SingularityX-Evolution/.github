@@ -1,33 +1,33 @@
-# SX-CH-001 Phase 1 Review Results Notice
+# SX-CH-001 Phase 1 Review Results Announcement
 
 [← Back to challenge board](../README.md) ｜ [中文](./SX-CH-001-phase-1-results.zh-CN.md)
 
-| Item | Content |
+| Item | Details |
 |---|---|
-| Publication date | 2026-06-15 |
-| Public display period | 2026-06-15 through 2026-06-22 |
+| Publication date | June 15, 2026 |
+| Information updated | June 22, 2026 |
 | Challenge ID | SX-CH-001 |
 | Challenge | Multi-Hop Causal Chain Uncertainty Quantification |
-| Review phase | Phase 1 |
-| Phase status | Phase 1 ended; the recognition-results notice remains available |
-| Current public scope | Anonymous IDs, recognized grades, recognized bounty amounts, and brief anonymized solution introductions |
-| Code and profile status | The one-week display period has ended; GitHub profiles and code materials have been withdrawn from the current public version |
+| Review stage | Phase 1 (completed) |
+| Currently public | Anonymous recognition results, bounty amounts, and solution summaries |
 
-The Phase 1 public bounty period has ended. During Phase 1, submitted materials for multiple public challenges entered review, and the organizer conducted reproducibility checks and review confirmation for the received materials. This notice retains two recognized `SX-CH-001` results: 1 Grade B recognition and 1 Grade C recognition.
+Thank you to everyone who participated in or followed the SingularityX public challenges. The Phase 1 review for `SX-CH-001` is now complete. Following technical review and reproducibility checks, two submissions received recognition: one at Grade B and one at Grade C.
 
-The related code materials and authorized public GitHub profiles completed a one-week public display and were withdrawn from the current public version on June 22, 2026. The current public version no longer provides profile links, code directories, or download entry points, and it does not disclose contributors' legal names; it retains only high-level introductions that contain no source code, account information, or downloadable materials.
+We congratulate the recognized contributors and thank all participants for exploring uncertainty quantification, confidence propagation, calibration, and stopping rules for multi-hop causal chains.
 
-## Review results
+## Recognition results
 
-| Anonymous ID | Recognized grade | Recognized bounty | Brief anonymized introduction |
+| Anonymous ID | Grade | Recognized bounty | Public solution summary |
 |---|---:|---:|---|
-| SX-CH-001-P1-B-001 | Grade B | RMB 2,700 | Explores confidence decay in multi-hop causal chains by comparing several non-naive aggregation methods, defining stopping conditions based on confidence intervals, information gain, and hop limits, and outlining calibration evaluation on synthetic data. |
-| SX-CH-001-P1-C-001 | Grade C | RMB 900 | Presents an end-to-end workflow from per-hop confidence to chain-level confidence, covering multiple aggregators, external-interruption factors, stopping conditions, calibration evaluation, and parameter-sensitivity analysis. |
+| SX-CH-001-P1-B-001 | Grade B | RMB 2,700 | Examines confidence decay and error propagation in multi-hop causal chains, compares several non-naive aggregation approaches, combines confidence intervals, information gain, and hop limits into stopping conditions, and outlines calibration evaluation on synthetic data. |
+| SX-CH-001-P1-C-001 | Grade C | RMB 900 | Presents a structured workflow from per-hop confidence to end-to-end confidence, covering multiple aggregators, external interruption factors, stopping conditions, calibration checks, and parameter-sensitivity analysis. |
 
-## Notice notes
+The two recognized approaches address the central question from different angles: how uncertainty should propagate through multi-hop reasoning and when a chain should stop expanding. They offer useful directions for further research and engineering validation.
 
-1. The results listed in this notice are phase-level determinations made by the organizer based on submitted materials, reproducibility checks, and review conclusions. This notice does not represent the total number of Phase 1 submissions and does not list submissions without grade recognition.
-2. The one-week public display of GitHub profiles and code materials ended on June 22, 2026. The related links, directories, and files are not included in the current public version.
-3. The current notice retains only anonymous IDs, recognized grades, recognized bounty amounts, and brief anonymized solution introductions; it does not disclose or imply contributors' legal identities.
-4. The brief introductions summarize technical direction only. They do not constitute open code, reproduction materials, performance guarantees, or additional review findings.
-5. The organizer may retain necessary materials in a non-public environment for review, audit, dispute handling, and compliance purposes. Such retention does not create a public-access entry point.
+`SX-CH-001` remains open. For current submission requirements, S / A grade status, and recognition rules, refer to the [challenge page](../tasks/SX-CH-001-causal-chain-uncertainty.md) and the [status page](../STATUS.md).
+
+## Public information note
+
+- To balance public recognition with contributor privacy and intellectual-property protection, the authorized GitHub profiles and code materials completed a one-week public display from June 15 through June 22, 2026. Profile links, code directories, and download entry points are no longer provided.
+- This page continues to show anonymous IDs, recognized grades, bounty amounts, and anonymized solution summaries, without disclosing contributors' legal identities.
+- The summaries are intended only to help the public understand the technical direction. They do not replace the full technical materials or create additional performance or applicability commitments.

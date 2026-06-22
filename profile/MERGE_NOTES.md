@@ -26,7 +26,7 @@ This package merges the SingularityX organization homepage with the open researc
 - Establishes one initial submission opportunity per contributor per challenge; an initial Grade A certification unlocks two additional opportunities, for a maximum of three submissions per contributor per challenge. Each delivered version remains immutable, and additional opportunities do not reopen closed grades.
 - Defines five-business-day response types and limits certified-work display to desensitized summaries or reviewed public materials.
 - Clarifies that non-certified, non-adopted, non-settled submissions are not directly used for production, commercialization, relicensing, or public release except for necessary review, audit, dispute, and compliance purposes.
-- Retains the formal Phase 1 review-results notice, anonymized award records, and brief anonymized technical introductions for the two recognized SX-CH-001 results: 1 Grade B recognition and 1 Grade C recognition.
+- Presents the Phase 1 review results as a public-facing announcement with anonymized award records and brief solution summaries for the two recognized SX-CH-001 results: 1 Grade B recognition and 1 Grade C recognition.
 - Records that the one-week public display of contributor code materials and authorized GitHub profiles ended on June 22, 2026; those materials, links, and directories are excluded from the current package.
 
 ## Challenge set and bounty caps

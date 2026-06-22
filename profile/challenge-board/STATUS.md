@@ -8,13 +8,13 @@
 
 This table shows whether each S / A bounty grade is open or closed for the current public challenges. S and A grades are recognized and closed independently. When one grade is certified and announced closed by SingularityX, only that grade is closed; other open grades under the same challenge remain unaffected.
 
-## Phase 1 Notice Status
+## Phase 1 Review Results
 
-| Phase | Status | Challenge with public recognition in this notice | Public materials | Last updated |
+| Phase | Status | Recognized challenge | Results announcement | Last updated |
 |---|---|---|---|---|
-| Phase 1 | Ended; results notice retained; code/profile display ended | SX-CH-001 | [Review results notice](./results/SX-CH-001-phase-1-results.md) | 2026-06-22 |
+| Phase 1 | Review completed; challenge remains open | SX-CH-001 | [View results announcement](./results/SX-CH-001-phase-1-results.md) | 2026-06-22 |
 
-The Phase 1 public bounty period has ended. The notice retains two recognized `SX-CH-001` results: 1 Grade B recognition and 1 Grade C recognition, with recognized bounties of RMB 2,700 and RMB 900 respectively. The related code materials and authorized public GitHub profiles completed a one-week display and were withdrawn from the current public version on June 22, 2026. The current notice retains only anonymous IDs, recognized grades, recognized bounty amounts, and brief anonymized solution introductions.
+Two `SX-CH-001` submissions received Phase 1 recognition: one at Grade B and one at Grade C, with recognized bounties of RMB 2,700 and RMB 900 respectively. The announcement publishes anonymous recognition information and anonymized solution summaries. The authorized code materials and GitHub profiles completed a one-week public display and are no longer publicly accessible.
 
 
 | Challenge ID | Challenge | S grade | A grade | Last updated |

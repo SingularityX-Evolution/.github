@@ -15,15 +15,15 @@ Public problem pages present background, core problem, public task scope, grade 
 
 For competitive bounty challenges, private email submission is recommended by default. Public Pull Requests are appropriate only when the contributor intentionally chooses to disclose code, reports, and implementation details publicly.
 
-## Phase 1 Review Results Notice
+## Phase 1 Review Results Announcement
 
-The Phase 1 public bounty period has ended. During Phase 1, submitted materials for multiple public challenges entered review. The notice retains two recognized `SX-CH-001` results: 1 Grade B recognition and 1 Grade C recognition. The related code materials and authorized public GitHub profiles completed a one-week public display and were withdrawn from the current public version on June 22, 2026.
+The Phase 1 review for `SX-CH-001` is complete. Following technical review and reproducibility checks, two submissions received recognition: one at Grade B and one at Grade C. We thank all participants for their work on uncertainty quantification for multi-hop causal chains.
 
-| Challenge ID | Phase status | Public recognized result in this notice | Public materials |
+| Challenge ID | Stage status | Public recognition results | Announcement |
 |---|---|---|---|
-| SX-CH-001 | Phase 1 ended; results notice retained; code/profile display ended | 1 Grade B recognition, RMB 2,700; 1 Grade C recognition, RMB 900 | [Review results notice](./results/SX-CH-001-phase-1-results.md) |
+| SX-CH-001 | Phase 1 review completed; challenge remains open | 1 Grade B, RMB 2,700; 1 Grade C, RMB 900 | [View results announcement](./results/SX-CH-001-phase-1-results.md) |
 
-The current notice lists recognized grades, bounty amounts, and brief anonymized solution introductions by anonymous ID only. GitHub profiles, code materials, contributors' legal names, and other identity information are not publicly displayed.
+The announcement publishes anonymous recognition results, bounty amounts, and anonymized solution summaries. The authorized GitHub profiles and code materials completed their one-week public display on June 22, 2026, and are no longer publicly accessible.
 
 
 ## Current public challenges
