@@ -166,14 +166,16 @@ Read problem -> Implement artifact -> Prepare evidence package -> 默认私密�
 
 - 查看结果通知：[`challenge-board/results/SX-CH-001-phase-1-results.zh-CN.md`](./challenge-board/results/SX-CH-001-phase-1-results.zh-CN.md)
 
+> **最新档位状态（2026-07-02）：** `SX-CH-001` A 档奖金已发放，A 档已关闭；S 档仍开放。本挑战不再接受新的 A 档认定申请。
+
 
 ## 当前公开挑战
 
-以下四个 GitHub Markdown 题面页是当前公开挑战集合。首页仅展示悬赏入口、赏金上限和 S / A 当前开放状态；点击“打开”即可直接在 GitHub 查看挑战背景、核心问题、等级认定与关闭规则、交付标准、认定标准以及 S / A 赏金分档。正式状态记录见 [`challenge-board/STATUS.zh-CN.md`](./challenge-board/STATUS.zh-CN.md)，题面页 hash 记录见 [`docs/challenge-source-integrity.md`](./docs/challenge-source-integrity.md) 和 [`challenge-board/TASK_FILE_SHA256.txt`](./challenge-board/TASK_FILE_SHA256.txt)。
+以下四个 GitHub Markdown 题面页是当前公开挑战集合。首页仅展示悬赏入口、赏金上限和 S / A 当前状态；点击“打开”即可直接在 GitHub 查看挑战背景、核心问题、等级认定与关闭规则、交付标准、认定标准以及 S / A 赏金分档。正式状态记录见 [`challenge-board/STATUS.zh-CN.md`](./challenge-board/STATUS.zh-CN.md)，题面页 hash 记录见 [`docs/challenge-source-integrity.md`](./docs/challenge-source-integrity.md) 和 [`challenge-board/TASK_FILE_SHA256.txt`](./challenge-board/TASK_FILE_SHA256.txt)。
 
 | ID | 挑战 | 难度 | 赏金上限 | S | A | 题面 |
 |---|---|---:|---:|---:|---:|---|
-| SX-CH-001 | 因果链多跳推理不确定性量化 | Advanced | 7,000 元 | 开放 | 开放 | [打开](./challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md) |
+| SX-CH-001 | 因果链多跳推理不确定性量化 | Advanced | 7,000 元 | 开放 | 已发放（关闭） | [打开](./challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md) |
 | SX-CH-002 | Tardis 与 Binance 行情一致性 | Hard | 8,800 元 | 开放 | 开放 | [打开](./challenge-board/tasks/SX-CH-002-market-data-consistency.md) |
 | SX-CH-003 | 论文策略到真实回测运行契约 | Hard | 9,500 元 | 开放 | 开放 | [打开](./challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md) |
 | SX-CH-004 | 公开策略池高夏普 Alpha 挖掘 | Flagship | 12,000 元 | 开放 | 开放 | [打开](./challenge-board/tasks/SX-CH-004-public-alpha-selection.md) |

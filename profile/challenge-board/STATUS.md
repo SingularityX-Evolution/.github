@@ -16,10 +16,12 @@ This table shows whether each S / A bounty grade is open or closed for the curre
 
 Two `SX-CH-001` submissions received Phase 1 recognition: one at Grade B and one at Grade C, with recognized bounties of RMB 2,700 and RMB 900 respectively. The announcement publishes anonymous recognition information and anonymized solution summaries. The authorized code materials and GitHub profiles completed a one-week public display and are no longer publicly accessible.
 
+**Latest grade update (2026-07-02):** The `SX-CH-001` Grade A bounty has been paid and Grade A is closed. Grade S remains open; new Grade A recognition applications are no longer accepted for this challenge.
+
 
 | Challenge ID | Challenge | S grade | A grade | Last updated |
 |---|---|---:|---:|---|
-| SX-CH-001 | Multi-Hop Causal Chain Uncertainty Quantification | Open | Open | 2026-06-22 |
+| SX-CH-001 | Multi-Hop Causal Chain Uncertainty Quantification | Open | Awarded / closed | 2026-07-02 |
 | SX-CH-002 | Tardis Historical Data and Binance Real-Time Data Consistency | Open | Open | 2026-06-22 |
 | SX-CH-003 | Paper Strategy Runtime Contract for Real Backtesting | Open | Open | 2026-06-22 |
 | SX-CH-004 | Robust High-Sharpe Alpha Mining from a Public Classic Strategy Pool | Open | Open | 2026-06-22 |

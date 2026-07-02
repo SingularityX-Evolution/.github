@@ -25,6 +25,8 @@ The Phase 1 review for `SX-CH-001` is complete. Following technical review and r
 
 The announcement publishes anonymous recognition results, bounty amounts, and anonymized solution summaries. The authorized GitHub profiles and code materials completed their one-week public display on June 22, 2026, and are no longer publicly accessible.
 
+> **Latest grade status (2026-07-02):** The `SX-CH-001` Grade A bounty has been paid and Grade A is closed. Grade S remains open; new Grade A recognition applications are no longer accepted for this challenge.
+
 
 ## Current public challenges
 
@@ -41,7 +43,7 @@ The current release status is shown below; later changes should be checked again
 
 | ID | S grade | A grade | Status note |
 |---|---:|---:|---|
-| SX-CH-001 | Open | Open | S and A grades close independently |
+| SX-CH-001 | Open | Awarded / closed | Grade A bounty paid; Grade S remains open |
 | SX-CH-002 | Open | Open | S and A grades close independently |
 | SX-CH-003 | Open | Open | S and A grades close independently |
 | SX-CH-004 | Open | Open | S and A grades close independently |

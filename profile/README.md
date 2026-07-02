@@ -167,14 +167,16 @@ The announcement now publishes anonymous recognition information and anonymized 
 
 - View results announcement: [`challenge-board/results/SX-CH-001-phase-1-results.md`](./challenge-board/results/SX-CH-001-phase-1-results.md)
 
+> **Latest grade status (2026-07-02):** The `SX-CH-001` Grade A bounty has been paid and Grade A is closed. Grade S remains open; new Grade A recognition applications are no longer accepted for this challenge.
+
 
 ## Current Challenges
 
-The following four GitHub-rendered Markdown pages are the complete current public challenge set. The homepage table shows the bounty entry point, bounty cap, and current S / A open status only. Select “Open” to view the challenge background, core problem, grade recognition and closure rules, deliverable standards, recognition standards, and S / A bounty tiers directly in GitHub. The official status record is available in [`challenge-board/STATUS.md`](./challenge-board/STATUS.md), and task-page hashes are recorded in [`docs/challenge-source-integrity.md`](./docs/challenge-source-integrity.md) and [`challenge-board/TASK_FILE_SHA256.txt`](./challenge-board/TASK_FILE_SHA256.txt).
+The following four GitHub-rendered Markdown pages are the complete current public challenge set. The homepage table shows the bounty entry point, bounty cap, and current S / A status. Select “Open” to view the challenge background, core problem, grade recognition and closure rules, deliverable standards, recognition standards, and S / A bounty tiers directly in GitHub. The official status record is available in [`challenge-board/STATUS.md`](./challenge-board/STATUS.md), and task-page hashes are recorded in [`docs/challenge-source-integrity.md`](./docs/challenge-source-integrity.md) and [`challenge-board/TASK_FILE_SHA256.txt`](./challenge-board/TASK_FILE_SHA256.txt).
 
 | ID | Challenge | Difficulty | Bounty cap | S | A | Page |
 |---|---|---:|---:|---:|---:|---|
-| SX-CH-001 | Causal-chain uncertainty quantification | Advanced | RMB 7,000 | Open | Open | [Open](./challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md) |
+| SX-CH-001 | Causal-chain uncertainty quantification | Advanced | RMB 7,000 | Open | Awarded / closed | [Open](./challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md) |
 | SX-CH-002 | Tardis / Binance market-data consistency | Hard | RMB 8,800 | Open | Open | [Open](./challenge-board/tasks/SX-CH-002-market-data-consistency.md) |
 | SX-CH-003 | Paper-strategy runtime contract | Hard | RMB 9,500 | Open | Open | [Open](./challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md) |
 | SX-CH-004 | High-Sharpe alpha mining from a public strategy pool | Flagship | RMB 12,000 | Open | Open | [Open](./challenge-board/tasks/SX-CH-004-public-alpha-selection.md) |
