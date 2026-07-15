@@ -37,7 +37,7 @@
 |---|---|
 | Rule version | V2.1.0 (Second Version) |
 | Release date | 2026-06-22 |
-| Scope | Public homepage, challenge board, four challenge statements, bounty review notes, Current review results announcement, public contribution-record and value-assessment framework, important legal statement |
+| Scope | Public homepage, challenge board, four challenge statements, bounty review notes, Phase 1 review results announcement, public contribution-record and value-assessment framework, important legal statement |
 | Rule interpretation body | SingularityX |
 
 > **Bounty response time:** SingularityX will provide a response within five business days after submission or upload. The response may include confirmation that the work has entered review, a request for non-substantive supplementary materials, initial-screen rejection, continued reproduction review, certification at a particular grade, or no grade certification.
@@ -55,7 +55,7 @@
 - [Who We Welcome](#who-we-welcome)
 - [What We Believe](#what-we-believe)
 - [Open Challenges and Bounty Review](#open-challenges-and-bounty-review)
-- [Current Review Results Announcement](#phase-1-review-results-announcement)
+- [Phase 1 Review Results Announcement](#phase-1-review-results-announcement)
 - [Current Challenges](#current-challenges)
 - [Difficulty Levels and Bounty Caps](#difficulty-levels-and-bounty-caps)
 - [Challenge Code Submission](#challenge-code-submission)
@@ -159,9 +159,9 @@ After review, accepted challenge deliverables may enter the bounty recognition p
 
 ---
 
-## Current Review Results Announcement
+## Phase 1 Review Results Announcement
 
-The Current review for `SX-CH-001` is complete. Following technical review and reproducibility checks, two submissions received recognition: `SX-CH-001-P1-B-001` at Grade B with a bounty of RMB 2,700, and `SX-CH-001-P1-C-001` at Grade C with a bounty of RMB 900. We thank all participants for their work on uncertainty quantification, calibration, and stopping rules for multi-hop causal chains.
+The Phase 1 review for `SX-CH-001` is complete. Following technical review and reproducibility checks, two submissions received recognition: `SX-CH-001-P1-B-001` at Grade B with a bounty of RMB 2,700, and `SX-CH-001-P1-C-001` at Grade C with a bounty of RMB 900. We thank all participants for their work on uncertainty quantification, calibration, and stopping rules for multi-hop causal chains.
 
 The announcement now publishes anonymous recognition information and anonymized solution summaries. The authorized GitHub profiles and code materials completed a one-week public display and are no longer publicly accessible.
 
