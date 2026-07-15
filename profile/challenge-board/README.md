@@ -15,7 +15,7 @@ Public problem pages present background, core problem, public task scope, grade 
 
 For competitive bounty challenges, private email submission is recommended by default. Public Pull Requests are appropriate only when the contributor intentionally chooses to disclose code, reports, and implementation details publicly.
 
-## Phase 1 Review Results Announcement
+## Current Review Results Announcement
 
 The Phase 1 review for `SX-CH-001` is complete. Following technical review and reproducibility checks, two submissions received recognition: one at Grade B and one at Grade C. We thank all participants for their work on uncertainty quantification for multi-hop causal chains.
 
@@ -25,7 +25,7 @@ The Phase 1 review for `SX-CH-001` is complete. Following technical review and r
 
 The announcement publishes anonymous recognition results, bounty amounts, and anonymized solution summaries. The authorized GitHub profiles and code materials completed their one-week public display on June 22, 2026, and are no longer publicly accessible.
 
-> **Latest grade status (2026-07-02):** The `SX-CH-001` Grade A bounty has been paid and Grade A is closed. Grade S remains open; new Grade A recognition applications are no longer accepted for this challenge.
+> **Phase 2 review update (2026-07-06):** The `SX-CH-001` Grade A bounty has been paid and Grade A is closed. Grade S remains open; new Grade A recognition applications are no longer accepted for this challenge.
 
 [View the cumulative results announcement](./results/SX-CH-001-results.md)
 

@@ -13,8 +13,8 @@ Challenge pages are ordered by CNY bounty cap from low to high, and challenge ID
 
 | ID | Challenge title | Markdown page | SHA256 | Public-page scope |
 |---|---|---|---|---|
-| SX-CH-001 | 自建因果链多跳推理的不确定性无法量化 | `SX-CH-001-causal-chain-uncertainty.md` | `8ccdbad45845185d52e61abe54669f9b84c1951ea40cef76eee3d8e5b1d50017` | Public problem page with background, grade closure rules, deliverables, recognition standards, and S / A bounty tiers |
-| SX-CH-002 | 提升 Tardis 历史数据与 Binance 实时采集数据在四个永续合约上的一致性，并定位剩余行情与因子差异原因 | `SX-CH-002-market-data-consistency.md` | `8de53c3a844d41a35f2ac67ceee13e8bbc5a79c2455f6d6a7ccbb3cf61955e89` | Public problem page with channels, grade closure rules, deliverables, hidden-evaluation standards, and S / A bounty tiers |
+| SX-CH-001 | 自建因果链多跳推理的不确定性无法量化 | `SX-CH-001-causal-chain-uncertainty.md` | `4118b1cdb6ee9bd2fccd96619cc4afaf1b4d9e624bb06e79f290f5f8ac5af0c7` | Public problem page with background, grade closure rules, deliverables, recognition standards, and S / A bounty tiers |
+| SX-CH-002 | 提升 Tardis 历史数据与 Binance 实时采集数据在四个永续合约上的一致性，并定位剩余行情与因子差异原因 | `SX-CH-002-market-data-consistency.md` | `6aa0772139c17ceff4e4849850335df5e12657855e5ad433ed3f8610cb777e77` | Public problem page with channels, grade closure rules, deliverables, hidden-evaluation standards, and S / A bounty tiers |
 | SX-CH-003 | 从交易论文到真实回测的统一策略运行契约 | `SX-CH-003-paper-strategy-runtime-contract.md` | `361a1a08792b69ba80566f05c573bc1d3814945e05a2765522533d82dd4449a3` | Public problem page with runtime contract scope, grade closure rules, deliverables, recognition standards, and S / A bounty tiers |
 | SX-CH-004 | 公开经典策略池的稳健高夏普 Alpha 挖掘与样本外验证 | `SX-CH-004-public-alpha-selection.md` | `56cc61708745a7b0b69b91ee57d94808c07015d5cc78e17c8a9ec529d53f34b2` | Public problem page with alpha-mining scope, grade closure rules, deliverables, hidden out-of-sample standards, and S / A bounty tiers |
 

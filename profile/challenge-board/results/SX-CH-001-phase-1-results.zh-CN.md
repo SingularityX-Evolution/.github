@@ -1,4 +1,4 @@
-# SX-CH-001 第一阶段审查结果通知
+# SX-CH-001 第一阶段审查结果记录
 
 [← 返回挑战列表](../README.zh-CN.md) ｜ [English](./SX-CH-001-phase-1-results.md)
 

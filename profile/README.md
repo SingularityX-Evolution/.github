@@ -55,7 +55,7 @@
 - [Who We Welcome](#who-we-welcome)
 - [What We Believe](#what-we-believe)
 - [Open Challenges and Bounty Review](#open-challenges-and-bounty-review)
-- [Phase 1 Review Results Announcement](#phase-1-review-results-announcement)
+- [Current Review Results Announcement](#current-review-results-announcement)
 - [Current Challenges](#current-challenges)
 - [Difficulty Levels and Bounty Caps](#difficulty-levels-and-bounty-caps)
 - [Challenge Code Submission](#challenge-code-submission)
@@ -159,17 +159,17 @@ After review, accepted challenge deliverables may enter the bounty recognition p
 
 ---
 
-## Phase 1 Review Results Announcement
+## Current Review Results Announcement
 
 The Phase 1 review for `SX-CH-001` is complete. Following technical review and reproducibility checks, two submissions received recognition: `SX-CH-001-P1-B-001` at Grade B with a bounty of RMB 2,700, and `SX-CH-001-P1-C-001` at Grade C with a bounty of RMB 900. We thank all participants for their work on uncertainty quantification, calibration, and stopping rules for multi-hop causal chains.
 
 The announcement now publishes anonymous recognition information and anonymized solution summaries. The authorized GitHub profiles and code materials completed a one-week public display and are no longer publicly accessible.
 
-- View results announcement: [`challenge-board/results/SX-CH-001-phase-1-results.md`](./challenge-board/results/SX-CH-001-phase-1-results.md)
+- View the Phase 1 results record: [`challenge-board/results/SX-CH-001-phase-1-results.md`](./challenge-board/results/SX-CH-001-phase-1-results.md)
 
 Phase 2 has completed the Grade A certification and bounty payment for `SX-CH-001`.
 
-> **Latest grade status (2026-07-02):** The `SX-CH-001` Grade A bounty has been paid and Grade A is closed. Grade S remains open; new Grade A recognition applications are no longer accepted for this challenge.
+> **Phase 2 review update (2026-07-06):** The `SX-CH-001` Grade A bounty has been paid and Grade A is closed. Grade S remains open; new Grade A recognition applications are no longer accepted for this challenge.
 
 - View cumulative results announcement: [`challenge-board/results/SX-CH-001-results.md`](./challenge-board/results/SX-CH-001-results.md)
 

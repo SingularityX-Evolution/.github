@@ -1,4 +1,4 @@
-# SX-CH-001 Phase 1 Review Results Announcement
+# SX-CH-001 Phase 1 Review Results Record
 
 [← Back to challenge board](../README.md) ｜ [中文](./SX-CH-001-phase-1-results.zh-CN.md)
 

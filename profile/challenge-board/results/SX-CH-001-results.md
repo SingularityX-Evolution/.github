@@ -5,7 +5,7 @@
 | Item | Details |
 |---|---|
 | First publication | June 15, 2026 |
-| Latest update | July 2, 2026 |
+| Latest update | July 6, 2026 |
 | Challenge ID | SX-CH-001 |
 | Challenge | Multi-Hop Causal Chain Uncertainty Quantification |
 | Phase 1 | Review completed; one Grade B and one Grade C recognition |
@@ -27,7 +27,7 @@ The two recognized approaches address the central question from different angles
 
 ## Phase 2 review result
 
-Following code review, data inspection, reproducibility runs, acceptance-criteria checks, and functional verification, one submission met the Grade A standard and received a bounty of **RMB 4,000**. The bounty was paid on July 2, 2026, and Grade A closed at the same time.
+The Phase 2 review was completed on July 6, 2026. Following code review, data inspection, reproducibility runs, acceptance-criteria checks, and functional verification, one submission met the Grade A standard and received a bounty of **RMB 4,000**. The bounty has been paid and Grade A is closed.
 
 | Public record | Grade | Recognized bounty | Anonymized solution summary |
 |---|---:|---:|---|
