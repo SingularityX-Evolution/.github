@@ -10,8 +10,6 @@ This table shows whether each S / A bounty grade is open or closed for the curre
 
 ## Current Review Results
 
-> **Language note:** This English section is a translation of the corresponding Chinese section. If the Chinese and English wording is inconsistent, the Chinese version shall prevail.
-
 | Phase | Status | Recognized challenge | Results announcement | Last updated |
 |---|---|---|---|---|
 | Phase 1 | Review completed; challenge remains open | SX-CH-001 | [View results announcement](./results/SX-CH-001-phase-1-results.md) | 2026-06-22 |

@@ -161,8 +161,6 @@ After review, accepted challenge deliverables may enter the bounty recognition p
 
 ## Current Review Results Announcement
 
-> **Language note:** This English section is a translation of the corresponding Chinese section. If the Chinese and English wording is inconsistent, the Chinese version shall prevail.
-
 On June 22, 2026, the Phase 1 review was completed. Multiple submissions were received during this phase. Following technical review and reproducibility verification, two submissions received recognition: `SX-CH-001-P1-B-001` received Grade B recognition, with a recognized bounty of RMB 2,700; `SX-CH-001-P1-C-001` received Grade C recognition, with a recognized bounty of RMB 900. We thank all participants for their exploration and contributions in the relevant areas.
 
 The Phase 1 results announcement now publishes anonymous identifiers and anonymized solution summaries. The authorized GitHub profile information and code materials completed their one-week public display and are no longer publicly accessible.

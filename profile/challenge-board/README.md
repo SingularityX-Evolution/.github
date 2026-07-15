@@ -17,8 +17,6 @@ For competitive bounty challenges, private email submission is recommended by de
 
 ## Current Review Results Announcement
 
-> **Language note:** This English section is a translation of the corresponding Chinese section. If the Chinese and English wording is inconsistent, the Chinese version shall prevail.
-
 On June 22, 2026, the Phase 1 review was completed. Multiple submissions were received during this phase. Following technical review and reproducibility verification, two submissions received recognition: `SX-CH-001-P1-B-001` received Grade B recognition, with a recognized bounty of RMB 2,700; `SX-CH-001-P1-C-001` received Grade C recognition, with a recognized bounty of RMB 900. We thank all participants for their exploration and contributions in the relevant areas.
 
 | Challenge ID | Stage status | Public recognition results | Announcement |

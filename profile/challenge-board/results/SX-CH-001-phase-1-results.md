@@ -2,8 +2,6 @@
 
 [← Back to challenge board](../README.md) ｜ [中文](./SX-CH-001-phase-1-results.zh-CN.md)
 
-> **Language note:** This English page is a translation of the Chinese page. If the Chinese and English wording is inconsistent, the Chinese version shall prevail.
-
 | Item | Details |
 |---|---|
 | Publication date | June 15, 2026 |
