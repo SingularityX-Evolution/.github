@@ -167,7 +167,11 @@ The announcement now publishes anonymous recognition information and anonymized 
 
 - View results announcement: [`challenge-board/results/SX-CH-001-phase-1-results.md`](./challenge-board/results/SX-CH-001-phase-1-results.md)
 
+Phase 2 has completed the Grade A certification and bounty payment for `SX-CH-001`.
+
 > **Latest grade status (2026-07-02):** The `SX-CH-001` Grade A bounty has been paid and Grade A is closed. Grade S remains open; new Grade A recognition applications are no longer accepted for this challenge.
+
+- View cumulative results announcement: [`challenge-board/results/SX-CH-001-results.md`](./challenge-board/results/SX-CH-001-results.md)
 
 
 ## Current Challenges

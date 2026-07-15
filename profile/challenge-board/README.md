@@ -27,6 +27,8 @@ The announcement publishes anonymous recognition results, bounty amounts, and an
 
 > **Latest grade status (2026-07-02):** The `SX-CH-001` Grade A bounty has been paid and Grade A is closed. Grade S remains open; new Grade A recognition applications are no longer accepted for this challenge.
 
+[View the cumulative results announcement](./results/SX-CH-001-results.md)
+
 
 ## Current public challenges
 

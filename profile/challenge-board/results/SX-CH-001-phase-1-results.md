@@ -26,6 +26,8 @@ The two recognized approaches address the central question from different angles
 
 `SX-CH-001` remains open. For current submission requirements, S / A grade status, and recognition rules, refer to the [challenge page](../tasks/SX-CH-001-causal-chain-uncertainty.md) and the [status page](../STATUS.md).
 
+For the Phase 2 Grade A update and current cumulative status, see the [cumulative results announcement](./SX-CH-001-results.md).
+
 ## Public information note
 
 - To balance public recognition with contributor privacy and intellectual-property protection, the authorized GitHub profiles and code materials completed a one-week public display from June 15 through June 22, 2026. Profile links, code directories, and download entry points are no longer provided.
