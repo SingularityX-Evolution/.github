@@ -1,4 +1,4 @@
-# SX-CH-001 Phase 1 Review Results Announcement
+# SX-CH-001 Current Review Results Announcement
 
 [← Back to challenge board](../README.md) ｜ [中文](./SX-CH-001-phase-1-results.zh-CN.md)
 
@@ -11,7 +11,7 @@
 | Review stage | Phase 1 (completed) |
 | Currently public | Anonymous recognition results, bounty amounts, and solution summaries |
 
-Thank you to everyone who participated in or followed the SingularityX public challenges. The Phase 1 review for `SX-CH-001` is now complete. Following technical review and reproducibility checks, two submissions received recognition: one at Grade B and one at Grade C.
+Thank you to everyone who participated in or followed the SingularityX public challenges. The Current review for `SX-CH-001` is now complete. Following technical review and reproducibility checks, two submissions received recognition: one at Grade B and one at Grade C.
 
 We congratulate the recognized contributors and thank all participants for exploring uncertainty quantification, confidence propagation, calibration, and stopping rules for multi-hop causal chains.
 

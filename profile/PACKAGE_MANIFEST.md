@@ -61,7 +61,7 @@ CONTRIBUTING.md
 13. Defines response types within the five-business-day response window.
 14. Limits successful-certification display to desensitized summaries and reviewed public materials.
 15. Aligns task rules and intellectual-property statements so that non-certified, non-adopted, non-settled submissions are not directly used for production, commercialization, relicensing, or public release except for necessary review, audit, dispute, and compliance purposes.
-16. Presents the Phase 1 review results as a public-facing announcement with anonymized award records and brief solution summaries for the two recognized SX-CH-001 results: 1 Grade B recognition and 1 Grade C recognition.
+16. Presents the Current review results as a public-facing announcement with anonymized award records and brief solution summaries for the two recognized SX-CH-001 results: 1 Grade B recognition and 1 Grade C recognition.
 17. Records that the one-week public display of contributor code materials and authorized GitHub profiles ended on June 22, 2026; those materials, links, and directories are excluded from the current package.
 18. Clarifies the SX-CH-001 calibration and uncertainty-quantification rules: real-chain outcomes must be generated independently after model predictions, confidence intervals must represent genuine epistemic uncertainty, and hop-order or cross-method prediction resampling does not satisfy grade-certification requirements.
 19. Records the 2026-07-02 SX-CH-001 Grade A bounty payout and closes the Grade A slot in the public homepage, challenge board, and status tables.
