@@ -2,6 +2,8 @@
 
 [← Back to challenge board](../README.md) ｜ [中文](./SX-CH-001-phase-1-results.zh-CN.md)
 
+> **Language note:** This English page is a translation of the Chinese page. If the Chinese and English wording is inconsistent, the Chinese version shall prevail.
+
 | Item | Details |
 |---|---|
 | Publication date | June 15, 2026 |
@@ -31,5 +33,5 @@ For the Phase 2 Grade A update and current cumulative status, see the [cumulativ
 ## Public information note
 
 - To balance public recognition with contributor privacy and intellectual-property protection, the authorized GitHub profiles and code materials completed a one-week public display from June 15 through June 22, 2026. Profile links, code directories, and download entry points are no longer provided.
-- This page continues to show anonymous IDs, recognized grades, bounty amounts, and anonymized solution summaries, without disclosing contributors' legal identities.
+- This page continues to show anonymous IDs, recognized grades, bounty amounts, and anonymized solution summaries, without disclosing participants' real identities.
 - The summaries are intended only to help the public understand the technical direction. They do not replace the full technical materials or create additional performance or applicability commitments.

@@ -31,6 +31,8 @@ This package merges the SingularityX organization homepage with the open researc
 - Clarifies the SX-CH-001 calibration and uncertainty-quantification rules: real-chain outcomes must be generated independently after model predictions, confidence intervals must represent genuine epistemic uncertainty, and hop-order or cross-method prediction resampling does not satisfy grade-certification requirements.
 - Records the 2026-07-06 SX-CH-001 Phase 2 review result and Grade A bounty status, and closes the Grade A slot in the public homepage, challenge board, and status tables.
 - Adds complete cumulative SX-CH-001 results announcements in Chinese and English, with synchronized homepage, challenge-board, status-page, and Phase 1 announcement links.
+- Aligns the English current-results wording with the Chinese source text and states explicitly that the Chinese version prevails if the two language versions differ.
+- Standardizes the English Phase 1 current-review paragraph to include the June 22, 2026 completion date, multiple submissions received, both anonymous recognition IDs, Grade B / C bounty amounts, and the participant acknowledgment from the Chinese source text.
 
 ## Challenge set and bounty caps
 

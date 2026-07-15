@@ -2,6 +2,8 @@
 
 [← Back to challenge board](../README.md) ｜ [中文](./SX-CH-001-results.zh-CN.md) ｜ [Phase 1 results](./SX-CH-001-phase-1-results.md)
 
+> **Language note:** This English page is a translation of the Chinese page. If the Chinese and English wording is inconsistent, the Chinese version shall prevail.
+
 | Item | Details |
 |---|---|
 | First publication | June 15, 2026 |
@@ -16,7 +18,7 @@ Thank you to everyone who participated in or followed the SingularityX public ch
 
 ## Phase 1 review results
 
-The Phase 1 review was completed on June 22, 2026. Several solutions were received, and two received recognition: one at Grade B and one at Grade C.
+On June 22, 2026, the Phase 1 review was completed. Multiple submissions were received during this phase. Following technical review and reproducibility verification, two submissions received recognition: `SX-CH-001-P1-B-001` received Grade B recognition, with a recognized bounty of RMB 2,700; `SX-CH-001-P1-C-001` received Grade C recognition, with a recognized bounty of RMB 900. We thank all participants for their exploration and contributions in the relevant areas.
 
 | Anonymous ID | Grade | Recognized bounty | Public solution summary |
 |---|---:|---:|---|
@@ -37,7 +39,7 @@ As of this update, Grade S for `SX-CH-001` remains open and Grade A is closed. N
 
 ## Public information note
 
-- The Phase 1 section continues to show anonymous IDs, recognized grades, bounty amounts, and anonymized solution summaries without disclosing contributors' legal identities.
+- The Phase 1 section continues to show anonymous IDs, recognized grades, bounty amounts, and anonymized solution summaries without disclosing participants' real identities.
 - The Phase 2 section publishes only the recognized grade, bounty status, and an anonymized technical summary. It does not disclose account information, private code, non-public strategy details, or restricted data.
 - The authorized GitHub profiles and code materials completed their one-week public display. Related links, code directories, and download entry points are no longer provided.
 - The summaries are intended only to help the public understand the technical direction. They do not replace the full technical materials or create additional performance or applicability commitments.

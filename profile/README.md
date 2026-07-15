@@ -37,7 +37,7 @@
 |---|---|
 | Rule version | V2.1.0 (Second Version) |
 | Release date | 2026-06-22 |
-| Scope | Public homepage, challenge board, four challenge statements, bounty review notes, Phase 1 review results announcement, public contribution-record and value-assessment framework, important legal statement |
+| Scope | Public homepage, challenge board, four challenge statements, bounty review notes, current review results announcement, public contribution-record and value-assessment framework, important legal statement |
 | Rule interpretation body | SingularityX |
 
 > **Bounty response time:** SingularityX will provide a response within five business days after submission or upload. The response may include confirmation that the work has entered review, a request for non-substantive supplementary materials, initial-screen rejection, continued reproduction review, certification at a particular grade, or no grade certification.
@@ -161,17 +161,19 @@ After review, accepted challenge deliverables may enter the bounty recognition p
 
 ## Current Review Results Announcement
 
-The Phase 1 review for `SX-CH-001` is complete. Following technical review and reproducibility checks, two submissions received recognition: `SX-CH-001-P1-B-001` at Grade B with a bounty of RMB 2,700, and `SX-CH-001-P1-C-001` at Grade C with a bounty of RMB 900. We thank all participants for their work on uncertainty quantification, calibration, and stopping rules for multi-hop causal chains.
+> **Language note:** This English section is a translation of the corresponding Chinese section. If the Chinese and English wording is inconsistent, the Chinese version shall prevail.
 
-The announcement now publishes anonymous recognition information and anonymized solution summaries. The authorized GitHub profiles and code materials completed a one-week public display and are no longer publicly accessible.
+On June 22, 2026, the Phase 1 review was completed. Multiple submissions were received during this phase. Following technical review and reproducibility verification, two submissions received recognition: `SX-CH-001-P1-B-001` received Grade B recognition, with a recognized bounty of RMB 2,700; `SX-CH-001-P1-C-001` received Grade C recognition, with a recognized bounty of RMB 900. We thank all participants for their exploration and contributions in the relevant areas.
+
+The Phase 1 results announcement now publishes anonymous identifiers and anonymized solution summaries. The authorized GitHub profile information and code materials completed their one-week public display and are no longer publicly accessible.
 
 - View the Phase 1 results record: [`challenge-board/results/SX-CH-001-phase-1-results.md`](./challenge-board/results/SX-CH-001-phase-1-results.md)
 
 Phase 2 has completed the Grade A certification and bounty payment for `SX-CH-001`.
 
-> **Phase 2 review update (2026-07-06):** The `SX-CH-001` Grade A bounty has been paid and Grade A is closed. Grade S remains open; new Grade A recognition applications are no longer accepted for this challenge.
+> **Phase 2 review result (2026-07-06):** The `SX-CH-001` Grade A bounty has been paid and Grade A certification is closed. Grade S remains open. This challenge no longer accepts new Grade A recognition applications. The authorized GitHub profile information and code materials completed their one-week public display and are no longer publicly accessible.
 
-- View cumulative results announcement: [`challenge-board/results/SX-CH-001-results.md`](./challenge-board/results/SX-CH-001-results.md)
+- View the full results announcement: [`challenge-board/results/SX-CH-001-results.md`](./challenge-board/results/SX-CH-001-results.md)
 
 
 ## Current Challenges

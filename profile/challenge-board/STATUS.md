@@ -10,15 +10,19 @@ This table shows whether each S / A bounty grade is open or closed for the curre
 
 ## Current Review Results
 
+> **Language note:** This English section is a translation of the corresponding Chinese section. If the Chinese and English wording is inconsistent, the Chinese version shall prevail.
+
 | Phase | Status | Recognized challenge | Results announcement | Last updated |
 |---|---|---|---|---|
 | Phase 1 | Review completed; challenge remains open | SX-CH-001 | [View results announcement](./results/SX-CH-001-phase-1-results.md) | 2026-06-22 |
 
-Two `SX-CH-001` submissions received Phase 1 recognition: one at Grade B and one at Grade C, with recognized bounties of RMB 2,700 and RMB 900 respectively. The announcement publishes anonymous recognition information and anonymized solution summaries. The authorized code materials and GitHub profiles completed a one-week public display and are no longer publicly accessible.
+On June 22, 2026, the Phase 1 review was completed. Multiple submissions were received during this phase. Following technical review and reproducibility verification, two submissions received recognition: `SX-CH-001-P1-B-001` received Grade B recognition, with a recognized bounty of RMB 2,700; `SX-CH-001-P1-C-001` received Grade C recognition, with a recognized bounty of RMB 900. We thank all participants for their exploration and contributions in the relevant areas.
 
-**Phase 2 review update (2026-07-06):** The `SX-CH-001` Grade A bounty has been paid and Grade A is closed. Grade S remains open; new Grade A recognition applications are no longer accepted for this challenge.
+The announcement publishes anonymous recognition information and anonymized solution summaries. The authorized code materials and GitHub profiles completed a one-week public display and are no longer publicly accessible.
 
-[View the cumulative results announcement](./results/SX-CH-001-results.md)
+**Phase 2 review result (2026-07-06):** The `SX-CH-001` Grade A bounty has been paid and Grade A is closed. Grade S remains open. This challenge no longer accepts new Grade A recognition applications.
+
+[View the full results announcement](./results/SX-CH-001-results.md)
 
 
 | Challenge ID | Challenge | S grade | A grade | Last updated |
