@@ -1,6 +1,8 @@
 # 重要法律声明
 
-完整用户协议、挑战规则与法律声明请见：[零界演化悬赏平台用户协议、挑战规则与法律声明](user-agreement-challenge-rules-and-legal-statement.zh-CN.md)。
+完整用户协议、挑战规则与法律声明请见：[零界演化悬赏平台用户协议、挑战规则与法律声明](user-agreement-challenge-rules-and-legal-statement.zh-CN.md)。[English](user-agreement-challenge-rules-and-legal-statement.md)。
+
+隐私政策请见：[SingularityX 隐私政策](privacy-policy.zh-CN.md)。[English](privacy-policy.md)。
 
 零界演化平台发布的悬赏任务仅限于 AI、量化研究、代码开发、算法模型、数据处理、回测验证及其他技术研发场景。平台内容、任务描述、示例、模型、代码、数据处理方式及用户提交成果，均不构成任何证券、期货、基金、虚拟资产或其他金融产品的投资建议、交易信号、收益承诺、资产管理、融资安排或金融产品销售。
 

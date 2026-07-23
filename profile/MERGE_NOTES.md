@@ -1,17 +1,21 @@
 # Merge Notes
 
-| Item | Content |
-|---|---|
-| Package version | V2.1.0 (Second Version) |
-| Release date | 2026-06-22 |
-| Rule interpretation body | SingularityX / 零界演化 |
+**Rule interpretation body:** SingularityX / 零界演化
 
 This package merges the SingularityX organization homepage with the open research challenge homepage into a single external-facing GitHub homepage package.
 
 ## This revision
 
-- Marks this package as V2.1.0 (Second Version) / V2.1.0（第二版）.
-- Keeps version information and rule-interpretation body fields in the homepage, challenge board, challenge pages, difficulty documents, contribution guide, package manifest, and important legal statement documents.
+- Rebuilds both homepage files around organization recruitment, places the application entry first, explains who the organization is looking for, and presents direct application and public challenges as two ways to begin collaborating.
+- Updates the bilingual opening description to state the organization’s focus on AI-native financial systems, trusted execution, proof of contribution, and fair value distribution.
+- States that multiple challenges have received code submissions while only SX-CH-001 currently has recognized submissions, without listing specific award amounts in the homepage summary.
+- Keeps the rule version and update date on the bilingual homepage only and removes repeated release metadata from supporting pages.
+- Expands the bilingual homepage overview of value assessment and fair distribution while retaining links to the dedicated documents.
+- Expands the bilingual member-value section and adds a second application call to action after the rules and safety section.
+- Adds a complete English user agreement and bilingual privacy policies.
+- Adds the declared Issue template, Pull Request template, and `.gitignore`.
+
+- Keeps rule-interpretation responsibility visible where applicable while centralizing public rule-version and update-date metadata on the homepage.
 - Updates the important legal statement documents to cover platform bounty task boundaries, user responsibility, third-party rights, submitted-solution rights, non-certified submission use limits, and agreement to platform rules.
 - Removes the redundant homepage consolidation paragraph from `README.md` and `README.zh-CN.md`.
 - Preserves the SingularityX logo path and company introduction.
@@ -19,7 +23,7 @@ This package merges the SingularityX organization homepage with the open researc
 - Clarifies the two participation routes: public challenge bounty submission and formal organization membership.
 - Keeps exactly four independent public challenge pages under `challenge-board/tasks/`.
 - Uses direct GitHub-rendered Markdown challenge entry points.
-- Public problem pages show background, core problem, public task scope, grade closure rules, deliverable standards, recognition standards, S / A bounty tiers, grade status rules, version information, and rule-interpretation body.
+- Public problem pages show background, core problem, public task scope, grade closure rules, deliverable standards, recognition standards, S / A bounty tiers, grade status rules, and rule-interpretation body.
 - Keeps challenge submission private by email by default; public Pull Requests remain optional only for contributors who intentionally want public disclosure.
 - Records updated task-page hashes in `challenge-board/TASK_FILE_SHA256.txt` and `docs/challenge-source-integrity.md`.
 - Adds S / A grade status tables and concurrent-submission closure handling.

@@ -1,10 +1,6 @@
 # S / A Grade Status Table
 
-| Item | Content |
-|---|---|
-| Rule version | V2.1.0 (Second Version) |
-| Release date | 2026-06-22 |
-| Rule interpretation body | SingularityX |
+**Rule interpretation body:** SingularityX
 
 This table shows whether each S / A bounty grade is open or closed for the current public challenges. S and A grades are recognized and closed independently. When one grade is certified and announced closed by SingularityX, only that grade is closed; other open grades under the same challenge remain unaffected.
 

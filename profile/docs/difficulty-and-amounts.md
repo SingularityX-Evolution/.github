@@ -1,11 +1,6 @@
 # Difficulty Levels and Bounty Caps
 
-| Item | Content |
-|---|---|
-| Rule version | V2.1.0 (Second Version) |
-| Release date | 2026-06-22 |
-| Rule interpretation body | SingularityX |
-
+**Rule interpretation body:** SingularityX
 
 Each challenge is assigned one difficulty level, one grade closure rule, and one public CNY bounty cap. Difficulty and bounty caps are assigned at the complete-challenge level. They are not subtask prices, milestone payments, or guaranteed payouts.
 

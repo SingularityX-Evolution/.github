@@ -1,6 +1,8 @@
 # Important Legal Statement
 
-Full Chinese user agreement, challenge rules, and legal statement: [零界演化悬赏平台用户协议、挑战规则与法律声明](user-agreement-challenge-rules-and-legal-statement.zh-CN.md).
+Full English user agreement, challenge rules, and legal statement: [SingularityX Bounty Platform User Agreement, Challenge Rules, and Legal Statement](user-agreement-challenge-rules-and-legal-statement.md). [中文版本](user-agreement-challenge-rules-and-legal-statement.zh-CN.md).
+
+Privacy policy: [SingularityX Privacy Policy](privacy-policy.md). [中文版本](privacy-policy.zh-CN.md).
 
 Bounty tasks published by the SingularityX platform are limited to AI, quantitative research, code development, algorithmic models, data processing, backtesting validation, and other technical research-and-development scenarios. Platform content, task descriptions, examples, models, code, data-processing methods, and user-submitted deliverables do not constitute investment advice, trading signals, return commitments, asset management, financing arrangements, or financial-product sales in relation to any securities, futures, funds, virtual assets, or other financial products.
 

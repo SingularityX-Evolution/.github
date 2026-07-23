@@ -1,11 +1,6 @@
 # Contributing
 
-| Item | Content |
-|---|---|
-| Rule version | V2.1.0 (Second Version) |
-| Release date | 2026-06-22 |
-| Rule interpretation body | SingularityX |
-
+**Rule interpretation body:** SingularityX
 
 Thanks for contributing to SingularityX Open Research Challenges.
 
@@ -86,9 +81,9 @@ A public PR may be used when the contributor chooses public disclosure. Public P
 
 Do not include any sensitive, private, confidential, customer, account, credential, paid-data, third-party-restricted, or non-public strategy material in a public PR.
 
-## Important Legal Statement check
+## Rules, privacy, and legal statement check
 
-Before submitting, read `docs/legal-notice-and-compliance.md` and `docs/legal-notice-and-compliance.zh-CN.md`.
+Before submitting, read the full [User Agreement, Challenge Rules, and Legal Statement](docs/user-agreement-challenge-rules-and-legal-statement.md), the [Privacy Policy](docs/privacy-policy.md), and the [Important Legal and Compliance Statement](docs/legal-notice-and-compliance.md). Chinese versions are available in the same `docs/` directory.
 
 Do not submit credentials, private keys, cookies, private account records, private trading logs, private market data, paid datasets, customer information, personal information, private positions, private risk rules, non-public strategy material, private profit logic, confidential business information, code you are not licensed to submit, or materials that the contributor does not have the right to submit.
 

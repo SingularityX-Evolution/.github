@@ -1,11 +1,6 @@
 # Value Assessment and Distribution Public Framework
 
-| Item | Content |
-|---|---|
-| Rule version | V2.1.0 (Second Version) |
-| Release date | 2026-06-22 |
-| Rule interpretation body | SingularityX |
-
+**Rule interpretation body:** SingularityX
 
 This document describes the public, code-free value assessment and distribution framework for SingularityX members. It explains how adopted long-term contributions may be recorded, verified, evaluated, attributed, settled, and disputed. Public challenge bounties are governed by the applicable challenge statement and bounty review rules.
 

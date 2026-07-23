@@ -1,13 +1,6 @@
 # SingularityX Challenge Board
 
-## Version Information
-
-| Item | Content |
-|---|---|
-| Rule version | V2.1.0 (Second Version) |
-| Release date | 2026-06-22 |
-| Rule interpretation body | SingularityX |
-
+**Rule interpretation body:** SingularityX
 
 This board lists the current public bounty challenges. Each challenge is independent. Challenges are ordered by CNY bounty cap from low to high, and challenge IDs follow the same ascending bounty order. Clicking “Open” leads directly to a GitHub-rendered Markdown problem page.
 
