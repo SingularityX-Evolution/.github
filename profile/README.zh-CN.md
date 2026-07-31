@@ -2,13 +2,11 @@
 
 <img src="assets/singularityx-logo.png" alt="SingularityX Logo" width="160" />
 
-# SingularityX
+# 零界演化
 
 ### 和优秀的建设者一起，解决真正困难的问题
 
-SingularityX 是一家专注于人工智能原生金融系统、可信执行、贡献证明和公允价值分配的构建型组织。
-
-我们的目标是让每一项有效贡献都可记录、可核实、可评估，并根据明确的规则进行公平分配。
+零界演化以金融市场作为高频反馈环境，以人类与 AI 多智能体作为混合认知主体，以贡献账本和价值图谱作为事实与归因基础，以公平分配和共同财富机制作为经济层，以能力分级、独立验证和确定性风控作为安全层，以 Neuro-AI 共适应作为长期前沿，建设目标受控型自演化组织。
 
 <p>
   <a href="mailto:join@singularityx.tech?subject=%5BJoin%20SingularityX%5D"><img alt="申请加入" src="https://img.shields.io/badge/申请-加入组织-7C3AED?style=for-the-badge" /></a>
@@ -22,7 +20,21 @@ SingularityX 是一家专注于人工智能原生金融系统、可信执行、�
 
 ---
 
-## 加入 SingularityX
+## 我们正在探索
+
+- 用“任务协议”替代传统岗位管理。
+- 用“贡献账本”替代口头认可。
+- 用“接口文档”替代频繁会议。
+- 用“分层全貌”平衡理解与保密。
+- 用“基础收益 + 影响收益 + 长尾收益”替代一次性付款。
+- 用“贡献声誉”替代单纯的股份或 Token 投票。
+- 用“核心架构小组 + 模块自治”替代完全扁平化。
+- 用“数据飞轮、评测体系、真实场景、合规能力”建立护城河。
+- 用“制度沙盒 + 版本化治理 + 可回滚规则”实现自演化。
+
+我们不把这些设想当作一次性完成的答案，而是持续在真实任务、真实协作和真实市场反馈中验证、迭代与沉淀。
+
+## 加入零界演化
 
 我们希望遇见既能提出独立判断，也能把方案真正做出来的人。无论你擅长量化研究、数据工程、回测与执行、人工智能与模型评估、风险控制，还是贡献证明与组织治理，都可以在这里找到值得长期投入的问题。
 
@@ -120,9 +132,13 @@ SingularityX 是一家专注于人工智能原生金融系统、可信执行、�
 ---
 
 <div align="center">
-  <h3>准备好一起建设了吗？</h3>
-  <p>如果你认同可信执行、贡献证明和公平分配，并希望把研究转化为真正可用的系统，欢迎申请加入 SingularityX。</p>
-  <a href="mailto:join@singularityx.tech?subject=%5BJoin%20SingularityX%5D"><img alt="申请加入" src="https://img.shields.io/badge/申请-加入组织-7C3AED?style=for-the-badge" /></a>
+  <h3>加入我们，共同探索演化</h3>
+  <p>如果你认同目标受控的自演化方向，并希望把研究转化为真正可用的系统，欢迎申请加入零界演化。</p>
+  <p>
+    <a href="mailto:join@singularityx.tech?subject=%5BJoin%20SingularityX%5D"><img alt="申请加入" src="https://img.shields.io/badge/申请-加入组织-7C3AED?style=for-the-badge" /></a>
+    <a href="mailto:join@singularityx.tech?subject=%5BJoin%20SingularityX%5D"><img alt="联系邮箱 join@singularityx.tech" src="https://img.shields.io/badge/联系邮箱-join%40singularityx.tech-2563EB?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  </p>
+  <p><strong>申请邮箱：<a href="mailto:join@singularityx.tech?subject=%5BJoin%20SingularityX%5D">join@singularityx.tech</a></strong></p>
   <p><sub>请附上简历、GitHub 主页、代表项目或研究报告。</sub></p>
 </div>
 
@@ -130,5 +146,5 @@ SingularityX 是一家专注于人工智能原生金融系统、可信执行、�
 
 - 组织申请：`join@singularityx.tech`，标题使用 `[Join SingularityX] <姓名或 GitHub 用户名>`
 - 挑战提交、隐私请求与合规投诉：`join@singularityx.tech`
-- 规则版本：V2.1.0（第二版，更新日期：2026-07-21）
+- 主页版本：V2.2.4（更新日期：2026-07-30）
 - 规则解释主体：零界演化

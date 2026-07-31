@@ -7,7 +7,7 @@ This package merges the SingularityX organization homepage with the open researc
 ## This revision
 
 - Rebuilds both homepage files around organization recruitment, places the application entry first, explains who the organization is looking for, and presents direct application and public challenges as two ways to begin collaborating.
-- Updates the bilingual opening description to state the organization’s focus on AI-native financial systems, trusted execution, proof of contribution, and fair value distribution.
+- Updates the bilingual opening description with the organization’s new positioning as a self-evolving organization guided by explicit goals and bounded by verifiable controls, and adds the nine institutional mechanisms currently being explored.
 - States that multiple challenges have received code submissions while only SX-CH-001 currently has recognized submissions, without listing specific award amounts in the homepage summary.
 - Keeps the rule version and update date on the bilingual homepage only and removes repeated release metadata from supporting pages.
 - Expands the bilingual homepage overview of value assessment and fair distribution while retaining links to the dedicated documents.

@@ -6,9 +6,7 @@
 
 ### Build with exceptional people. Solve problems that truly matter.
 
-SingularityX is a builder organization focused on AI-native financial systems, trusted execution, proof of contribution, and fair value distribution.
-
-Our goal is to make every valid contribution recordable, verifiable, and assessable, and to distribute value fairly under clear rules.
+SingularityX is building a controlled self-evolving organization where humans and AI learn from financial markets, contributions are verifiably recorded and fairly rewarded, and progress remains bounded by independent validation and deterministic risk controls. Our long-term frontier is Neuro-AI co-adaptation.
 
 <p>
   <a href="mailto:join@singularityx.tech?subject=%5BJoin%20SingularityX%5D"><img alt="Apply to Join" src="https://img.shields.io/badge/Apply-to%20Join-7C3AED?style=for-the-badge" /></a>
@@ -21,6 +19,20 @@ Our goal is to make every valid contribution recordable, verifiable, and assessa
 </div>
 
 ---
+
+## What we are exploring
+
+- Replace fixed job structures with task protocols.
+- Replace informal recognition with verifiable contribution ledgers.
+- Replace unnecessary meetings with clear interface documentation.
+- Use layered visibility to balance organizational understanding with confidentiality.
+- Replace one-time payments with base, impact, and long-tail returns.
+- Use contribution reputation instead of relying solely on equity- or token-based voting.
+- Combine a core architecture group with autonomous modules instead of adopting a completely flat structure.
+- Build lasting advantages through data flywheels, evaluation systems, real-world environments, and compliance capabilities.
+- Enable controlled self-evolution through institutional sandboxes, versioned governance, and rollback-ready rules.
+
+These are not finished answers. They are working hypotheses that we continuously test, refine, and turn into durable organizational capabilities through real tasks, real collaboration, and real market feedback.
 
 ## Join SingularityX
 
@@ -120,9 +132,13 @@ Platform content, tasks, examples, models, code, backtests, and user work are fo
 ---
 
 <div align="center">
-  <h3>Ready to build with us?</h3>
-  <p>If you believe in trusted execution, proof of contribution, and fair distribution—and want to turn research into systems that work—apply to join SingularityX.</p>
-  <a href="mailto:join@singularityx.tech?subject=%5BJoin%20SingularityX%5D"><img alt="Apply to Join" src="https://img.shields.io/badge/Apply-to%20Join-7C3AED?style=for-the-badge" /></a>
+  <h3>Join us in exploring evolution</h3>
+  <p>If you want to help build a self-evolving organization with explicit goals and enforceable safeguards, join SingularityX.</p>
+  <p>
+    <a href="mailto:join@singularityx.tech?subject=%5BJoin%20SingularityX%5D"><img alt="Apply to Join" src="https://img.shields.io/badge/Apply-to%20Join-7C3AED?style=for-the-badge" /></a>
+    <a href="mailto:join@singularityx.tech?subject=%5BJoin%20SingularityX%5D"><img alt="Email join@singularityx.tech" src="https://img.shields.io/badge/Email-join%40singularityx.tech-2563EB?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  </p>
+  <p><strong>Application email: <a href="mailto:join@singularityx.tech?subject=%5BJoin%20SingularityX%5D">join@singularityx.tech</a></strong></p>
   <p><sub>Please include a résumé, GitHub profile, representative project, or research report.</sub></p>
 </div>
 
@@ -130,5 +146,5 @@ Platform content, tasks, examples, models, code, backtests, and user work are fo
 
 - Membership applications: `join@singularityx.tech`, subject `[Join SingularityX] <Name or GitHub Username>`
 - Challenge submissions, privacy requests, and compliance complaints: `join@singularityx.tech`
-- Rule version: V2.1.0 (Second Version; updated 2026-07-21)
+- Homepage version: V2.2.4 (updated 2026-07-30)
 - Rule interpretation body: SingularityX

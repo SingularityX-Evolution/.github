@@ -53,7 +53,8 @@ CONTRIBUTING.md
 ### High-priority homepage improvements
 
 - Reorganizes the bilingual homepage around organization recruitment, makes applying to join the primary action, adds clear participation paths and builder profiles, and retains challenges and recognition results as evidence of real work.
-- Replaces the bilingual opening description with the organization’s focus on AI-native financial systems, trusted execution, proof of contribution, and fair value distribution.
+- Replaces the bilingual opening description with the organization’s new positioning as a self-evolving organization guided by explicit goals and bounded by verifiable controls, and adds the nine institutional mechanisms currently being explored.
+- Rewrites the English positioning introduction as a clear organization definition followed by distinct feedback, cognition, attribution, economic, safety, and long-term frontier layers; also standardizes the nine exploration statements into concise, natural English.
 - Clarifies that code has been received for multiple challenges while only SX-CH-001 currently has recognized submissions; removes specific award amounts from the homepage recognition summary.
 - Keeps the rule version and update date on the bilingual homepage only, removing repeated release metadata from supporting pages.
 - Expands the bilingual homepage explanation of value assessment and fair distribution, including evidence, marginal contribution, long-term impact, conservation checks, review, and appeal.
