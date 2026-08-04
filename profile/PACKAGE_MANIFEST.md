@@ -63,6 +63,7 @@ CONTRIBUTING.md
 - Adds the complete English user agreement so the English homepage no longer routes readers only to the Chinese legal text.
 - Adds bilingual privacy policies covering submission data, review records, public display, service providers, retention, security, and participant rights.
 - Adds the declared GitHub Issue and Pull Request templates and `.gitignore` so the package contents match this manifest.
+- Closes `SX-CH-002` in full on 2026-08-03, marks both Grade S and Grade A as closed, stops new submissions, and synchronizes the bilingual homepage, challenge board, status pages, task page, and difficulty tables.
 
 ### Existing package changes retained
 
@@ -86,13 +87,14 @@ CONTRIBUTING.md
 18. Adds complete cumulative SX-CH-001 results announcements in Chinese and English, including Phase 1 Grade B / C records, the Phase 2 Grade A result, synchronized status text, and working bilingual links.
 19. Aligns the English current-results wording with the Chinese source text.
 20. Standardizes the English Phase 1 current-review paragraph to include the June 22, 2026 completion date, multiple submissions received, both anonymous recognition IDs, Grade B / C bounty amounts, and the participant acknowledgment from the Chinese source text.
+21. Records the 2026-08-03 full closure of SX-CH-002 without implying a certification award; complete materials received before the closure announcement remain subject to the existing queue and response rules.
 
 ## Challenge set
 
 | ID | Difficulty | CNY bounty cap | Grade closure rule | Task page |
 |---|---:|---:|---:|---|
 | SX-CH-001 | Advanced | Up to RMB 7,000 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md` |
-| SX-CH-002 | Hard | Up to RMB 8,800 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-002-market-data-consistency.md` |
+| SX-CH-002 | Hard | Up to RMB 8,800 | Closed in full on 2026-08-03 | `challenge-board/tasks/SX-CH-002-market-data-consistency.md` |
 | SX-CH-003 | Hard | Up to RMB 9,500 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md` |
 | SX-CH-004 | Flagship | Up to RMB 12,000 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-004-public-alpha-selection.md` |
 

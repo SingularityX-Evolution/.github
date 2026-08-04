@@ -28,7 +28,7 @@ The announcement publishes anonymous recognition results, bounty amounts, and an
 | ID | Challenge | Chinese title | Difficulty | CNY bounty cap | Grade closure rule | Challenge content |
 |---|---|---|---:|---:|---|---|
 | SX-CH-001 | Multi-Hop Causal Chain Uncertainty Quantification | 自建因果链多跳推理的不确定性无法量化 | Advanced | RMB 7,000 | No fixed time limit; S / A grades close independently once certified | [Open](./tasks/SX-CH-001-causal-chain-uncertainty.md) |
-| SX-CH-002 | Tardis Historical Data and Binance Real-Time Data Consistency | 提升 Tardis 历史数据与 Binance 实时采集数据在四个永续合约上的一致性，并定位剩余行情与因子差异原因 | Hard | RMB 8,800 | No fixed time limit; S / A grades close independently once certified | [Open](./tasks/SX-CH-002-market-data-consistency.md) |
+| SX-CH-002 | Tardis Historical Data and Binance Real-Time Data Consistency | 提升 Tardis 历史数据与 Binance 实时采集数据在四个永续合约上的一致性，并定位剩余行情与因子差异原因 | Hard | RMB 8,800 | Closed in full (2026-08-03) | [View closed challenge](./tasks/SX-CH-002-market-data-consistency.md) |
 | SX-CH-003 | Paper Strategy Runtime Contract for Real Backtesting | 从交易论文到真实回测的统一策略运行契约 | Hard | RMB 9,500 | No fixed time limit; S / A grades close independently once certified | [Open](./tasks/SX-CH-003-paper-strategy-runtime-contract.md) |
 | SX-CH-004 | Robust High-Sharpe Alpha Mining from a Public Classic Strategy Pool | 公开经典策略池的稳健高夏普 Alpha 挖掘与样本外验证 | Flagship | RMB 12,000 | No fixed time limit; S / A grades close independently once certified | [Open](./tasks/SX-CH-004-public-alpha-selection.md) |
 
@@ -39,11 +39,13 @@ The current release status is shown below; later changes should be checked again
 | ID | S grade | A grade | Status note |
 |---|---:|---:|---|
 | SX-CH-001 | Open | Awarded / closed | Grade A bounty paid; Grade S remains open |
-| SX-CH-002 | Open | Open | S and A grades close independently |
+| SX-CH-002 | Closed | Closed | Challenge closed in full; no new submissions |
 | SX-CH-003 | Open | Open | S and A grades close independently |
 | SX-CH-004 | Open | Open | S and A grades close independently |
 
 Each contributor has one initial submission opportunity per challenge. Only if that submission is certified at Grade A may the contributor submit one complete upgraded version, solely to seek Grade S certification, within five calendar days (120 hours) from the time the Grade A certification confirmation email is sent. The maximum is two submissions per contributor per challenge, and failure to submit within the window waives the upgrade opportunity. If the upgraded submission meets Grade S, final certification and settlement are at Grade S; if the Grade A bounty has already been paid, only the difference is paid, and the contributor may not collect both grade bounties. If it does not meet Grade S, the original Grade A certification remains effective and no duplicate Grade A bounty is awarded. Each submission is queued by the timestamp at which its complete materials reach the official email address or approved upload channel. After a grade is certified and announced closed by SingularityX, new recognition applications for that grade will no longer be accepted. The Grade A-to-S upgrade opportunity does not reopen a closed Grade S and may be used only if Grade S remains open when the upgraded submission is received. Submissions received before the closure announcement will still receive a response; however, SingularityX does not guarantee that the grade still has an available bounty slot or will continue into bounty review for that grade.
+
+> **Challenge closure notice (2026-08-03):** `SX-CH-002` is closed in full. Neither Grade S nor Grade A accepts new submissions or recognition applications. Complete materials received before the closure notice will be handled under the existing queue and response rules.
 
 ## Difficulty and bounty note
 

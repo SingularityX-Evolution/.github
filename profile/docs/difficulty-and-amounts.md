@@ -17,7 +17,7 @@ Challenges are listed by CNY bounty cap from low to high.
 | ID | Chinese title | Difficulty | CNY bounty cap | Grade closure rule | Challenge page |
 |---|---|---:|---:|---:|---|
 | SX-CH-001 | 自建因果链多跳推理的不确定性无法量化 | Advanced | RMB 7,000 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md` |
-| SX-CH-002 | 提升 Tardis 历史数据与 Binance 实时采集数据在四个永续合约上的一致性，并定位剩余行情与因子差异原因 | Hard | RMB 8,800 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-002-market-data-consistency.md` |
+| SX-CH-002 | 提升 Tardis 历史数据与 Binance 实时采集数据在四个永续合约上的一致性，并定位剩余行情与因子差异原因 | Hard | RMB 8,800 | Closed in full (2026-08-03) | `challenge-board/tasks/SX-CH-002-market-data-consistency.md` |
 | SX-CH-003 | 从交易论文到真实回测的统一策略运行契约 | Hard | RMB 9,500 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md` |
 | SX-CH-004 | 公开经典策略池的稳健高夏普 Alpha 挖掘与样本外验证 | Flagship | RMB 12,000 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-004-public-alpha-selection.md` |
 

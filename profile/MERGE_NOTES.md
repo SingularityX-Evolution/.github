@@ -14,6 +14,7 @@ This package merges the SingularityX organization homepage with the open researc
 - Expands the bilingual member-value section and adds a second application call to action after the rules and safety section.
 - Adds a complete English user agreement and bilingual privacy policies.
 - Adds the declared Issue template, Pull Request template, and `.gitignore`.
+- Closes `SX-CH-002` in full on 2026-08-03, marks both Grade S and Grade A as closed, stops new submissions, and synchronizes the bilingual homepage, challenge board, status pages, task page, and difficulty tables.
 
 - Keeps rule-interpretation responsibility visible where applicable while centralizing public rule-version and update-date metadata on the homepage.
 - Updates the important legal statement documents to cover platform bounty task boundaries, user responsibility, third-party rights, submitted-solution rights, non-certified submission use limits, and agreement to platform rules.
@@ -37,13 +38,14 @@ This package merges the SingularityX organization homepage with the open researc
 - Adds complete cumulative SX-CH-001 results announcements in Chinese and English, with synchronized homepage, challenge-board, status-page, and Phase 1 announcement links.
 - Aligns the English current-results wording with the Chinese source text.
 - Standardizes the English Phase 1 current-review paragraph to include the June 22, 2026 completion date, multiple submissions received, both anonymous recognition IDs, Grade B / C bounty amounts, and the participant acknowledgment from the Chinese source text.
+- Records the full closure of SX-CH-002 without implying a certification award; complete materials received before the closure announcement remain subject to the existing queue and response rules.
 
 ## Challenge set and bounty caps
 
 | ID | Difficulty | CNY bounty cap | Grade closure rule | Task page |
 |---|---:|---:|---:|---|
 | SX-CH-001 | Advanced | Up to RMB 7,000 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md` |
-| SX-CH-002 | Hard | Up to RMB 8,800 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-002-market-data-consistency.md` |
+| SX-CH-002 | Hard | Up to RMB 8,800 | Closed in full on 2026-08-03 | `challenge-board/tasks/SX-CH-002-market-data-consistency.md` |
 | SX-CH-003 | Hard | Up to RMB 9,500 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md` |
 | SX-CH-004 | Flagship | Up to RMB 12,000 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-004-public-alpha-selection.md` |
 

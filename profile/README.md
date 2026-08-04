@@ -51,11 +51,13 @@ We want to meet people who can form independent judgments and turn ideas into wo
 | ID | Challenge | Bounty cap | Current grades | Entry |
 |---|---|---:|---|---|
 | SX-CH-001 | Multi-Hop Causal Chain Uncertainty Quantification | RMB 7,000 | S open; A awarded and closed | [View challenge](challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md) |
-| SX-CH-002 | Tardis and Binance Market-Data Consistency | RMB 8,800 | S / A open | [View challenge](challenge-board/tasks/SX-CH-002-market-data-consistency.md) |
+| SX-CH-002 | Tardis and Binance Market-Data Consistency | RMB 8,800 | Closed (S / A closed) | [View closed challenge](challenge-board/tasks/SX-CH-002-market-data-consistency.md) |
 | SX-CH-003 | Runtime Contract from Paper Strategy to Real Backtesting | RMB 9,500 | S / A open | [View challenge](challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md) |
 | SX-CH-004 | Robust High-Sharpe Strategy Mining from a Public Strategy Pool | RMB 12,000 | S / A open | [View challenge](challenge-board/tasks/SX-CH-004-public-alpha-selection.md) |
 
 Bounty amounts are public caps for complete challenges, not guaranteed payments. Recognition depends on the challenge requirements, reproducibility results, review conclusions, contribution evidence, applicable agreements, and compliance requirements. Use the [status page](challenge-board/STATUS.md) as the authoritative entry point for grade changes.
+
+> **Challenge closure notice (2026-08-03):** `SX-CH-002` is closed in full. Neither Grade S nor Grade A accepts new submissions or recognition applications. Complete materials received before the closure notice will be handled under the existing queue and response rules.
 
 ## Latest recognition results
 
@@ -146,5 +148,5 @@ Platform content, tasks, examples, models, code, backtests, and user work are fo
 
 - Membership applications: `join@singularityx.tech`, subject `[Join SingularityX] <Name or GitHub Username>`
 - Challenge submissions, privacy requests, and compliance complaints: `join@singularityx.tech`
-- Homepage version: V2.2.4 (updated 2026-07-30)
+- Homepage version: V2.2.5 (updated 2026-08-03)
 - Rule interpretation body: SingularityX

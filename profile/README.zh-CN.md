@@ -51,11 +51,13 @@
 | 编号 | 挑战 | 赏金上限 | 当前档位 | 入口 |
 |---|---|---:|---|---|
 | SX-CH-001 | 因果链多跳推理不确定性量化 | 7,000 元 | S 开放；A 已发放并关闭 | [查看题面](challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md) |
-| SX-CH-002 | Tardis 与 Binance 行情一致性 | 8,800 元 | S / A 开放 | [查看题面](challenge-board/tasks/SX-CH-002-market-data-consistency.md) |
+| SX-CH-002 | Tardis 与 Binance 行情一致性 | 8,800 元 | 已关闭（S / A 均关闭） | [查看已关闭题面](challenge-board/tasks/SX-CH-002-market-data-consistency.md) |
 | SX-CH-003 | 论文策略到真实回测的运行契约 | 9,500 元 | S / A 开放 | [查看题面](challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md) |
 | SX-CH-004 | 公开策略池稳健高夏普策略挖掘 | 12,000 元 | S / A 开放 | [查看题面](challenge-board/tasks/SX-CH-004-public-alpha-selection.md) |
 
 赏金金额为完整挑战的公开上限，不是保证付款。认定以题面要求、复现结果、评审结论、贡献证据、适用协议和合规要求为准。档位变化以[状态页](challenge-board/STATUS.zh-CN.md)为唯一权威入口。
+
+> **挑战关闭公告（2026-08-03）：** `SX-CH-002` 已整体关闭，S、A 两档均不再接收新的提交或认定申请。关闭公告前已经完整送达的材料，按原有队列与回复规则处理。
 
 ## 最新认定结果
 
@@ -146,5 +148,5 @@
 
 - 组织申请：`join@singularityx.tech`，标题使用 `[Join SingularityX] <姓名或 GitHub 用户名>`
 - 挑战提交、隐私请求与合规投诉：`join@singularityx.tech`
-- 主页版本：V2.2.4（更新日期：2026-07-30）
+- 主页版本：V2.2.5（更新日期：2026-08-03）
 - 规则解释主体：零界演化

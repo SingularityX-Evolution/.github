@@ -17,7 +17,7 @@
 | ID | 题面页标题 | 难度 | 人民币赏金上限 | 等级关闭规则 | 题面页 |
 |---|---|---:|---:|---:|---|
 | SX-CH-001 | 自建因果链多跳推理的不确定性无法量化 | Advanced | 7,000 元 | 无固定时间限制；S / A 各档独立关闭 | `challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md` |
-| SX-CH-002 | 提升 Tardis 历史数据与 Binance 实时采集数据在四个永续合约上的一致性，并定位剩余行情与因子差异原因 | Hard | 8,800 元 | 无固定时间限制；S / A 各档独立关闭 | `challenge-board/tasks/SX-CH-002-market-data-consistency.md` |
+| SX-CH-002 | 提升 Tardis 历史数据与 Binance 实时采集数据在四个永续合约上的一致性，并定位剩余行情与因子差异原因 | Hard | 8,800 元 | 已整体关闭（2026-08-03） | `challenge-board/tasks/SX-CH-002-market-data-consistency.md` |
 | SX-CH-003 | 从交易论文到真实回测的统一策略运行契约 | Hard | 9,500 元 | 无固定时间限制；S / A 各档独立关闭 | `challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md` |
 | SX-CH-004 | 公开经典策略池的稳健高夏普 Alpha 挖掘与样本外验证 | Flagship | 12,000 元 | 无固定时间限制；S / A 各档独立关闭 | `challenge-board/tasks/SX-CH-004-public-alpha-selection.md` |
 
