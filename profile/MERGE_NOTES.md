@@ -6,6 +6,11 @@ This package merges the SingularityX organization homepage with the open researc
 
 ## This revision
 
+- Rewrites the bilingual value-assessment and fair-distribution sections in public-facing governance language.
+- Expands recognition beyond the last visible deliverable to include evidence-backed research, data, engineering, validation, risk control, shared assets, and collaboration.
+- Clarifies marginal impact, counterfactual necessity, risk adjustment, long-term reuse, shared outcomes, conservation, anti-duplication, review, and appeal.
+- Separates the value-assessment framework from the fair-distribution protocol so each document has a distinct public purpose.
+- Keeps detailed thresholds, model parameters, pool ratios, and case-level settings subject to applicable agreements and controlled rule versions.
 - Rebuilds both homepage files around organization recruitment, places the application entry first, explains who the organization is looking for, and presents direct application and public challenges as two ways to begin collaborating.
 - Updates the bilingual opening description with the organization’s new positioning as a self-evolving organization guided by explicit goals and bounded by verifiable controls, and adds the nine institutional mechanisms currently being explored.
 - States that multiple challenges have received code submissions while only SX-CH-001 currently has recognized submissions, without listing specific award amounts in the homepage summary.

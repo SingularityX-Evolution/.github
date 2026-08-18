@@ -1,162 +1,158 @@
-# Value Assessment Public Framework
+# Value Assessment: Public Framework
 
 **Rule interpretation body:** SingularityX
 
-This document describes the public, code-free value assessment and distribution framework for SingularityX members. It explains how adopted long-term contributions may be recorded, verified, evaluated, attributed, settled, and disputed. Public challenge bounties are governed by the applicable challenge statement and bounty review rules.
+This document explains how long-term contribution by SingularityX members is recorded, verified, assessed, attributed, reviewed, and audited. Public challenge bounties follow the applicable challenge statement and review rules. Long-term member assessment focuses on actual adoption, verifiable impact, risk discipline, durable reuse, and collaborative value.
 
-This document describes the policy-level framework, algorithmic discipline, governance rules, appeal process, and public version framework. Detailed calculation settings, operational implementation, and case-level materials are handled through controlled review workflows, formal agreements, and applicable compliance requirements.
+This framework explains public principles and methods. It does not constitute a promise of fixed compensation, bonuses, equity, Tokens, or any other economic interest. Specific arrangements remain subject to formal agreements, applicable law, and organizational approval.
 
-## 1. Methodology
+## 1. Core principles
 
-Assessment is linear; value is nonlinear.
+### 1.1 Evidence first
 
-- Linear assessment supports comparison, ranking, explanation, budget conservation, and governance execution.
-- Nonlinear value may come from collaboration, substitution effects, path dependency, timing, reuse, market state, and organizational network effects.
-- Governance connects both layers by using linear assessment for order, nonlinear attribution for contribution approximation, and ledger constraints for reviewable allocation decisions.
+A contribution claim without verifiable evidence may be retained as a lead but does not directly enter formal value attribution. Material conclusions should be supported by code, data, experiments, review records, adoption records, or other reviewable materials.
 
-## 2. Public layered framework
+### 1.2 Distinguish assessment from value
+
+Assessment supports quality comparison, explanation, and organizational operations and should be clear, stable, and reproducible. Value may arise from collaboration, substitution, timing, reuse, risk control, and long-term impact and is often nonlinear. A single score cannot represent the whole picture.
+
+### 1.3 Algorithms assist; humans remain accountable
+
+AI and algorithms may organize evidence, identify differences, estimate marginal impact, and draft explanations. Final distribution, appeal handling, conflict resolution, rule changes, and responsibility findings require authorized human judgment.
+
+## 2. What is assessed
+
+Value is often created by several connected activities rather than the final submission alone:
+
+| Area | Examples of contribution |
+|---|---|
+| Data and information | Acquisition, cleaning, governance, quality review, and lawful sourcing. |
+| Research and modeling | Problem definition, hypotheses, features, models, experiment design, and interpretation. |
+| Engineering and execution | Code, tools, platforms, deployment, execution, monitoring, and maintenance. |
+| Validation and risk | Independent validation, stress testing, early warnings, corrections, and incident review. |
+| Knowledge and collaboration | Documentation, standards, review, shared assets, retained knowledge, and collaborator support. |
+| Human judgment | Resource choices, risk boundaries, material decisions, and accountable ownership. |
+
+Assessment therefore considers both direct delivery and the dependencies, reuse, and collaboration that made the outcome possible. It does not assign all value to the last visible contributor.
+
+## 3. Public layered framework
 
 | Layer | Name | Role |
 |---|---|---|
-| L0 | Intake / Router | Routes tasks, review rights, and delivery paths according to capability, historical quality, workload, and permission status. |
-| L1 | Protocol | Defines participation, deliverables, acceptance criteria, evidence requirements, pool rules, and appeal rules before work begins. |
-| L2 | Contribution Record | Records tasks, code, research, documents, reviews, quality work, corrections, and reuse as auditable events. |
-| L3 | Aggregation & Assessment | Converts heterogeneous evidence into interpretable scores, task points, quality tiers, and verification signals. |
-| L4 | Rights Mapping | Maps assessment and attribution into bonus weights, resource priority, project opportunities, review eligibility, or other agreed incentives. |
-| L5 | Settlement & Audit | Produces periodic settlement reports from assessment results, adopted outcomes, ledger facts, appeals, and applicable allocation rules. |
+| L0 | Protocol & Routing | Defines goals, roles, permissions, deliverables, acceptance criteria, evidence, and appeal rules before work begins. |
+| L1 | Contribution Record | Records research, code, data, validation, documentation, risk intervention, and collaboration support as traceable contribution. |
+| L2 | Evidence Verification | Checks sources, timing, dependencies, reproducibility, independent review, duplicate claims, and conflicts of interest. |
+| L3 | Assessment & Attribution | Produces interpretable assessment and considers marginal impact, counterfactual necessity, reuse, and collaboration. |
+| L4 | Rights Mapping | Maps assessment into bonus weights, resource priority, project opportunities, or another incentive reference under the applicable agreement. |
+| L5 | Settlement & Audit | Produces pre-settlement results, opens appeals, performs human review, and retains final decisions and corrections. |
 
-## 3. Dual-ledger structure
+## 4. Contribution records and evidence
 
-| Ledger | Frequency | Purpose | Properties |
-|---|---|---|---|
-| Operating Points Ledger | High frequency | Routing, resource priority, project opportunities, review eligibility, and collaboration management. | Fast, simple, interpretable; not equity, tokens, or fixed cash. |
-| Economic Settlement Ledger | Low frequency | Additional contribution-based compensation, bonus review, long-term incentive review, or other formal arrangements. | Auditable; tied to adopted outcomes, verification confidence, reuse, governance records, and appeals. |
+A material contribution should record:
 
-The operating ledger supports efficiency. The settlement ledger supports fairness.
+- the contribution, participants, and applicable task;
+- occurrence time, evidence sources, and verification state;
+- upstream dependencies, downstream use, and actual adoption;
+- quality, reproducibility, maintenance, and durable reuse;
+- independent review, conflict disclosures, and corrections;
+- limitations and uncertainty where the outcome has not matured.
 
-## 4. Algorithmic discipline
+The framework also recognizes contributions that conventional output measures may overlook, including early risk detection, evidence-based falsification, problem reframing, shared infrastructure, and support that enables another member to make an independent delivery.
 
-### 4.1 Evidence gate
+These contributions still require evidence and later outcomes. Objection count, communication volume, self-assessment, or the author’s repeated use of their own work does not establish high contribution by itself.
 
-No evidence, no allocation. A contribution must first become an identifiable, traceable, and reviewable contribution asset.
+## 5. Assessment dimensions
 
-Core objects include:
-
-| Object | Description |
+| Dimension | Public interpretation |
 |---|---|
-| Contribution Asset | A code, research, data, documentation, product, governance, review, or community contribution record. |
-| Evidence Event | A task, submission, test result, review, correction, reuse record, or acceptance record linked to the asset. |
-| Protocol | The role requirements, acceptance criteria, evidence requirements, pool rules, and appeal rules for the task. |
-| Settlement Epoch | The agreed settlement period, such as a month, quarter, or project milestone. |
-| Reward Proof | A traceable proof of contribution, assessment, rule version, and allocation result. |
+| Validity and adoption | Whether the contribution addresses a real problem, is adopted, and produces a verifiable result. |
+| Quality and trust | Whether it is reproducible, evidence is complete, the method is robust, and limitations are disclosed. |
+| Marginal impact | How much the outcome changes without the contribution or under a reasonable replacement. |
+| Risk adjustment | Whether the work creates results while managing tail risk, system fragility, compliance, and execution risk. |
+| Long-term reuse | Whether others independently use, maintain, extend, and retain the work as organizational capability. |
+| Collaborative value | Whether it improves team delivery, validation, decisions, or knowledge transfer. |
 
-Evidence with missing source, weak linkage, or poor reproducibility may be discounted or flagged. Self-attested evidence can be recorded but cannot receive full independent-evidence weight by itself. Contribution shares must satisfy range and conservation constraints. Material allocation decisions should be bound to rule versions, assessment versions, review records, and appeal status.
+Hours, title, lines of code, submission count, and presentation skill may provide context but cannot determine value by themselves.
 
-### 4.2 Linear assessment layer
+## 6. Marginal contribution and counterfactuals
 
-The assessment layer compresses heterogeneous evidence into comparable, reproducible, and auditable scores. It does not claim to equal true value.
+When several people or modules create an outcome together, the public framework combines:
 
-Public rule-level expression:
+1. **Marginal-contribution anchor:** how the overall outcome changes when a contribution is added or removed.
+2. **Counterfactual necessity:** whether the outcome materially deteriorates without the contribution or under a reasonable alternative.
+3. **Long-term reuse:** whether other people, projects, or workflows independently adopt the result and continue to receive value.
+4. **Collaboration stability:** whether the allocation overlooks a working group essential to the result.
+5. **Quality and risk adjustment:** whether weak evidence, poor reproducibility, excessive risk, or unresolved rule issues justify a discount, deferral, or review.
 
-```text
-reward_score
-= difficulty_base
-× impact_multiplier
-× reuse_multiplier
-× quality_multiplier
-× protocol_compliance_multiplier
-× verification_confidence
-× risk_discipline_adjustment
-```
+Where appropriate, component ablation, controlled comparisons, walk-forward validation, and shadow-environment tests may support the analysis. Every method should disclose its limits and uncertainty rather than presenting an estimate as a certain fact.
 
-This expression is used for operating points and governance input. It is not final cash, equity, tokens, or any fixed economic right.
+## 7. Risk and long-term value
 
-### 4.3 Pool governance
+Short-term gain is not the only measure of value. A contribution that improves an immediate result while materially increasing tail risk, drawdown, execution cost, model fragility, or compliance risk should not receive positive recognition based on the headline result alone.
 
-Allocation is split by protocol so that the last visible submitter is not the only party rewarded.
+Conversely, early risk warnings, independent validation, shared infrastructure, and long-term maintenance may create durable value even without direct visible gain when evidence, adoption, and later impact support the claim.
 
-| Pool | Purpose |
-|---|---|
-| Participant Pool | Direct delivery, research, engineering, testing, documentation, review, and maintenance. |
-| Squad Pool | Long-term collaboration, retrospectives, and continued squad-level building. |
-| Public Goods Pool | Shared modules, reusable tools, standards, runbooks, audit mechanisms, infrastructure, and shared knowledge assets. |
-| Knowledge Asset Pool | Research notes, design documents, ADRs, reviews, retrospectives, tutorials, and related knowledge assets when applicable. |
+Avoided-loss claims should use prudent ranges and independent review. An unverifiable worst case should not be treated as value already created by one person.
 
-Pool ratios are determined by task protocols, member agreements, organizational rules, and settlement epochs. Any example ratio is illustrative only and is not a standing commitment.
+## 8. Assessment gates
 
-### 4.4 Nonlinear attribution
+The following may cause a discount, deferral, or human review:
 
-When multiple people, modules, or knowledge assets jointly create an outcome, the framework uses nonlinear attribution to handle marginal contribution and collaboration effects.
+- missing evidence sources, failed reproduction, or evidence inconsistent with the claim;
+- unclear dependencies, participation shares, or actual adoption;
+- duplicate counting of the same outcome, evidence, or reuse;
+- lack of independent review for a material claim;
+- unresolved permission, compliance, intellectual-property, or conflict issues;
+- immature outcomes, high uncertainty, or an open appeal;
+- inconsistent rule versions, assessment records, or audit history.
 
-Publicly described logic:
+Specific thresholds, model parameters, and review settings are governed by the applicable agreement and controlled rule versions. They are not standing public promises.
 
-1. Marginal-Contribution Anchor: average marginal contribution provides an initial fairness anchor and reduces bias toward title, submission order, or the final visible submitter.
-2. Counterfactual Necessity: asks whether the result would materially deteriorate without the contribution; shallow, replaceable, or weakly necessary contributions should not receive full allocation.
-3. Quality, Risk, and Compliance Adjustment: discounts or blocks contributions with weak reproducibility, poor maintainability, rule violations, or unresolved review issues.
-4. Least-Core Stability Constraint: checks whether the allocation materially underpays important collaboration groups and reduces instability in the settlement result.
-5. Hybrid Settlement: keeps the marginal-contribution anchor when stability gaps are low and projects toward a more stable allocation when gaps are high.
+## 9. Dual ledgers
 
-Public expression: marginal contribution anchors fairness; Least-Core constrains coalition stability; evidence, protocol, quality, risk discipline, counterfactual necessity, ledger facts, and human review determine final settlement discipline.
-
-## 5. Settlement and appeal flow
-
-Typical flow:
-
-```text
-contribution registration
-→ evidence verification
-→ protocol check
-→ linear assessment
-→ nonlinear attribution
-→ quality / reuse / risk review
-→ ledger verification
-→ pre-settlement report
-→ appeal window
-→ human review
-→ final settlement
-→ Reward Proof
-```
-
-Settlement may be delayed, discounted, or blocked if evidence is missing, protocol requirements are incomplete, contribution shares do not satisfy conservation constraints, appeals remain unresolved, material compliance, permission, or governance issues remain open, audit chains or rule versions do not match, or reviewer conflicts are undisclosed.
-
-## 6. Governance discipline
-
-AI may assist with evidence summarization, preliminary scoring suggestions, inconsistency detection, and explanation drafts. Final allocation decisions, appeals, conflict arbitration, rule changes, permission approvals, and governance responsibility remain with humans.
-
-Anti-manipulation is part of the rule system. Low-quality asset flooding, circular references, exaggerated attribution, undisclosed assumptions, unreproducible results, protocol bypassing, and undisclosed review conflicts may lead to discounting, delayed settlement, permission limits, or organizational review.
-
-Human adjustment must be reviewable. Adjustments require recorded reasons, conservation checks, conflict-of-interest controls, version records, and an appeal window.
-
-## 7. Reward Proof
-
-Reward Proof helps contributors understand not only the allocation amount, but also why the allocation was calculated that way.
-
-Illustrative public fields:
-
-```text
-reward_proof_id
-contribution_asset_id
-evaluation_round_id
-rule_version
-allocation_policy_hash
-evidence_summary_hash
-evaluation_report_hash
-settlement_epoch
-allocation_result
-review_status
-appeal_status
-timestamp
-```
-
-Reward Proof is not a token, security, equity instrument, payment instrument, or fixed cash value. It is a proof record for the contribution assessment and distribution process.
-
-## 8. Public version framework
-
-| Layer | Public Positioning | Description |
+| Ledger | Purpose | Properties |
 |---|---|---|
-| Public Homepage | Public GitHub entry point | Challenge board, organization membership, proof of contribution, value assessment framework, governance discipline, and compliance boundary. |
-| Contribution Asset Layer | Contribution record layer | Converts code, research notes, design documents, reviews, runbooks, retrospectives, and community work into contribution assets. |
-| Evidence & Assessment Layer | Evidence and scoring layer | Connects contribution assets with evidence events, task protocols, quality review, verification confidence, and operating points. |
-| Attribution & Stability Layer | Fair allocation layer | Combines marginal-contribution anchoring, counterfactual necessity, pool governance, and Least-Core stability constraints. |
-| Settlement & Appeal Layer | Review and settlement layer | Produces pre-settlement reports, handles appeals, applies human review, and records final settlement decisions. |
-| Governance Hardening Layer | Rule quality layer | Adds rule-version tracking, policy checks, conflict-of-interest controls, audit records, and appealable Reward Proof. |
+| Operating Points Ledger | Supports task routing, resource priority, project opportunities, review eligibility, and collaboration management. | Updates more frequently and emphasizes explainability; it is not an economic interest. |
+| Economic Settlement Ledger | Supports review of additional contribution compensation, bonuses, long-term incentives, or another formal arrangement. | Updates less frequently and is tied to adoption, evidence confidence, risk records, appeals, and approval. |
+
+Operating points support collaboration efficiency. Economic settlement supports formal distribution. They are not directly interchangeable.
+
+## 10. Standard process
+
+    Protocol confirmation
+    → Contribution registration
+    → Evidence verification
+    → Quality assessment
+    → Marginal and counterfactual attribution
+    → Risk and long-term impact review
+    → Pre-settlement
+    → Appeal and independent review
+    → Final approval
+    → Traceable proof
+
+## 11. Human adjustments and appeals
+
+A material human adjustment must record the reason, evidence, applicable rule, approver, and conflict status and must rerun conservation checks. Affected contributors may submit additional evidence or request review within the applicable window.
+
+When algorithmic guidance and human judgment differ materially, the difference should be explained rather than hidden or automatically overwritten.
+
+## 12. Reward Proof
+
+A Reward Proof helps a contributor understand the outcome, the supporting evidence, the rule version, and which portions remain under review or uncertain.
+
+Public fields may include:
+
+    reward_proof_id
+    contribution_record_id
+    evidence_summary_hash
+    evaluation_round_id
+    rule_version
+    allocation_policy_hash
+    settlement_period
+    allocation_result
+    review_status
+    appeal_status
+    correction_record
+    timestamp
+
+A Reward Proof is a traceable record of assessment and distribution. It is not a Token, security, equity interest, payment instrument, or fixed cash value.

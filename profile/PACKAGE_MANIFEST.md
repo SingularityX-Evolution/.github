@@ -50,6 +50,14 @@ CONTRIBUTING.md
 
 ## Main changes in this package
 
+### Value assessment and fair-distribution update
+
+- Updates the bilingual homepage description of value assessment and fair distribution using public-facing governance language.
+- Expands recognition beyond the last visible deliverable to include evidence-backed research, data, engineering, validation, risk control, shared assets, and collaboration.
+- Clarifies marginal-impact, counterfactual, risk-adjustment, long-term-reuse, conservation, anti-duplication, review, and appeal principles.
+- Separates the value-assessment framework from the fair-distribution protocol so each document has a clear public purpose.
+- Keeps detailed thresholds, model parameters, pool ratios, and case-level settings subject to applicable agreements and controlled rule versions.
+
 ### High-priority homepage improvements
 
 - Reorganizes the bilingual homepage around organization recruitment, makes applying to join the primary action, adds clear participation paths and builder profiles, and retains challenges and recognition results as evidence of real work.
@@ -57,7 +65,7 @@ CONTRIBUTING.md
 - Rewrites the English positioning introduction as a clear organization definition followed by distinct feedback, cognition, attribution, economic, safety, and long-term frontier layers; also standardizes the nine exploration statements into concise, natural English.
 - Clarifies that code has been received for multiple challenges while only SX-CH-001 currently has recognized submissions; removes specific award amounts from the homepage recognition summary.
 - Keeps the rule version and update date on the bilingual homepage only, removing repeated release metadata from supporting pages.
-- Expands the bilingual homepage explanation of value assessment and fair distribution, including evidence, marginal contribution, long-term impact, conservation checks, review, and appeal.
+- Expands the bilingual homepage explanation of value assessment and fair distribution, including evidence, marginal impact, long-term reuse, shared outcomes, conservation checks, review, and appeal.
 - Streamlines the bilingual joining section around two clear participation paths, without separate “what you gain” or “what we look for” blocks.
 - Adds a second bilingual application call to action after the rules and safety section so interested builders have a clear next step at the end of the homepage.
 - Adds the complete English user agreement so the English homepage no longer routes readers only to the Chinese legal text.

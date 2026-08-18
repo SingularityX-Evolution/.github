@@ -94,26 +94,27 @@ Our baseline principles are to open tasks while isolating control, reward contri
 
 ## Value assessment and fair distribution
 
-We want long-term contribution inside the organization to be judged by verifiable evidence—not by title, presentation skills, or a single outcome. We continuously record what problem a person solved, how much quality improved, what risk they carried, and whether the work was actually adopted and reused. Research, validation, code, data, risk control, documentation, audits, and collaboration improvements can all constitute valid contribution.
+We want long-term contribution inside the organization to be grounded in verifiable evidence and actual adoption—not in title, presentation skills, hours worked, or a single outcome. Research, data, engineering, validation, risk control, documentation, shared tools, and collaboration support can all constitute valid contribution. Assessment considers both what an individual delivered and how different parts of the team combined to produce the result.
 
 ### What value assessment considers
 
 | Dimension | What we examine |
 |---|---|
-| Validity | Whether the contribution addresses a real task, is adopted, and produces verifiable results. |
-| Quality and trust | Whether the result is reproducible, the evidence is complete, the method is robust, and limitations are disclosed. |
-| Marginal contribution | How much value the work adds—or how much loss or uncertainty it removes—compared with the counterfactual without it. |
-| Long-term impact | Whether the result can be reused, extended, and retained as an organizational asset that continues to create value. |
-| Risk and collaboration | Whether the work respects permission, compliance, and risk discipline and improves the team’s overall delivery quality. |
+| Validity and adoption | Whether the contribution addresses a real task, is adopted, and produces a verifiable result. |
+| Quality and trust | Whether the result is reproducible, evidence is complete, the method is robust, and limitations are clearly disclosed. |
+| Marginal impact | How much value the work adds—or how much risk or uncertainty it removes—compared with the counterfactual without it. |
+| Long-term impact | Whether the result can be reused, maintained, extended, and retained as an organizational asset. |
+| Risk and collaboration | Whether the work respects permission, compliance, and risk discipline and improves whole-team delivery. |
 
-Assessment follows a contribution-record, evidence-verification, value-attribution, and human-review process. Self-reported claims may provide leads but do not receive full weight by themselves; material conclusions require support from code, data, experiments, review records, or evidence of actual adoption. We assess both final outcomes and the research, validation, and risk-control work that made them possible.
+Assessment follows a contribution-record, evidence-verification, value-attribution, and human-review process. Self-reported claims may provide leads but do not receive full weight by themselves; material conclusions require support from code, data, experiments, review records, or evidence of actual adoption. Where appropriate, ablation, counterfactual analysis, walk-forward validation, and controlled comparisons may support marginal-impact assessment, but algorithmic output remains an input to review rather than a final decision.
 
 ### How fair distribution works
 
 - **Define the distribution boundary first:** formal agreements specify the value pool, eligible participants, settlement conditions, and exclusions. Public-challenge bounties and long-term member contribution are administered separately.
-- **Use multiple attribution anchors:** direct contribution, marginal contribution, counterfactual necessity, reuse impact, and collaboration stability are considered together; hours, title, or a single score do not determine the result by themselves.
-- **Preserve the total:** contribution shares are normalized and checked against ranges and caps. Distribution cannot exceed the confirmed value pool, and the same outcome cannot be counted twice.
-- **Keep review and appeal available:** material human adjustments require recorded reasons and conflict-of-interest disclosure. Evidence, rules, and outcomes remain traceable, and members may request review within the applicable window.
+- **Use multiple contribution anchors:** direct delivery, marginal impact, counterfactual necessity, long-term reuse, risk control, and collaboration are considered together; hours, title, or one score do not determine the result by themselves.
+- **Recognize shared outcomes:** shared tools, infrastructure, validation work, and team collaboration should receive appropriate recognition rather than assigning all value to the last visible submitter.
+- **Preserve the total:** distribution cannot exceed the confirmed value pool, the same outcome cannot be counted twice, and uncertain or immature value may remain deferred.
+- **Keep review and appeal available:** material adjustments require recorded reasons and conflict disclosure, and affected members may request review within the applicable window.
 
 The purpose is not to replace judgment with one score, but to make judgment evidence-based, distribution bounded, adjustments recorded, and outcomes explainable. See the [Value Assessment System](docs/value-assessment-system.md) and [Value Distribution Protocol](VALUE-DISTRIBUTION-PROTOCOL.md) for the detailed framework.
 
