@@ -27,6 +27,7 @@ challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md
 challenge-board/tasks/SX-CH-002-market-data-consistency.md
 challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md
 challenge-board/tasks/SX-CH-004-public-alpha-selection.md
+challenge-board/tasks/SX-CH-004-evaluation-standard.md
 challenge-board/results/SX-CH-001-phase-1-results.md
 challenge-board/results/SX-CH-001-phase-1-results.zh-CN.md
 challenge-board/results/SX-CH-001-results.md
@@ -50,6 +51,13 @@ CONTRIBUTING.md
 
 ## Main changes in this package
 
+### SX-CH-004 V2.0 public research update
+
+- Replaces the previous Challenge 4 page with the public-data, self-directed research specification.
+- Adds a separate Challenge 4 evaluation standard covering evidence stages, rolling validation, accounting, strong baselines, anti-overfitting controls, capacity, migration, scoring, independent reproduction, and forward observation.
+- Removes the assumption that the organizer supplies a private hidden market dataset; challengers obtain and document public strategies, data, metadata, and costs within a registered market profile.
+- Keeps the Challenge 4 bounty cap and grade status unchanged while aligning its public title, links, update date, and integrity records.
+
 ### Value assessment and fair-distribution update
 
 - Updates the bilingual homepage description of value assessment and fair distribution using public-facing governance language.
@@ -64,7 +72,7 @@ CONTRIBUTING.md
 - Replaces the bilingual opening description with the organization’s new positioning as a self-evolving organization guided by explicit goals and bounded by verifiable controls, and adds the nine institutional mechanisms currently being explored.
 - Rewrites the English positioning introduction as a clear organization definition followed by distinct feedback, cognition, attribution, economic, safety, and long-term frontier layers; also standardizes the nine exploration statements into concise, natural English.
 - Clarifies that code has been received for multiple challenges while only SX-CH-001 currently has recognized submissions; removes specific award amounts from the homepage recognition summary.
-- Keeps the rule version and update date on the bilingual homepage only, removing repeated release metadata from supporting pages.
+- Keeps the site-wide rule version and update date on the bilingual homepage; Challenge 4 separately displays its technical specification version V2.0 on its two linked pages.
 - Expands the bilingual homepage explanation of value assessment and fair distribution, including evidence, marginal impact, long-term reuse, shared outcomes, conservation checks, review, and appeal.
 - Streamlines the bilingual joining section around two clear participation paths, without separate “what you gain” or “what we look for” blocks.
 - Adds a second bilingual application call to action after the rules and safety section so interested builders have a clear next step at the end of the homepage.
@@ -78,7 +86,7 @@ CONTRIBUTING.md
 1. Keeps rule interpretation responsibility visible where applicable while centralizing public rule-version and update-date metadata on the bilingual homepage.
 2. Updates the important legal statement documents to cover platform bounty task boundaries, user responsibility, third-party rights, submitted-solution rights, non-certified submission use limits, and agreement to platform rules.
 3. Keeps the previously removed redundant homepage consolidation paragraph out of both Chinese and English homepage files.
-4. Preserves exactly four independent challenge pages under `challenge-board/tasks/` and updates their grade closure rules, deliverable standards, recognition standards, and S / A bounty tiers.
+4. Preserves four independent challenges under `challenge-board/tasks/`; SX-CH-004 now includes a separate linked evaluation-standard page in addition to its public problem page.
 5. Keeps private email submission as the default channel; public Pull Requests remain optional only when the contributor intentionally wants public disclosure.
 6. Updates task-page SHA256 records after current rule-text changes.
 7. Adds the no-fixed-time-limit, per-grade closure, five-business-day response, and one-week desensitized public-display rules to challenge pages, challenge-board submission guidance, homepage submission guidance, and the public challenge inquiry template.

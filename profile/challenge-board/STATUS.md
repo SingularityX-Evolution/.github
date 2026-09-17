@@ -26,7 +26,7 @@ The announcement publishes anonymous recognition information and anonymized solu
 | SX-CH-001 | Multi-Hop Causal Chain Uncertainty Quantification | Open | Awarded / closed | 2026-07-06 |
 | SX-CH-002 | Tardis Historical Data and Binance Real-Time Data Consistency | Closed | Closed | 2026-08-03 |
 | SX-CH-003 | Paper Strategy Runtime Contract for Real Backtesting | Open | Open | 2026-06-22 |
-| SX-CH-004 | Robust High-Sharpe Alpha Mining from a Public Classic Strategy Pool | Open | Open | 2026-06-22 |
+| SX-CH-004 | Robust High-Sharpe Alpha Mining from a Public Classic Strategy Pool | Open | Open | 2026-09-17 |
 
 ## Submission opportunities, Grade A-to-S upgrades, grade closure, and concurrent-submission rules
 

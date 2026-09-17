@@ -6,6 +6,10 @@ This package merges the SingularityX organization homepage with the open researc
 
 ## This revision
 
+- Replaces the `SX-CH-004` public page with the V2.0 public-data, self-directed research specification and adds a separate linked evaluation standard.
+- Aligns Challenge 4 with registered market profiles, challenger-supplied public data, causal rolling validation, independent reproduction, and frozen forward observation instead of an organizer-supplied hidden market dataset.
+- Updates only Challenge 4 titles, links, status date, package entries, and integrity records; the other three challenge statements remain unchanged.
+
 - Rewrites the bilingual value-assessment and fair-distribution sections in public-facing governance language.
 - Expands recognition beyond the last visible deliverable to include evidence-backed research, data, engineering, validation, risk control, shared assets, and collaboration.
 - Clarifies marginal impact, counterfactual necessity, risk adjustment, long-term reuse, shared outcomes, conservation, anti-duplication, review, and appeal.
@@ -14,7 +18,7 @@ This package merges the SingularityX organization homepage with the open researc
 - Rebuilds both homepage files around organization recruitment, places the application entry first, explains who the organization is looking for, and presents direct application and public challenges as two ways to begin collaborating.
 - Updates the bilingual opening description with the organization’s new positioning as a self-evolving organization guided by explicit goals and bounded by verifiable controls, and adds the nine institutional mechanisms currently being explored.
 - States that multiple challenges have received code submissions while only SX-CH-001 currently has recognized submissions, without listing specific award amounts in the homepage summary.
-- Keeps the rule version and update date on the bilingual homepage only and removes repeated release metadata from supporting pages.
+- Keeps the site-wide rule version and update date on the bilingual homepage; Challenge 4 separately displays its technical specification version V2.0 on its two linked pages.
 - Expands the bilingual homepage overview of value assessment and fair distribution while retaining links to the dedicated documents.
 - Expands the bilingual member-value section and adds a second application call to action after the rules and safety section.
 - Adds a complete English user agreement and bilingual privacy policies.
@@ -27,7 +31,7 @@ This package merges the SingularityX organization homepage with the open researc
 - Preserves the SingularityX logo path and company introduction.
 - Keeps two homepage versions: `README.md` for English and `README.zh-CN.md` for Chinese.
 - Clarifies the two participation routes: public challenge bounty submission and formal organization membership.
-- Keeps exactly four independent public challenge pages under `challenge-board/tasks/`.
+- Keeps four independent public challenges under `challenge-board/tasks/`; Challenge 4 also has a separate linked evaluation-standard page.
 - Uses direct GitHub-rendered Markdown challenge entry points.
 - Public problem pages show background, core problem, public task scope, grade closure rules, deliverable standards, recognition standards, S / A bounty tiers, grade status rules, and rule-interpretation body.
 - Keeps challenge submission private by email by default; public Pull Requests remain optional only for contributors who intentionally want public disclosure.

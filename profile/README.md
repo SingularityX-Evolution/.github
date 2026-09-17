@@ -53,7 +53,7 @@ We want to meet people who can form independent judgments and turn ideas into wo
 | SX-CH-001 | Multi-Hop Causal Chain Uncertainty Quantification | RMB 7,000 | S open; A awarded and closed | [View challenge](challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md) |
 | SX-CH-002 | Tardis and Binance Market-Data Consistency | RMB 8,800 | Closed (S / A closed) | [View closed challenge](challenge-board/tasks/SX-CH-002-market-data-consistency.md) |
 | SX-CH-003 | Runtime Contract from Paper Strategy to Real Backtesting | RMB 9,500 | S / A open | [View challenge](challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md) |
-| SX-CH-004 | Robust High-Sharpe Strategy Mining from a Public Strategy Pool | RMB 12,000 | S / A open | [View challenge](challenge-board/tasks/SX-CH-004-public-alpha-selection.md) |
+| SX-CH-004 | Robust High-Sharpe Alpha Mining from a Public Classic Strategy Pool | RMB 12,000 | S / A open | [View challenge](challenge-board/tasks/SX-CH-004-public-alpha-selection.md) |
 
 Bounty amounts are public caps for complete challenges, not guaranteed payments. Recognition depends on the challenge requirements, reproducibility results, review conclusions, contribution evidence, applicable agreements, and compliance requirements. Use the [status page](challenge-board/STATUS.md) as the authoritative entry point for grade changes.
 

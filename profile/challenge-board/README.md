@@ -30,7 +30,7 @@ The announcement publishes anonymous recognition results, bounty amounts, and an
 | SX-CH-001 | Multi-Hop Causal Chain Uncertainty Quantification | 自建因果链多跳推理的不确定性无法量化 | Advanced | RMB 7,000 | No fixed time limit; S / A grades close independently once certified | [Open](./tasks/SX-CH-001-causal-chain-uncertainty.md) |
 | SX-CH-002 | Tardis Historical Data and Binance Real-Time Data Consistency | 提升 Tardis 历史数据与 Binance 实时采集数据在四个永续合约上的一致性，并定位剩余行情与因子差异原因 | Hard | RMB 8,800 | Closed in full (2026-08-03) | [View closed challenge](./tasks/SX-CH-002-market-data-consistency.md) |
 | SX-CH-003 | Paper Strategy Runtime Contract for Real Backtesting | 从交易论文到真实回测的统一策略运行契约 | Hard | RMB 9,500 | No fixed time limit; S / A grades close independently once certified | [Open](./tasks/SX-CH-003-paper-strategy-runtime-contract.md) |
-| SX-CH-004 | Robust High-Sharpe Alpha Mining from a Public Classic Strategy Pool | 公开经典策略池的稳健高夏普 Alpha 挖掘与样本外验证 | Flagship | RMB 12,000 | No fixed time limit; S / A grades close independently once certified | [Open](./tasks/SX-CH-004-public-alpha-selection.md) |
+| SX-CH-004 | Robust High-Sharpe Alpha Mining from a Public Classic Strategy Pool | 公开经典策略池稳健高夏普 Alpha 挖掘 | Flagship | RMB 12,000 | No fixed time limit; S / A grades close independently once certified | [Challenge](./tasks/SX-CH-004-public-alpha-selection.md) · [Evaluation standard](./tasks/SX-CH-004-evaluation-standard.md) |
 
 ## S / A grade status
 
