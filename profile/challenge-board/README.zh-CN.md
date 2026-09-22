@@ -62,8 +62,12 @@ join@singularityx.tech
 建议邮件标题：
 
 ```text
-[Challenge Submission] <Challenge ID> - <Contributor Name or GitHub Username>
+[Challenge Submission] <Challenge ID> - <姓名>
 ```
+
+**提交者信息为必填：** 首次提交和每次升级提交的邮件正文均须包含本人真实姓名、至少一种有效联系方式（常用邮箱、手机号码或微信）及本人 GitHub 主页完整链接（`https://github.com/<用户名>`）。仅填写用户名、代码仓库链接、组织主页或他人主页不符合要求。信息缺失、联系方式无效或主页链接不符合要求的，视为材料不完整，补齐前不进入正式评审。
+
+可直接使用[提交邮件模板](../docs/challenge-submission-template.zh-CN.md)。选择公开 PR 时，也须通过邮件提交上述三项信息，并注明挑战编号及 PR 链接；私人联系方式不写入公开页面。
 
 有效提交应包含可复现代码或结构化交付包、README 与运行说明、测试结果或评估报告、依赖与环境信息、已知限制，以及贡献者确认其拥有或有权提交相关成果的声明。
 

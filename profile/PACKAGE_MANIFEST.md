@@ -35,6 +35,8 @@ challenge-board/results/SX-CH-001-results.zh-CN.md
 docs/difficulty-and-amounts.md
 docs/difficulty-and-amounts.zh-CN.md
 docs/challenge-source-integrity.md
+docs/challenge-submission-template.md
+docs/challenge-submission-template.zh-CN.md
 docs/legal-notice-and-compliance.md
 docs/legal-notice-and-compliance.zh-CN.md
 docs/privacy-policy.md
@@ -50,6 +52,14 @@ CONTRIBUTING.md
 ```
 
 ## Main changes in this package
+
+### Mandatory challenger details — 2026-09-22
+
+- Makes real name, valid contact details, and the full URL of the contributor's own personal GitHub profile mandatory for initial and upgraded code submissions.
+- Treats missing or invalid details as incomplete materials and holds formal review until they are complete.
+- Adds bilingual email templates and synchronizes homepage, challenge-board, contribution, public PR, inquiry, open-challenge, rule, and privacy guidance.
+- Routes required personal details for public PR submissions through private email, linked to the challenge ID and PR URL.
+- Updates the homepage to V2.2.7 (2026-09-22) and regenerates challenge-file SHA256 records.
 
 ### SX-CH-004 V2.0 public research update
 
@@ -125,5 +135,7 @@ join@singularityx.tech
 Email subject format:
 
 ```text
-[Challenge Submission] <Challenge ID> - <Contributor Name or GitHub Username>
+[Challenge Submission] <Challenge ID> - <Name>
 ```
+
+The email body must include the contributor's real name, valid contact details, and full personal GitHub profile URL (all three required). Formal review will not begin until these details are complete. See the [English template](docs/challenge-submission-template.md) / [中文模板](docs/challenge-submission-template.zh-CN.md).

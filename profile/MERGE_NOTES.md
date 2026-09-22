@@ -4,7 +4,15 @@
 
 This package merges the SingularityX organization homepage with the open research challenge homepage into a single external-facing GitHub homepage package.
 
-## This revision
+## This revision — 2026-09-22
+
+- Makes real name, valid contact details, and the full URL of the contributor's own personal GitHub profile mandatory for initial and upgraded code submissions.
+- Treats missing or invalid details as incomplete materials and holds formal review until they are complete.
+- Adds bilingual email templates and synchronizes homepage, challenge-board, contribution, public PR, inquiry, open-challenge, rule, and privacy guidance.
+- Routes required personal details for public PR submissions through private email, linked to the challenge ID and PR URL.
+- Updates the homepage to V2.2.7 (2026-09-22) and regenerates challenge-file SHA256 records.
+
+## Earlier revisions retained
 
 - Replaces the `SX-CH-004` public page with the V2.0 public-data, self-directed research specification and adds a separate linked evaluation standard.
 - Aligns Challenge 4 with registered market profiles, challenger-supplied public data, causal rolling validation, independent reproduction, and frozen forward observation instead of an organizer-supplied hidden market dataset.
@@ -67,5 +75,7 @@ join@singularityx.tech
 Recommended subject:
 
 ```text
-[Challenge Submission] <Challenge ID> - <Contributor Name or GitHub Username>
+[Challenge Submission] <Challenge ID> - <Name>
 ```
+
+The email body must include the contributor's real name, valid contact details, and full personal GitHub profile URL (all three required). Formal review will not begin until these details are complete. See the [English template](docs/challenge-submission-template.md) / [中文模板](docs/challenge-submission-template.zh-CN.md).

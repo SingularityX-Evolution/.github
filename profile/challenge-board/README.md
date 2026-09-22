@@ -62,8 +62,12 @@ join@singularityx.tech
 Recommended subject:
 
 ```text
-[Challenge Submission] <Challenge ID> - <Contributor Name or GitHub Username>
+[Challenge Submission] <Challenge ID> - <Name>
 ```
+
+**Mandatory contributor details:** The email body for both initial and upgraded submissions must include your real name, at least one valid contact method (a regularly checked email address, phone number, or WeChat ID), and the full URL of your own personal GitHub profile (`https://github.com/<username>`). A username alone, repository URL, organization profile, or another person's profile is insufficient. Missing information, invalid contact details, or a non-compliant profile URL makes the submission incomplete; formal review will not begin until the information is complete.
+
+Use the [submission email template](../docs/challenge-submission-template.md). Public PR submissions must also email all three details privately and include the challenge ID and PR URL; keep private contact details out of public pages.
 
 A valid submission should include reproducible code or a structured delivery package, README and running instructions, test results or an evaluation report, dependency and environment information, known limitations, and a contributor statement confirming that the contributor owns or has the right to submit the work.
 

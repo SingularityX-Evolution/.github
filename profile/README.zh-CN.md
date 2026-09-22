@@ -81,8 +81,10 @@
 
 1. 阅读[挑战列表](challenge-board/README.zh-CN.md)、具体题面和[最新档位状态](challenge-board/STATUS.zh-CN.md)。
 2. 准备完整代码包、运行说明、复现命令、测试结果、环境信息、已知限制及权利声明。
-3. 默认私密发送至 `join@singularityx.tech`，邮件标题使用：`[Challenge Submission] <Challenge ID> - <姓名>`；邮件正文必须注明提交者本人姓名、GitHub 用户名（如有）和有效联系方式（手机号码、微信或其他可及时联系的方式）。
-4. 仅在主动选择公开代码和报告时使用公开 Pull Request；不要公开凭证、私有数据、账户信息或未公开策略。
+3. 默认私密发送至 `join@singularityx.tech`，邮件标题使用：`[Challenge Submission] <Challenge ID> - <姓名>`；邮件正文必须附带 **本人真实姓名、有效联系方式和本人 GitHub 主页完整链接**（`https://github.com/<用户名>`）。联系方式至少提供一种常用邮箱、手机号码或微信；GitHub 主页为必填，不能用用户名、代码仓库链接、组织主页或他人主页代替。
+4. 仅在主动选择公开代码和报告时使用公开 Pull Request；仍须通过上述邮箱提交三项必填信息并注明 PR 链接。不要公开私人联系方式、凭证、私有数据、账户信息或未公开策略。
+
+**姓名、有效联系方式、本人 GitHub 主页链接三项均为必填，首次提交与升级提交同样适用。信息缺失、联系方式无效或主页链接不符合要求的，视为材料不完整，补齐前不进入正式评审。** 可直接使用[提交邮件模板](docs/challenge-submission-template.zh-CN.md)。
 
 每位提交者对同一挑战有 1 次首次提交机会。对于 A 档仍开放的挑战，首次提交未达到 S 档但达到 A 档标准的，可正式认定为 A 档，并自 A 档认证确认邮件发出之时起 5 个自然日（120 小时）内，提交 1 个仅申请 S 档的完整升级版本，每人每题最多 2 次。A 档公告关闭后，后续提交只评定仍开放的档位，不再补充进行 A 档认定或等效核验；对于当前只开放 S 档的挑战，首次提交未达到 S 档标准的，不产生第二次提交机会。完整规则见[贡献指南](CONTRIBUTING.md)、对应题面及[最新档位状态](challenge-board/STATUS.zh-CN.md)。
 
@@ -150,7 +152,7 @@
 ## 联系方式
 
 - 组织申请：`join@singularityx.tech`，标题使用 `[Join SingularityX] <姓名或 GitHub 用户名>`；正文注明本人姓名和有效联系方式
-- 挑战提交：`join@singularityx.tech`，标题使用 `[Challenge Submission] <Challenge ID> - <姓名>`；正文注明本人姓名、GitHub 用户名（如有）和有效联系方式
+- 挑战提交：`join@singularityx.tech`，标题使用 `[Challenge Submission] <Challenge ID> - <姓名>`；正文必须注明本人真实姓名、有效联系方式和本人 GitHub 主页完整链接（三项必填）
 - 隐私请求与合规投诉：`join@singularityx.tech`
-- 主页版本：V2.2.6（更新日期：2026-09-10）
+- 主页版本：V2.2.7（更新日期：2026-09-22）
 - 规则解释主体：零界演化

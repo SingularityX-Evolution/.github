@@ -10,13 +10,15 @@ This policy applies to the technical-bounty and builder-collaboration services p
 
 Depending on how you participate, we may process:
 
-- your name, GitHub username, email address, location, and other contact details;
+- your name, GitHub username and personal GitHub profile URL, email address, location, and other contact details;
 - résumés, project history, public work, and membership-application materials;
 - challenge IDs, code packages, documents, logs, test results, file hashes, submission times, and version records;
 - statements about originality, authorization, open-source licenses, data sources, and compliance;
 - review communications, reproduction records, conclusions, appeals, and dispute materials;
 - information needed to verify award recipients and process bounty payment, invoicing, or tax matters; and
 - technical records reasonably necessary for security, anti-cheating, troubleshooting, and compliance retention.
+
+Your real name, valid contact details, and the full URL of your own personal GitHub profile are mandatory for both initial and upgraded challenge code submissions. They support contributor verification, review communication, and attribution. Formal review will not begin while the information is missing or invalid. Provide these details through the official email address or another designated private channel; public PR contributors must also email them privately and include the PR URL.
 
 Do not submit unrelated personal information, account credentials, private keys, customer records, private trading records, restricted data, or information you are not authorized to disclose.
 
@@ -33,6 +35,8 @@ Technical tools may assist testing, anti-cheating, and review, but decisions wit
 ## 4. Public Display
 
 A private submission is not automatically made public. We publish reviewed materials only with authorization, where task rules expressly allow it, or where required by law, and obtain separate consent where legally required. Grade-recognized work is generally displayed only through an anonymous ID, grade, bounty status, and anonymized summary. Authorized profiles or code materials are displayed for one week under the current challenge rules and then their public entry points are removed.
+
+Providing the required name, contact details, and personal GitHub profile URL does not authorize public disclosure of the name or contact details, or public display linking the profile to the submission. Keep private contact details such as phone numbers and WeChat IDs out of public PRs, Issues, and code files.
 
 Content placed in a public Pull Request, Issue, or other public channel can be viewed by anyone. Contributors must remove sensitive information before posting publicly.
 

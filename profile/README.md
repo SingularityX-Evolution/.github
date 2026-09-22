@@ -81,8 +81,10 @@ Public results retain only anonymous IDs, recognized grades, bounty status, and 
 
 1. Read the [challenge board](challenge-board/README.md), the selected challenge, and the [latest grade status](challenge-board/STATUS.md).
 2. Prepare a complete code package, running instructions, reproduction commands, test results, environment details, known limitations, and rights statements.
-3. Submit privately by default to `join@singularityx.tech` with the subject: `[Challenge Submission] <Challenge ID> - <Name>`. The email body must include the contributor's name, GitHub username (if any), and valid contact details such as a phone number, WeChat ID, or another promptly reachable contact method.
-4. Use a public Pull Request only when intentionally disclosing the code and report. Never publish credentials, private data, account information, or non-public strategies.
+3. Submit privately by default to `join@singularityx.tech` with the subject: `[Challenge Submission] <Challenge ID> - <Name>`. The email body must include **your real name, valid contact details, and the full URL of your own personal GitHub profile** (`https://github.com/<username>`). Provide at least one regularly checked email address, phone number, or WeChat ID. The profile URL is mandatory; a username alone, repository URL, organization profile, or another person's profile is insufficient.
+4. Use a public Pull Request only when intentionally disclosing the code and report. You must still email all three required details to the address above and include the PR URL. Never publish private contact details, credentials, private data, account information, or non-public strategies.
+
+**Name, valid contact details, and a personal GitHub profile URL are mandatory for both initial and upgraded submissions. Missing information, invalid contact details, or a non-compliant profile URL makes the submission incomplete; formal review will not begin until the information is complete.** Use the [submission email template](docs/challenge-submission-template.md).
 
 Each contributor has one initial submission opportunity per challenge. While Grade A remains open, an initial submission that does not meet Grade S but does meet Grade A may be formally certified at Grade A. That certification unlocks one complete Grade S-only upgrade within five calendar days (120 hours) from the time the Grade A confirmation email is sent, for a maximum of two submissions per contributor per challenge. After Grade A is announced closed, later submissions are evaluated only against grades that remain open and receive no supplemental Grade A decision or equivalent review. For a challenge where only Grade S remains open, an initial submission that does not meet Grade S does not create a second submission opportunity. See the [contribution guide](CONTRIBUTING.md), the selected challenge, and the [latest grade status](challenge-board/STATUS.md) for complete rules.
 
@@ -150,7 +152,7 @@ Platform content, tasks, examples, models, code, backtests, and user work are fo
 ## Contact
 
 - Membership applications: `join@singularityx.tech`, subject `[Join SingularityX] <Name or GitHub Username>`; include your name and valid contact details in the email body
-- Challenge submissions: `join@singularityx.tech`, subject `[Challenge Submission] <Challenge ID> - <Name>`; include your name, GitHub username (if any), and valid contact details in the email body
+- Challenge submissions: `join@singularityx.tech`, subject `[Challenge Submission] <Challenge ID> - <Name>`; include your real name, valid contact details, and the full URL of your own personal GitHub profile in the email body (all three required)
 - Privacy requests and compliance complaints: `join@singularityx.tech`
-- Homepage version: V2.2.6 (updated 2026-09-10)
+- Homepage version: V2.2.7 (updated 2026-09-22)
 - Rule interpretation body: SingularityX
