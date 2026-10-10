@@ -32,6 +32,8 @@ challenge-board/results/SX-CH-001-phase-1-results.md
 challenge-board/results/SX-CH-001-phase-1-results.zh-CN.md
 challenge-board/results/SX-CH-001-results.md
 challenge-board/results/SX-CH-001-results.zh-CN.md
+docs/organization-introductions.md
+docs/organization-introductions.zh-CN.md
 docs/difficulty-and-amounts.md
 docs/difficulty-and-amounts.zh-CN.md
 docs/challenge-source-integrity.md
@@ -52,6 +54,15 @@ CONTRIBUTING.md
 ```
 
 ## Main changes in this package
+
+### AGENT FIRST organization introductions — 2026-10-10
+
+- Updates the Chinese homepage opening with the supplied organization introduction and synchronizes the English translation under the name SingularityX Evolution.
+- Presents AI4S → RSI → AI4S as the research path, with financial decision-making as the starting point and reliable, verifiable self-improvement as the research direction.
+- Replaces the opening list of organizational mechanisms with the new introduction covering research, human–AI collaboration, validation, and contribution-based distribution.
+- Adds bilingual copy documents with three versions: the website organization introduction, the social media introduction, and the short account bio. The Chinese text follows the supplied copy; the English document is its translation.
+- Adds the supplied official website link, https://singularity-x.ai, to both homepages and the social media copy.
+- Updates the homepage to V2.2.8 (2026-10-10). This revision changes organization copy only; challenge content, grades, bounty amounts, submission rules, legal documents, and challenge-file SHA256 records are unchanged.
 
 ### Mandatory challenger details — 2026-09-22
 

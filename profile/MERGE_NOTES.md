@@ -4,7 +4,17 @@
 
 This package merges the SingularityX organization homepage with the open research challenge homepage into a single external-facing GitHub homepage package.
 
-## This revision — 2026-09-22
+## This revision — 2026-10-10
+
+- Integrates the supplied AGENT FIRST organization introduction into the Chinese homepage and adds a corresponding English translation.
+- Uses SingularityX Evolution as the full English name in the homepage opening and the new introduction documents.
+- Centers the introduction on AI4S → RSI → AI4S, financial decision-making, multi-agent collaboration and strategic interaction, independent validation, controlled self-improvement, and explainable contribution-based distribution.
+- Adds `docs/organization-introductions.zh-CN.md` and `docs/organization-introductions.md`, each containing website, social media, and short account introductions.
+- Preserves the supplied Chinese wording, with Markdown headings and explicit line breaks for presentation; removes the pasted trailing HTML space entity after the website link.
+- Adds the supplied official website link to both homepages and updates the homepage version to V2.2.8 (2026-10-10).
+- Keeps challenge statements, recognition results, grade status, bounty caps, submission requirements, governance protocols, legal documents, and their integrity records unchanged.
+
+## Previous revision — 2026-09-22
 
 - Makes real name, valid contact details, and the full URL of the contributor's own personal GitHub profile mandatory for initial and upgraded code submissions.
 - Treats missing or invalid details as incomplete materials and holds formal review until they are complete.

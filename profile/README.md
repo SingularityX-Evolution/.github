@@ -2,11 +2,13 @@
 
 <img src="assets/singularityx-logo.png" alt="SingularityX Logo" width="160" />
 
-# SingularityX
+# SingularityX Evolution
 
-### Build with exceptional people. Solve problems that truly matter.
+### AGENT FIRST
 
-SingularityX is building a controlled self-evolving organization where humans and AI learn from financial markets, contributions are verifiably recorded and fairly rewarded, and progress remains bounded by independent validation and deterministic risk controls. Our long-term frontier is Neuro-AI co-adaptation.
+Scientific discovery drives the evolution of intelligence. Evolving intelligence expands the frontiers of scientific discovery.
+
+SingularityX Evolution is dedicated to building intelligent decision systems centered on AI self-evolution, while exploring an open, collaborative organization where humans and AI create value together.
 
 <p>
   <a href="mailto:join@singularityx.tech?subject=%5BJoin%20SingularityX%5D"><img alt="Apply to Join" src="https://img.shields.io/badge/Apply-to%20Join-7C3AED?style=for-the-badge" /></a>
@@ -14,7 +16,7 @@ SingularityX is building a controlled self-evolving organization where humans an
   <a href="challenge-board/results/SX-CH-001-results.md"><img alt="Recognition Results" src="https://img.shields.io/badge/View-Results-14B8A6?style=for-the-badge" /></a>
 </p>
 
-[中文](README.zh-CN.md)
+[Website](https://singularity-x.ai) | [中文](README.zh-CN.md)
 
 </div>
 
@@ -22,17 +24,17 @@ SingularityX is building a controlled self-evolving organization where humans an
 
 ## What we are exploring
 
-- Replace fixed job structures with task protocols.
-- Replace informal recognition with verifiable contribution ledgers.
-- Replace unnecessary meetings with clear interface documentation.
-- Use layered visibility to balance organizational understanding with confidentiality.
-- Replace one-time payments with base, impact, and long-tail returns.
-- Use contribution reputation instead of relying solely on equity- or token-based voting.
-- Combine a core architecture group with autonomous modules instead of adopting a completely flat structure.
-- Build lasting advantages through data flywheels, evaluation systems, real-world environments, and compliance capabilities.
-- Enable controlled self-evolution through institutional sandboxes, versioned governance, and rollback-ready rules.
+Our research follows AI4S → RSI → AI4S: use artificial intelligence to advance scientific research, improve intelligent systems through that research, and apply more capable intelligence to further exploration, so scientific discovery and recursive self-improvement reinforce each other.
 
-These are not finished answers. They are working hypotheses that we continuously test, refine, and turn into durable organizational capabilities through real tasks, real collaboration, and real market feedback.
+Financial markets are our starting point. In a highly non-stationary, adversarial, and uncertain real-world environment, our research goes beyond “better predictive models” to ask: How can agents maintain reliable decision-making as conditions change? How can strategies be generated and validated, then compete and continually evolve through multi-agent collaboration and strategic interaction? How can a system improve the methods that produce strategies, rather than merely optimize an individual strategy?
+
+We hope to move gradually from “humans design strategies, machines execute them” to a collaborative research model in which “humans define problems, objectives, and boundaries, while systems autonomously propose hypotheses, run experiments, validate, and iterate on strategies.” Greater autonomy must be matched by stronger independent validation, adversarial testing and defenses for AI, traceable decision-making, and risk controls.
+
+We are also exploring organizational practices that align with this technical direction. Through open problems, modular collaboration, contribution records, value assessment, and explainable distribution mechanisms with avenues for appeal, we want those who ask critical questions, build shared infrastructure, find errors, validate hypotheses, and create long-term value to have the opportunity to receive rewards commensurate with their contributions. Technology can expand what we create together; fair distribution requires careful design.
+
+Starting with intelligent financial decision-making, our long-term interests include scientific research, humans and AI learning together, and the possibilities at the intersection of artificial intelligence and neuroscience. We remain committed to problems worth solving while retaining the ability to change methods, revise our judgments, and start again.
+
+Keeping agents running reliably is an infrastructure capability; enabling them to discover new knowledge more reliably is a research capability; enabling them to continually improve themselves within verifiable, controllable boundaries is the evolutionary capability we are exploring.
 
 ## Join SingularityX
 
@@ -151,8 +153,10 @@ Platform content, tasks, examples, models, code, backtests, and user work are fo
 
 ## Contact
 
+- Website: [singularity-x.ai](https://singularity-x.ai)
+- Introductions: [Website, social media, and account copy](docs/organization-introductions.md)
 - Membership applications: `join@singularityx.tech`, subject `[Join SingularityX] <Name or GitHub Username>`; include your name and valid contact details in the email body
 - Challenge submissions: `join@singularityx.tech`, subject `[Challenge Submission] <Challenge ID> - <Name>`; include your real name, valid contact details, and the full URL of your own personal GitHub profile in the email body (all three required)
 - Privacy requests and compliance complaints: `join@singularityx.tech`
-- Homepage version: V2.2.7 (updated 2026-09-22)
+- Homepage version: V2.2.8 (updated 2026-10-10)
 - Rule interpretation body: SingularityX
