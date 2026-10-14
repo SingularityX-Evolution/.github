@@ -1,5 +1,7 @@
 # Difficulty Levels and Bounty Caps
 
+> **Scope:** This page covers `SX-CH-001` through `SX-CH-004`. The financial research question program currently accepts only unresolved questions supported by prior thinking or investigation. Adoption leads to a question award and a public challenge; see the [question rules](../open-research/README.md) and [adoption and publication records](../open-research/STATUS.md).
+
 **Rule interpretation body:** SingularityX
 
 Each challenge is assigned one difficulty level, one grade closure rule, and one public CNY bounty cap. Difficulty and bounty caps are assigned at the complete-challenge level. They are not subtask prices, milestone payments, or guaranteed payouts.

@@ -51,7 +51,25 @@ docs/value-assessment-system.zh-CN.md
 .github/PULL_REQUEST_TEMPLATE.md
 CONTRIBUTING.md
 .gitignore
+open-research/README.md
+open-research/README.zh-CN.md
+open-research/STATUS.md
+open-research/STATUS.zh-CN.md
+open-research/templates/challenge.md
+open-research/templates/challenge.zh-CN.md
+open-research/templates/question.md
+open-research/templates/question.zh-CN.md
+.github/ISSUE_TEMPLATE/open-research-question.yml
 ```
+
+## Financial research question intake
+
+- Provides bilingual question rules, adoption and publication records, a question template, a platform challenge-announcement template and the GitHub question Issue form.
+- Accepts only unresolved financial questions with prior thinking or investigation; completed solutions and standalone work-award applications are outside the current intake.
+- Lists CNY 2,000 / 5,000 / 10,000 question awards based on the question’s value, not solution progress. Formal adoption confirms the award, followed by payment and development into a public challenge. Initial feedback is provided within 5 working days of complete materials; payment arrangements are communicated by email without a fixed payment deadline in the question rules. Future solution awards require separate task announcements.
+- Places question proposals before the homepage’s value-assessment section, puts the detailed-framework links on a separate line with a bold label, and provides a concise challenge-submission email template. Question-program pages do not reproduce references to earlier challenges.
+- Omits solution-submission templates and general solution, improvement, verification and major-project award tables from this question intake.
+- Preserves existing challenge statements, acceptance requirements, awards, results and task hashes, with scope notes separating the two processes.
 
 ## Main changes in this package
 

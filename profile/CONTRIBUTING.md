@@ -4,6 +4,14 @@
 
 Thanks for contributing to SingularityX Open Research Challenges.
 
+## Financial research question proposals / 金融研究问题征集
+
+The [question program](open-research/README.md) currently accepts unresolved financial research questions that proposers have already thought through or investigated. Use the [question template](open-research/templates/question.md), describing prior reasoning or attempts and the remaining difficulty. It does not accept already solved problems or complete solutions. Awards reflect the question’s value, not solution progress. Formal adoption confirms a question award; the platform pays the proposer and develops the question into a public challenge. Solutions to that challenge open separately through its announcement. Send proposals to `join@singularityx.tech` with subject `[Open Question] <Question title>`.
+
+本阶段仅征集经过思考或探索、仍未解决的金融问题，不接收已经解决的问题或完整解决方案。按[问题征集规则](open-research/README.zh-CN.md)及[问题模板](open-research/templates/question.zh-CN.md)提交；奖金按题目价值评定，不按解题进度分档；采纳后向提出者发放奖金，并转为公开挑战。可持续补充问题思考及探索材料，私人联系信息通过邮件提供。
+
+The original solution requirements below continue to apply to `SX-CH-001` through `SX-CH-004`. Their awards, submission limits and upgrade windows are unchanged. 下列原挑战规则不作为本问题征集的成果交付要求。
+
 ## Submission requirements
 
 **Mandatory contributor details:** The email body for both initial and upgraded submissions must include your real name, at least one valid contact method (a regularly checked email address, phone number, or WeChat ID), and the full URL of your own personal GitHub profile (`https://github.com/<username>`). A username alone, repository URL, organization profile, or another person's profile is insufficient. Missing information, invalid contact details, or a non-compliant profile URL makes the submission incomplete; formal review will not begin until the information is complete.

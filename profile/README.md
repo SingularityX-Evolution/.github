@@ -4,8 +4,6 @@
 
 # SingularityX Evolution
 
-### AGENT FIRST
-
 Scientific discovery drives the evolution of intelligence. Evolving intelligence expands the frontiers of scientific discovery.
 
 SingularityX Evolution is dedicated to building intelligent decision systems centered on AI self-evolution, while exploring an open, collaborative organization where humans and AI create value together.
@@ -16,7 +14,9 @@ SingularityX Evolution is dedicated to building intelligent decision systems cen
   <a href="challenge-board/results/SX-CH-001-results.md"><img alt="Recognition Results" src="https://img.shields.io/badge/View-Results-14B8A6?style=for-the-badge" /></a>
 </p>
 
-[Website](https://singularity-x.ai) | [中文](README.zh-CN.md)
+**All rights of interpretation are reserved by SingularityX Evolution (零界演化).**
+
+[Website](https://singularity-x.ai) | [Open research questions](open-research/README.md) | [中文](README.zh-CN.md)
 
 </div>
 
@@ -63,7 +63,7 @@ Bounty amounts are public caps for complete challenges, not guaranteed payments.
 
 > **Challenge closure notice (2026-08-03):** `SX-CH-002` is closed in full. Neither Grade S nor Grade A accepts new submissions or recognition applications. Complete materials received before the closure notice will be handled under the existing queue and response rules.
 
-## Latest recognition results
+## Recognition results for existing public challenges
 
 We have received code submissions for multiple public challenges. After code review, reproducibility checks, and comprehensive assessment, only Challenge 1 (`SX-CH-001`) currently has submissions that meet the recognition standard; no submission for the other challenges has yet been recognized.
 
@@ -81,6 +81,8 @@ Public results retain only anonymous IDs, recognized grades, bounty status, and 
 
 ## How to submit a challenge solution
 
+The following solution-submission process applies only to `SX-CH-001` through `SX-CH-004`. The [financial research question program](open-research/README.md) accepts unresolved questions with prior thinking or investigation and does not use the work-delivery requirements below.
+
 1. Read the [challenge board](challenge-board/README.md), the selected challenge, and the [latest grade status](challenge-board/STATUS.md).
 2. Prepare a complete code package, running instructions, reproduction commands, test results, environment details, known limitations, and rights statements.
 3. Submit privately by default to `join@singularityx.tech` with the subject: `[Challenge Submission] <Challenge ID> - <Name>`. The email body must include **your real name, valid contact details, and the full URL of your own personal GitHub profile** (`https://github.com/<username>`). Provide at least one regularly checked email address, phone number, or WeChat ID. The profile URL is mandatory; a username alone, repository URL, organization profile, or another person's profile is insufficient.
@@ -90,13 +92,40 @@ Public results retain only anonymous IDs, recognized grades, bounty status, and 
 
 Each contributor has one initial submission opportunity per challenge. While Grade A remains open, an initial submission that does not meet Grade S but does meet Grade A may be formally certified at Grade A. That certification unlocks one complete Grade S-only upgrade within five calendar days (120 hours) from the time the Grade A confirmation email is sent, for a maximum of two submissions per contributor per challenge. After Grade A is announced closed, later submissions are evaluated only against grades that remain open and receive no supplemental Grade A decision or equivalent review. For a challenge where only Grade S remains open, an initial submission that does not meet Grade S does not create a second submission opportunity. See the [contribution guide](CONTRIBUTING.md), the selected challenge, and the [latest grade status](challenge-board/STATUS.md) for complete rules.
 
-## What you could work on
+## Financial research questions and adoption awards
 
-| Trusted research and engineering | Proof of contribution and governance |
+> **All rights of interpretation for this platform’s question proposals, adoption awards and related activities are reserved by SingularityX Evolution (零界演化).** See the [platform terms](docs/user-agreement-challenge-rules-and-legal-statement.md) for the applicable scope.
+
+**At this stage, this question-submission program accepts only unresolved financial and quantitative research questions that participants have already thought through or investigated. It does not seek already solved problems or complete solutions.** Individuals, teams and organizations may participate without applying to join the organization. Proposals remain open with no registration fee.
+
+Explain why the question matters, what thinking or work you have undertaken, any interim findings, and what remains unresolved. Code, completed experiments and successful outcomes are not prerequisites. Specific reasoning, literature analysis, method comparisons and documented failures can support a proposal. Partial results serve only to explain the context and remaining difficulty.
+
+### Adoption and awards
+
+The platform assesses research value, prior thinking or investigation, remaining difficulties and suitability for an open challenge. On adoption, the question, award, contributors and disclosure scope are confirmed in a formal adoption notice. **The proposer receives a question award, and the adopted question is developed into a public challenge inviting solutions.** Payment of the question award does not depend on anyone successfully solving the subsequent challenge.
+
+| Question award, CNY before tax | Question-value criteria |
 |---|---|
-| Data pipelines, backtesting, strategy research, model evaluation, risk controls, execution, and monitoring | Evidence chains, version history, reproducibility review, value attribution, appeals, and audits |
+| 2,000 | A question with clear financial research or practical value, addressing a specific limitation and suitable for a well-defined public challenge |
+| 5,000 | A question addressing a representative or widespread bottleneck, with substantial potential to improve research methods, system capabilities or practical applications |
+| 10,000 | A question of exceptional research or practical importance, concerning a foundational, shared or frontier problem that can advance related research and methods |
 
-Our baseline principles are to open tasks while isolating control, reward contribution without accepting black boxes, and allow AI assistance without giving AI final authority. Actions involving funds, live execution, core accounts, or sensitive systems require separated permissions and human review.
+**Question awards are determined by the question’s research significance, practical value, importance, potential reach and value as a public challenge, not by solution progress or the completeness of results.** Prior thinking or investigation is a submission requirement that explains the basis of the question and its unresolved difficulty; time spent, code volume, experiment counts and the amount of completed work do not determine the award tier.
+
+The tier is confirmed in writing on adoption. The same question is not paid twice; submission or initial review is not adoption.
+
+### How to submit
+
+Use the [question template](open-research/templates/question.md) and email [join@singularityx.tech](mailto:join@singularityx.tech?subject=%5BOpen%20Question%5D) with subject `[Open Question] <Question title>`. Include your name or entity and valid contact details. If exploratory code is attached, also provide the responsible person’s real name and full personal GitHub profile URL.
+
+Questions suitable for public disclosure, with the necessary permissions, may use the repository Issues form “公开研究提问 / Research question”. Then email the Issue URL and contact information. Issues and attachments are public; send private contact details and confidential materials by email.
+
+Initial feedback is provided within 5 working days of complete materials. If more time is needed, the platform explains the reason and next feedback arrangements before the deadline. Awards are processed after formal adoption and verification of the required payment and tax information; payment arrangements are communicated by email. See the [question program rules](open-research/README.md) for the full process.
+
+- [Question rules and awards](open-research/README.md) · [Adopted questions and challenge publication records](open-research/STATUS.md)
+- [Question template](open-research/templates/question.md)
+
+**Scope:** This program currently accepts question proposals only, not standalone award applications for solutions, improvements or verification reports. A challenge developed from an adopted question will separately announce solution requirements, awards and open status.
 
 ## Value assessment and fair distribution
 
@@ -122,7 +151,9 @@ Assessment follows a contribution-record, evidence-verification, value-attributi
 - **Preserve the total:** distribution cannot exceed the confirmed value pool, the same outcome cannot be counted twice, and uncertain or immature value may remain deferred.
 - **Keep review and appeal available:** material adjustments require recorded reasons and conflict disclosure, and affected members may request review within the applicable window.
 
-The purpose is not to replace judgment with one score, but to make judgment evidence-based, distribution bounded, adjustments recorded, and outcomes explainable. See the [Value Assessment System](docs/value-assessment-system.md) and [Value Distribution Protocol](VALUE-DISTRIBUTION-PROTOCOL.md) for the detailed framework.
+The purpose is not to replace judgment with one score, but to make judgment evidence-based, distribution bounded, adjustments recorded, and outcomes explainable.
+
+**Detailed framework:** [Value Assessment System](docs/value-assessment-system.md) | [Value Distribution Protocol](VALUE-DISTRIBUTION-PROTOCOL.md)
 
 All compensation, bounties, profit sharing, equity, options, tokens, points, or other economic interests are governed by formal agreements, applicable law, tax requirements, and organizational approval.
 
@@ -131,6 +162,7 @@ All compensation, bounties, profit sharing, equity, options, tokens, points, or 
 | Document | Scope |
 |---|---|
 | [Full User Agreement, Challenge Rules, and Legal Statement](docs/user-agreement-challenge-rules-and-legal-statement.md) | Participation, review, settlement, intellectual property, and disputes |
+| [Financial research questions and adoption awards](open-research/README.md) | Unresolved question proposals, review, question awards and challenge publication |
 | [Privacy Policy](docs/privacy-policy.md) | Information collection, use, disclosure, retention, and rights |
 | [Important Legal and Compliance Statement](docs/legal-notice-and-compliance.md) | Research boundaries, risk, and compliance notices |
 | [Difficulty and Bounty Amounts](docs/difficulty-and-amounts.md) | Difficulty levels, bounty caps, and recognition scope |
@@ -154,9 +186,9 @@ Platform content, tasks, examples, models, code, backtests, and user work are fo
 ## Contact
 
 - Website: [singularity-x.ai](https://singularity-x.ai)
-- Introductions: [Website, social media, and account copy](docs/organization-introductions.md)
 - Membership applications: `join@singularityx.tech`, subject `[Join SingularityX] <Name or GitHub Username>`; include your name and valid contact details in the email body
 - Challenge submissions: `join@singularityx.tech`, subject `[Challenge Submission] <Challenge ID> - <Name>`; include your real name, valid contact details, and the full URL of your own personal GitHub profile in the email body (all three required)
+- Research questions: `join@singularityx.tech`, subject `[Open Question] <Question title>`; see the [question template](open-research/templates/question.md)
 - Privacy requests and compliance complaints: `join@singularityx.tech`
-- Homepage version: V2.2.8 (updated 2026-10-10)
-- Rule interpretation body: SingularityX
+- Interpretation rights: All rights of interpretation are reserved by SingularityX Evolution (零界演化).
+- Version: 3.0 | Release date: October 15, 2026

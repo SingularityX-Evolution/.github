@@ -1,5 +1,7 @@
 # S / A Grade Status Table
 
+> **Scope:** This page covers `SX-CH-001` through `SX-CH-004`. The financial research question program currently accepts only unresolved questions supported by prior thinking or investigation. Adoption leads to a question award and a public challenge; see the [question rules](../open-research/README.md) and [adoption and publication records](../open-research/STATUS.md).
+
 **Rule interpretation body:** SingularityX
 
 This table shows whether each S / A bounty grade is open or closed for the current public challenges. Grades S and A may be recognized and closed independently. SingularityX may also close an entire challenge by announcement, at which point all grades under that challenge stop accepting new submissions.

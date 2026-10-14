@@ -34,6 +34,8 @@ Technical tools may assist testing, anti-cheating, and review, but decisions wit
 
 ## 4. Public Display
 
+The financial research question program processes unresolved questions, records of prior thinking or investigation, remaining objectives, adoption confirmations, disclosure permissions and question-award records for review, challenge publication and settlement. Its formal statements, agreed summaries and contribution records are retained for continuing collaboration, with display and retention scope confirmed before publication; the existing challenges’ one-week display arrangement does not automatically apply to these continuing statements. Contact and payment details are not public by default, and full code, reports and other attachments remain subject to specific permission. See the [open research program rules](../open-research/README.md).
+
 A private submission is not automatically made public. We publish reviewed materials only with authorization, where task rules expressly allow it, or where required by law, and obtain separate consent where legally required. Grade-recognized work is generally displayed only through an anonymous ID, grade, bounty status, and anonymized summary. Authorized profiles or code materials are displayed for one week under the current challenge rules and then their public entry points are removed.
 
 Providing the required name, contact details, and personal GitHub profile URL does not authorize public disclosure of the name or contact details, or public display linking the profile to the submission. Keep private contact details such as phone numbers and WeChat IDs out of public PRs, Issues, and code files.

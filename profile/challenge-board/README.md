@@ -1,5 +1,7 @@
 # SingularityX Challenge Board
 
+> **Scope:** This page covers `SX-CH-001` through `SX-CH-004`. The financial research question program currently accepts only unresolved questions supported by prior thinking or investigation. Adoption leads to a question award and a public challenge; see the [question rules](../open-research/README.md) and [adoption and publication records](../open-research/STATUS.md).
+
 **Rule interpretation body:** SingularityX
 
 This board lists the current public bounty challenges. Each challenge is independent. Challenges are ordered by CNY bounty cap from low to high, and challenge IDs follow the same ascending bounty order. Clicking “Open” leads directly to a GitHub-rendered Markdown problem page.

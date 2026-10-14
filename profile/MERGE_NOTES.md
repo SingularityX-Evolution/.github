@@ -4,6 +4,12 @@
 
 This package merges the SingularityX organization homepage with the open research challenge homepage into a single external-facing GitHub homepage package.
 
+## Financial research question intake
+
+The `open-research/` directory and research question Issue form provide an ongoing call for unresolved financial questions that participants have already thought through or investigated. Written adoption confirms a question award; the proposer is paid and the question developed into an `SX-OR-` public challenge. The current call does not accept already solved problems or complete solutions. Subsequent solution requirements and awards are announced separately for each resulting challenge.
+
+The package includes question and challenge-announcement templates only. When updating an earlier question-intake package, remove the superseded `open-research/templates/solution.md` and `open-research/templates/solution.zh-CN.md` files. Existing `SX-CH-001` through `SX-CH-004` task files, awards, results and SHA256 records are unchanged. Homepage entry points and bilingual scope notes distinguish their existing solution submissions from the question-only call.
+
 ## This revision — 2026-10-10
 
 - Integrates the supplied AGENT FIRST organization introduction into the Chinese homepage and adds a corresponding English translation.

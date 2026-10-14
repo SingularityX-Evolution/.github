@@ -4,6 +4,8 @@
 
 [中文版本](user-agreement-challenge-rules-and-legal-statement.zh-CN.md) | [Privacy Policy](privacy-policy.md)
 
+> **Question program scope:** The financial research question call currently accepts only unresolved questions with prior thinking or investigation under its [specific rules](../open-research/README.md). Already solved problems, complete solutions and standalone work-award applications are outside this stage. Adoption leads to a question award and a public challenge. Adoption, award assessment, payment arrangements, disclosure permissions, reconsideration and rule changes follow those specific rules; other matters continue under this agreement.
+
 ## 1. Important Notice and Scope
 
 1.1 These terms are published by SingularityX and apply to bounty tasks, technical challenges, algorithm evaluations, code submissions, backtest validation, leaderboard review, bounty settlement, community communication, and related services operated or provided by SingularityX. By accessing, browsing, registering, signing in, publishing a task, submitting a solution, receiving a bounty, using platform content, or continuing to use the services, a user acknowledges that they have read, understood, and agreed to these terms and any task rules, privacy policy, announcements, and supplemental rules published by the platform from time to time.
@@ -144,7 +146,7 @@
 
 ## 14. Governing Law, Interpretation, and Dispute Resolution
 
-14.1 To the extent permitted by law, SingularityX holds the rights of interpretation, administration, and final confirmation for platform rules, task descriptions, review, acceptance, ranking, bounties, commissions, taxes, settlement, violations, account management, and other service matters. This does not override mandatory law or matters that must be finally decided by a court or arbitral tribunal.
+14.1 **All rights of interpretation are reserved by SingularityX Evolution (零界演化).** To the extent permitted by law, SingularityX holds the rights of interpretation, administration, and final confirmation for platform rules, task descriptions, review, acceptance, ranking, bounties, commissions, taxes, settlement, violations, account management, and other service matters. This does not override mandatory law or matters that must be finally decided by a court or arbitral tribunal.
 
 14.2 Disputes arising from these terms, platform services, bounty tasks, submissions, bounty settlement, intellectual property, data compliance, account action, or related matters should first be resolved through good-faith consultation. If consultation fails, each party agrees to submit the dispute to the Hangzhou Arbitration Commission (Hangzhou Court of International Arbitration). The seat is Hangzhou, the language is Chinese, and the award is final and binding.
 
