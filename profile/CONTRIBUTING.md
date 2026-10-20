@@ -66,6 +66,20 @@ Each submission is placed in the review queue according to the timestamp at whic
 
 After a grade certification succeeds, SingularityX will publicly display only a desensitized work summary, certification grade, challenge ID, and reviewed public materials for one week, without disclosing sensitive information, private code, account information, non-public strategy details, restricted data, or core confidential implementation details.
 
+## Appeals and reconsideration / 申诉与复核
+
+This section applies to `SX-CH-001` through `SX-CH-004`. Appeals must be filed within **5 working days** after the challenger receives the review result. SingularityX will reply within **3 working days** after receiving the appeal. If reconsideration is not yet complete, the response within that deadline must state the current progress and arrangements for the next update. Correcting errors made by the reviewers or filing an appeal does not count as a second submission.
+
+Email appeals to `join@singularityx.tech`, identifying the challenge, original submission, disputed findings, and supporting evidence. An appeal concerns the review of the original submission and does not create an opportunity to resubmit or replace the solution; new versions remain subject to the existing submission and upgrade rules.
+
+**Supplementary-material boundaries:** Explanations of the original version, reproduction evidence complying with existing experimental constraints, and reviewer-error corrections are not counted as second submissions. Substantively modified code or solutions and their new results remain subject to the existing submission and upgrade rules. Limited verification follows the task and previously explicit written scope. See Section 5.8 of the [common rules](docs/user-agreement-challenge-rules-and-legal-statement.md).
+
+本节适用于 `SX-CH-001` 至 `SX-CH-004`。申诉期为收到评审结果后 **5 个工作日**。主办方将在收到申诉后 **3 个工作日** 内回复。尚未完成复核的，主办方须在上述期限内说明当前进展及下一次反馈安排。修正评审自身错误或提出申诉，均不计为第二次提交。
+
+申诉可发送至 `join@singularityx.tech`，注明挑战编号、原提交标识、异议事项及依据。申诉针对原提交版本的评审结果，不构成重新提交或替换方案的机会；新版本仍按原有提交及升级规则处理。
+
+**补充材料边界：** 原版本的解释性说明、符合原有实验约束的复现证据和评审纠错材料，不单独计为第二次提交；实质修改代码或方案及其新结果，须按原有提交及升级规则处理。限定补验按题面和已有明确书面范围执行。具体范围见[共用规则](docs/user-agreement-challenge-rules-and-legal-statement.zh-CN.md)第 5.8 条。
+
 ## Evidence bundle
 
 Each submission should make review possible:

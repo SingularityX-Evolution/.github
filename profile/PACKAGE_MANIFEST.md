@@ -69,9 +69,25 @@ open-research/templates/question.zh-CN.md
 - Lists CNY 2,000 / 5,000 / 10,000 question awards based on the question’s value, not solution progress. Formal adoption confirms the award, followed by payment and development into a public challenge. Initial feedback is provided within 5 working days of complete materials; payment arrangements are communicated by email without a fixed payment deadline in the question rules. Future solution awards require separate task announcements.
 - Places question proposals before the homepage’s value-assessment section, puts the detailed-framework links on a separate line with a bold label, and provides a concise challenge-submission email template. Question-program pages do not reproduce references to earlier challenges.
 - Omits solution-submission templates and general solution, improvement, verification and major-project award tables from this question intake.
-- Preserves existing challenge statements, acceptance requirements, awards, results and task hashes, with scope notes separating the two processes.
+- Keeps the question intake separate from the existing challenges. The appeal-rule update below changes challenge rule text and task hashes; technical acceptance requirements, awards and results remain unchanged.
 
 ## Main changes in this package
+
+### Supplementary-material boundaries and response requirements — 2026-10-20
+
+- Requires the response within the existing 3-working-day deadline to state current progress and arrangements for the next update when reconsideration is not yet complete.
+
+- Clarifies only the boundary between original-version explanations and reproduction evidence, reviewer-error correction, expressly scoped supplementary verification, and substantively modified solutions.
+- Adds bilingual Section 5.8 to the common rules and links it from all four task pages, Challenge 4's evaluation standard, the challenge boards, and the contribution guide.
+- Requires original-version identification and disclosure of differences; mixed packages are classified by their contents rather than treated wholly as explanations or new versions.
+- Retains the earlier appeal-rule package's 5-working-day appeal window, 3-working-day response deadline, submission and upgrade rules, certification procedures, technical requirements, bounty amounts, grade status and question-intake rules. Refreshes task-file SHA256 records.
+
+### Unified challenge appeals — 2026-10-20
+
+- Applies a single appeal rule to `SX-CH-001` through `SX-CH-004`: appeals within 5 working days after receipt of the review result, and a platform reply within 3 working days after receipt of the appeal.
+- Clarifies that correcting reviewer errors or filing an appeal does not count as a second submission. New or replacement solution versions remain subject to existing submission and upgrade rules.
+- Synchronizes all four task pages, Challenge 4's evaluation standard, bilingual homepages, challenge boards, status pages, contribution guidance and common rules; regenerates task-file SHA256 records.
+- Retains challenge amounts, technical evaluation requirements, grade status, results and Grade A-to-S upgrade windows. Financial research question intake rules are unchanged.
 
 ### AGENT FIRST organization introductions — 2026-10-10
 

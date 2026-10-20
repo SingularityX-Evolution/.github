@@ -44,4 +44,8 @@ The announcement publishes anonymous recognition information and anonymized solu
 10. SingularityX may close an entire challenge by announcement. Once closed in full, all grades under that challenge stop accepting new submissions and recognition applications.
 11. When grade status changes, this file, the challenge board, and relevant challenge pages should be updated together.
 
+## Appeals and reconsideration
+
+This section applies to `SX-CH-001` through `SX-CH-004`. Appeals must be filed within **5 working days** after the challenger receives the review result. SingularityX will reply within **3 working days** after receiving the appeal. If reconsideration is not yet complete, the response within that deadline must state the current progress and arrangements for the next update. Correcting errors made by the reviewers or filing an appeal does not count as a second submission. See the [appeal rules](./README.md#appeals-and-reconsideration) for the channel and scope.
+
 [← Back to challenge board](./README.md)

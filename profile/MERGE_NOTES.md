@@ -8,9 +8,25 @@ This package merges the SingularityX organization homepage with the open researc
 
 The `open-research/` directory and research question Issue form provide an ongoing call for unresolved financial questions that participants have already thought through or investigated. Written adoption confirms a question award; the proposer is paid and the question developed into an `SX-OR-` public challenge. The current call does not accept already solved problems or complete solutions. Subsequent solution requirements and awards are announced separately for each resulting challenge.
 
-The package includes question and challenge-announcement templates only. When updating an earlier question-intake package, remove the superseded `open-research/templates/solution.md` and `open-research/templates/solution.zh-CN.md` files. Existing `SX-CH-001` through `SX-CH-004` task files, awards, results and SHA256 records are unchanged. Homepage entry points and bilingual scope notes distinguish their existing solution submissions from the question-only call.
+The package includes question and challenge-announcement templates only. When updating an earlier question-intake package, remove the superseded `open-research/templates/solution.md` and `open-research/templates/solution.zh-CN.md` files. The question-intake changes did not alter existing challenge rules. The separate appeal-rule update below changes `SX-CH-001` through `SX-CH-004` rule text and regenerates SHA256 records, while preserving their technical requirements, awards, results and grade status. Homepage entry points and bilingual scope notes distinguish their existing solution submissions from the question-only call.
 
-## This revision — 2026-10-10
+## This revision: supplementary-material boundaries and response requirements — 2026-10-20
+
+- Requires the response within the existing 3-working-day deadline to state current progress and arrangements for the next update when reconsideration is not yet complete.
+
+- Clarifies only the boundary between original-version explanations and reproduction evidence, reviewer-error correction, expressly scoped supplementary verification, and substantively modified solutions.
+- Adds bilingual Section 5.8 to the common rules and links it from all four task pages, Challenge 4's evaluation standard, the challenge boards, and the contribution guide.
+- Requires original-version identification and disclosure of differences; mixed packages are classified by their contents rather than treated wholly as explanations or new versions.
+- Retains the earlier appeal-rule package's 5-working-day appeal window, 3-working-day response deadline, submission and upgrade rules, certification procedures, technical requirements, bounty amounts, grade status and question-intake rules. Refreshes task-file SHA256 records.
+
+## Earlier revision: unified challenge appeals — 2026-10-20
+
+- Applies a single appeal rule to `SX-CH-001` through `SX-CH-004`: appeals within 5 working days after receipt of the review result, and a platform reply within 3 working days after receipt of the appeal.
+- Clarifies that correcting reviewer errors or filing an appeal does not count as a second submission. New or replacement solution versions remain subject to existing submission and upgrade rules.
+- Synchronizes all four task pages, Challenge 4's evaluation standard, bilingual homepages, challenge boards, status pages, contribution guidance and common rules; regenerates task-file SHA256 records.
+- Retains challenge amounts, technical evaluation requirements, grade status, results and Grade A-to-S upgrade windows. Financial research question intake rules are unchanged.
+
+## Previous revision — 2026-10-10
 
 - Integrates the supplied AGENT FIRST organization introduction into the Chinese homepage and adds a corresponding English translation.
 - Uses SingularityX Evolution as the full English name in the homepage opening and the new introduction documents.

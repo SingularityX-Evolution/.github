@@ -77,4 +77,12 @@ Both the initial submission and any Grade A-to-S upgraded submission are indepen
 
 After a grade certification succeeds, SingularityX will publicly display only a desensitized work summary, certification grade, challenge ID, and reviewed public materials for one week, without disclosing sensitive information, private code, account information, non-public strategy details, restricted data, or core confidential implementation details.
 
+## Appeals and reconsideration
+
+This section applies to `SX-CH-001` through `SX-CH-004`. Appeals must be filed within **5 working days** after the challenger receives the review result. SingularityX will reply within **3 working days** after receiving the appeal. If reconsideration is not yet complete, the response within that deadline must state the current progress and arrangements for the next update. Correcting errors made by the reviewers or filing an appeal does not count as a second submission.
+
+Email appeals to `join@singularityx.tech`, identifying the challenge, original submission, disputed findings, and supporting evidence. An appeal concerns the review of the original submission and does not create an opportunity to resubmit or replace the solution; new versions remain subject to the existing submission and upgrade rules.
+
+**Supplementary-material boundaries:** Explanations of the original version, reproduction evidence complying with existing experimental constraints, and reviewer-error corrections are not counted as second submissions. Substantively modified code or solutions and their new results remain subject to the existing submission and upgrade rules. Limited verification follows the task and previously explicit written scope. See Section 5.8 of the [common rules](../docs/user-agreement-challenge-rules-and-legal-statement.md).
+
 [← Back to homepage](../README.md)
