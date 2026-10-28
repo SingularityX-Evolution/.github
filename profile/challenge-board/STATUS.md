@@ -22,12 +22,14 @@ The announcement publishes anonymous recognition information and anonymized solu
 
 **Challenge closure notice (2026-08-03):** `SX-CH-002` is closed in full. Neither Grade S nor Grade A accepts new submissions or recognition applications. Complete materials received before the closure notice will be handled under the existing queue and response rules.
 
+**Challenge closure notice (2026-10-28):** `SX-CH-003` is closed in full. Neither Grade S nor Grade A accepts new submissions or recognition applications. Complete materials received before the closure notice will be handled under the existing queue and response rules.
+
 
 | Challenge ID | Challenge | S grade | A grade | Last updated |
 |---|---|---:|---:|---|
 | SX-CH-001 | Multi-Hop Causal Chain Uncertainty Quantification | Open | Awarded / closed | 2026-07-06 |
 | SX-CH-002 | Tardis Historical Data and Binance Real-Time Data Consistency | Closed | Closed | 2026-08-03 |
-| SX-CH-003 | Paper Strategy Runtime Contract for Real Backtesting | Open | Open | 2026-06-22 |
+| SX-CH-003 | Paper Strategy Runtime Contract for Real Backtesting | Closed | Closed | 2026-10-28 |
 | SX-CH-004 | Robust High-Sharpe Alpha Mining from a Public Classic Strategy Pool | Open | Open | 2026-09-17 |
 
 ## Submission opportunities, Grade A-to-S upgrades, grade closure, and concurrent-submission rules
@@ -43,9 +45,5 @@ The announcement publishes anonymous recognition information and anonymized solu
 9. Closure of one grade does not affect recognition applications for other open grades under the same challenge.
 10. SingularityX may close an entire challenge by announcement. Once closed in full, all grades under that challenge stop accepting new submissions and recognition applications.
 11. When grade status changes, this file, the challenge board, and relevant challenge pages should be updated together.
-
-## Appeals and reconsideration
-
-This section applies to `SX-CH-001` through `SX-CH-004`. Appeals must be filed within **5 working days** after the challenger receives the review result. SingularityX will reply within **3 working days** after receiving the appeal. If reconsideration is not yet complete, the response within that deadline must state the current progress and arrangements for the next update. Correcting errors made by the reviewers or filing an appeal does not count as a second submission. See the [appeal rules](./README.md#appeals-and-reconsideration) for the channel and scope.
 
 [← Back to challenge board](./README.md)

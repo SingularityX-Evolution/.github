@@ -36,6 +36,22 @@ Starting with intelligent financial decision-making, our long-term interests inc
 
 Keeping agents running reliably is an infrastructure capability; enabling them to discover new knowledge more reliably is a research capability; enabling them to continually improve themselves within verifiable, controllable boundaries is the evolutionary capability we are exploring.
 
+## S2E distributed AI collaboration ecosystem
+
+S2E (Singularity to Evolution) is a distributed AI collaboration ecosystem under development. It aims to connect researchers, domain experts, engineers, AI agents, and computing resources worldwide, bringing distributed expertise together in sustained collaboration on difficult problems shared by humanity.
+
+The platform focuses on three long-term questions. Energy and habitats: how can humanity obtain more abundant energy and extend sustainable habitats beyond Earth? Life and intelligence: how can humanity reduce the limitations imposed by disease and aging, and deepen its understanding of life, cognition, and consciousness? Collaboration and civilization: how can people, agents, knowledge, and resources distributed worldwide develop a sustained capacity to solve complex problems?
+
+S2E is exploring how to break long-term goals into verifiable research tasks, starting with specific problems and advancing step by step. Fusion research can begin with a control or materials problem; brain–computer interfaces with cross-person decoding and long-term stability; space-based computing with thermal management, radiation, and cost models. Ambitious questions provide a shared direction; verifiable research tasks make collaboration possible.
+
+The platform uses agents as an interface for collaboration, connecting expert knowledge with research tools. We are exploring how to organize expert experience and research methods into capability modules that can be used with authorization, so research records, tasks, and results can be reused within agreed permissions, reducing repeated communication and delays. We are also exploring blockchain for contribution traceability and privacy-preserving computation and other privacy protections for controlled sharing, alongside bounties, research funding, and opportunities to use or redeem resources to support sustained participation.
+
+S2E is currently using a small-sample financial research demo to refine task collaboration, result verification, and contribution records. In parallel, we are developing infrastructure, connecting partners across disciplines, and building the ecosystem, gradually developing the capacity to extend into other scientific fields.
+
+S2E is committed to the public benefit of scientific research and community collaboration. We value sharp thinking, self-direction, shared interests, and an evidence-seeking approach. A small core team iterates quickly, welcoming researchers, developers, research institutions, and resource partners to help build the platform. Specific tasks, permissions, and incentives are governed by formal announcements or agreements.
+
+Let one person's important discovery become the starting point for others to explore further.
+
 ## Join SingularityX
 
 We want to meet people who can form independent judgments and turn ideas into working results. Whether your strength is quantitative research, data engineering, backtesting and execution, AI and model evaluation, risk control, or contribution governance, you can find problems here that are worth sustained effort.
@@ -54,7 +70,7 @@ We want to meet people who can form independent judgments and turn ideas into wo
 |---|---|---:|---|---|
 | SX-CH-001 | Multi-Hop Causal Chain Uncertainty Quantification | RMB 7,000 | S open; A awarded and closed | [View challenge](challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md) |
 | SX-CH-002 | Tardis and Binance Market-Data Consistency | RMB 8,800 | Closed (S / A closed) | [View closed challenge](challenge-board/tasks/SX-CH-002-market-data-consistency.md) |
-| SX-CH-003 | Runtime Contract from Paper Strategy to Real Backtesting | RMB 9,500 | S / A open | [View challenge](challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md) |
+| SX-CH-003 | Runtime Contract from Paper Strategy to Real Backtesting | RMB 9,500 | Closed (S / A closed) | [View closed challenge](challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md) |
 | SX-CH-004 | Robust High-Sharpe Alpha Mining from a Public Classic Strategy Pool | RMB 12,000 | S / A open | [View challenge](challenge-board/tasks/SX-CH-004-public-alpha-selection.md) |
 
 Bounty amounts are public caps for complete challenges, not guaranteed payments. Recognition depends on the challenge requirements, reproducibility results, review conclusions, contribution evidence, applicable agreements, and compliance requirements. Use the [status page](challenge-board/STATUS.md) as the authoritative entry point for grade changes.
@@ -62,6 +78,8 @@ Bounty amounts are public caps for complete challenges, not guaranteed payments.
 > **Grade closure and submission opportunities:** Each contributor normally has one initial submission opportunity per challenge. While Grade A remains open, an initial submission that does not meet Grade S but does meet Grade A may be certified at Grade A, unlocking one complete Grade S-only upgrade. Once Grade A for a challenge has been certified, awarded, and announced closed, later submissions are evaluated only against grades that remain open; they do not receive a supplemental Grade A decision or a retrospective “Grade A-equivalent” review. Grade A for `SX-CH-001` has been awarded and closed, so only Grade S is currently evaluated; an initial submission in this phase that does not meet Grade S does not create a second submission opportunity.
 
 > **Challenge closure notice (2026-08-03):** `SX-CH-002` is closed in full. Neither Grade S nor Grade A accepts new submissions or recognition applications. Complete materials received before the closure notice will be handled under the existing queue and response rules.
+
+> **Challenge closure notice (2026-10-28):** `SX-CH-003` is closed in full. Neither Grade S nor Grade A accepts new submissions or recognition applications. Complete materials received before the closure notice will be handled under the existing queue and response rules.
 
 ## Recognition results for existing public challenges
 
@@ -91,8 +109,6 @@ The following solution-submission process applies only to `SX-CH-001` through `S
 **Name, valid contact details, and a personal GitHub profile URL are mandatory for both initial and upgraded submissions. Missing information, invalid contact details, or a non-compliant profile URL makes the submission incomplete; formal review will not begin until the information is complete.** Use the [submission email template](docs/challenge-submission-template.md).
 
 Each contributor has one initial submission opportunity per challenge. While Grade A remains open, an initial submission that does not meet Grade S but does meet Grade A may be formally certified at Grade A. That certification unlocks one complete Grade S-only upgrade within five calendar days (120 hours) from the time the Grade A confirmation email is sent, for a maximum of two submissions per contributor per challenge. After Grade A is announced closed, later submissions are evaluated only against grades that remain open and receive no supplemental Grade A decision or equivalent review. For a challenge where only Grade S remains open, an initial submission that does not meet Grade S does not create a second submission opportunity. See the [contribution guide](CONTRIBUTING.md), the selected challenge, and the [latest grade status](challenge-board/STATUS.md) for complete rules.
-
-**Appeals and reconsideration:** Appeals must be filed within **5 working days** after the challenger receives the review result. SingularityX will reply within **3 working days** after receiving the appeal. If reconsideration is not yet complete, the response within that deadline must state the current progress and arrangements for the next update. Correcting errors made by the reviewers or filing an appeal does not count as a second submission. See the [appeal rules](challenge-board/README.md#appeals-and-reconsideration).
 
 ## Financial research questions and adoption awards
 
@@ -193,4 +209,4 @@ Platform content, tasks, examples, models, code, backtests, and user work are fo
 - Research questions: `join@singularityx.tech`, subject `[Open Question] <Question title>`; see the [question template](open-research/templates/question.md)
 - Privacy requests and compliance complaints: `join@singularityx.tech`
 - Interpretation rights: All rights of interpretation are reserved by SingularityX Evolution (零界演化).
-- Version: 3.0 | Release date: October 15, 2026
+- Version: 4.0 (fourth edition) | Release date: October 28, 2026

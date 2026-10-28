@@ -4,6 +4,8 @@ Package: `SingularityX_public_homepage_bilingual`
 
 | Item | Content |
 |---|---|
+| Release version | 4.0 (fourth edition) |
+| Release date | 2026-10-28 |
 | Rule interpretation body | SingularityX |
 | Chinese rule interpretation body | 零界演化 |
 
@@ -69,25 +71,21 @@ open-research/templates/question.zh-CN.md
 - Lists CNY 2,000 / 5,000 / 10,000 question awards based on the question’s value, not solution progress. Formal adoption confirms the award, followed by payment and development into a public challenge. Initial feedback is provided within 5 working days of complete materials; payment arrangements are communicated by email without a fixed payment deadline in the question rules. Future solution awards require separate task announcements.
 - Places question proposals before the homepage’s value-assessment section, puts the detailed-framework links on a separate line with a bold label, and provides a concise challenge-submission email template. Question-program pages do not reproduce references to earlier challenges.
 - Omits solution-submission templates and general solution, improvement, verification and major-project award tables from this question intake.
-- Keeps the question intake separate from the existing challenges. The appeal-rule update below changes challenge rule text and task hashes; technical acceptance requirements, awards and results remain unchanged.
+- Preserves existing challenge statements, acceptance requirements, awards, results and task hashes, with scope notes separating the two processes.
 
 ## Main changes in this package
 
-### Supplementary-material boundaries and response requirements — 2026-10-20
+### S2E collaboration platform module — 2026-10-28
 
-- Requires the response within the existing 3-working-day deadline to state current progress and arrangements for the next update when reconsideration is not yet complete.
+- Keeps the SingularityX / 零界演化 identity, logo, original homepage content and section order, organization introductions, recruitment, contribution guide, question intake, and challenge pages.
+- Adds the S2E introduction as one self-contained section after the existing research introduction on each bilingual homepage, using the supplied v1.1 copy and attached 2.0 introduction. The module covers its long-term directions, Agent collaboration, current financial demo, and participation values; blockchain and privacy-preserving computation remain exploratory.
+- Retains version 4.0 (fourth edition), dated 2026-10-28, and the full closure of SX-CH-003. Challenge rules, awards, results, task files, and integrity records remain unchanged from the closure package.
 
-- Clarifies only the boundary between original-version explanations and reproduction evidence, reviewer-error correction, expressly scoped supplementary verification, and substantively modified solutions.
-- Adds bilingual Section 5.8 to the common rules and links it from all four task pages, Challenge 4's evaluation standard, the challenge boards, and the contribution guide.
-- Requires original-version identification and disclosure of differences; mixed packages are classified by their contents rather than treated wholly as explanations or new versions.
-- Retains the earlier appeal-rule package's 5-working-day appeal window, 3-working-day response deadline, submission and upgrade rules, certification procedures, technical requirements, bounty amounts, grade status and question-intake rules. Refreshes task-file SHA256 records.
+### SX-CH-003 closure — 2026-10-28
 
-### Unified challenge appeals — 2026-10-20
-
-- Applies a single appeal rule to `SX-CH-001` through `SX-CH-004`: appeals within 5 working days after receipt of the review result, and a platform reply within 3 working days after receipt of the appeal.
-- Clarifies that correcting reviewer errors or filing an appeal does not count as a second submission. New or replacement solution versions remain subject to existing submission and upgrade rules.
-- Synchronizes all four task pages, Challenge 4's evaluation standard, bilingual homepages, challenge boards, status pages, contribution guidance and common rules; regenerates task-file SHA256 records.
-- Retains challenge amounts, technical evaluation requirements, grade status, results and Grade A-to-S upgrade windows. Financial research question intake rules are unchanged.
+- Closes `SX-CH-003` in full on 2026-10-28. Both Grade S and Grade A stop accepting new submissions or recognition applications; complete materials received before the closure announcement remain subject to the existing queue and response rules.
+- Synchronizes the bilingual homepages, challenge boards, grade-status pages, difficulty tables, and package references. Retains the task page and recognition rules as historical reference.
+- Refreshes the SX-CH-003 SHA256 records in both integrity files. This status update does not announce a certification result or bounty payment.
 
 ### AGENT FIRST organization introductions — 2026-10-10
 
@@ -166,7 +164,7 @@ open-research/templates/question.zh-CN.md
 |---|---:|---:|---:|---|
 | SX-CH-001 | Advanced | Up to RMB 7,000 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-001-causal-chain-uncertainty.md` |
 | SX-CH-002 | Hard | Up to RMB 8,800 | Closed in full on 2026-08-03 | `challenge-board/tasks/SX-CH-002-market-data-consistency.md` |
-| SX-CH-003 | Hard | Up to RMB 9,500 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md` |
+| SX-CH-003 | Hard | Up to RMB 9,500 | Closed in full on 2026-10-28 | `challenge-board/tasks/SX-CH-003-paper-strategy-runtime-contract.md` |
 | SX-CH-004 | Flagship | Up to RMB 12,000 | No fixed time limit; S / A grades close independently once certified | `challenge-board/tasks/SX-CH-004-public-alpha-selection.md` |
 
 ## Submission channel
