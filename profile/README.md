@@ -38,17 +38,21 @@ Keeping agents running reliably is an infrastructure capability; enabling them t
 
 ## S2E distributed AI collaboration ecosystem
 
-S2E (Singularity to Evolution) is a distributed AI collaboration ecosystem under development. It aims to connect researchers, domain experts, engineers, AI agents, and computing resources worldwide, bringing distributed expertise together in sustained collaboration on difficult problems shared by humanity.
+S2E (Singularity to Evolution) is a distributed AI collaboration ecosystem under development, connecting researchers, domain experts, engineers, AI agents, and computing resources worldwide to organize sustained collaboration on difficult problems shared by humanity.
 
-The platform focuses on three long-term questions. Energy and habitats: how can humanity obtain more abundant energy and extend sustainable habitats beyond Earth? Life and intelligence: how can humanity reduce the limitations imposed by disease and aging, and deepen its understanding of life, cognition, and consciousness? Collaboration and civilization: how can people, agents, knowledge, and resources distributed worldwide develop a sustained capacity to solve complex problems?
+We focus on three long-term questions:
 
-S2E is exploring how to break long-term goals into verifiable research tasks, starting with specific problems and advancing step by step. Fusion research can begin with a control or materials problem; brain–computer interfaces with cross-person decoding and long-term stability; space-based computing with thermal management, radiation, and cost models. Ambitious questions provide a shared direction; verifiable research tasks make collaboration possible.
+Energy and habitats: can humanity obtain more abundant energy and extend sustainable habitats beyond Earth?
 
-The platform uses agents as an interface for collaboration, connecting expert knowledge with research tools. We are exploring how to organize expert experience and research methods into capability modules that can be used with authorization, so research records, tasks, and results can be reused within agreed permissions, reducing repeated communication and delays. We are also exploring blockchain for contribution traceability and privacy-preserving computation and other privacy protections for controlled sharing, alongside bounties, research funding, and opportunities to use or redeem resources to support sustained participation.
+Life and intelligence: can humanity reduce the limitations imposed by disease and aging, and deepen its understanding of life, cognition, and consciousness?
 
-S2E is currently using a small-sample financial research demo to refine task collaboration, result verification, and contribution records. In parallel, we are developing infrastructure, connecting partners across disciplines, and building the ecosystem, gradually developing the capacity to extend into other scientific fields.
+Collaboration and civilization: can people, agents, knowledge, and resources distributed worldwide develop a sustained capacity to solve complex problems together?
 
-S2E is committed to the public benefit of scientific research and community collaboration. We value sharp thinking, self-direction, shared interests, and an evidence-seeking approach. A small core team iterates quickly, welcoming researchers, developers, research institutions, and resource partners to help build the platform. Specific tasks, permissions, and incentives are governed by formal announcements or agreements.
+We will explore how to break difficult problems and ambitious challenges into verifiable research tasks, starting with specific questions and tackling them step by step. Fusion research can begin with a control or materials problem; brain–computer interfaces with cross-person decoding and long-term stability; space-based computing with thermal management, radiation, and cost models. Ambitious questions provide a shared direction; small, verifiable tasks enable participants to begin collaborating.
+
+The platform encourages participants to capture questions, methods, and research records during their most creative hours, with agents collaborating asynchronously within authorized boundaries to reduce repeated communication and waiting. We are exploring progressive trust and controlled sharing, using blockchain to support contribution traceability and rewarding genuine contributions through attribution, reputation, research funding, and opportunities to use resources.
+
+S2E is using real tasks in the financial sector to test mechanisms for collaboration, validation, and reward distribution, while also developing infrastructure, connecting partners across disciplines, and building the ecosystem. The platform is committed to the public benefit of scientific research and community collaboration, iterates quickly with a small core team, and welcomes researchers, developers, research institutions, and resource partners worldwide.
 
 Let one person's important discovery become the starting point for others to explore further.
 

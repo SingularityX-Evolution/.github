@@ -10,7 +10,14 @@ The `open-research/` directory and research question Issue form provide an ongoi
 
 The package includes question and challenge-announcement templates only. When updating an earlier question-intake package, remove the superseded `open-research/templates/solution.md` and `open-research/templates/solution.zh-CN.md` files. Existing `SX-CH-001` through `SX-CH-004` task files, awards, results and SHA256 records are unchanged. Homepage entry points and bilingual scope notes distinguish their existing solution submissions from the question-only call.
 
-## This revision — 2026-10-28
+## This revision — 2026-10-29
+
+- Synchronizes the single S2E module on both homepages with the supplied 2.1 introduction, preserving the Chinese source body text and providing its English translation.
+- Updates the collaboration description to authorized asynchronous Agent work, progressive trust, controlled sharing, and blockchain-supported contribution traceability; specifies attribution, reputation, research funding, and resource use as contribution rewards.
+- Describes the current stage as testing collaboration, validation, and reward distribution mechanisms through real financial-sector tasks, replacing the previous small-sample demo wording.
+- Keeps all content outside the S2E homepage modules unchanged, apart from these package records. Retains version 4.0, its release date, the original identity and logo, and the SX-CH-003 closure.
+
+## Previous revision — 2026-10-28
 
 - Retains release version 4.0 (fourth edition), dated 2026-10-28, with synchronized bilingual homepage labels and package metadata.
 - Restores the original SingularityX / 零界演化 homepage identity, logo, research introduction, recruitment, and other existing sections. Restores the original organization-introduction documents, contribution guide, challenge-board descriptions, financial question-intake pages, and inquiry form.
