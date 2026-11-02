@@ -10,7 +10,15 @@ The `open-research/` directory and research question Issue form provide an ongoi
 
 The package includes question and challenge-announcement templates only. When updating an earlier question-intake package, remove the superseded `open-research/templates/solution.md` and `open-research/templates/solution.zh-CN.md` files. Existing `SX-CH-001` through `SX-CH-004` task files, awards, results and SHA256 records are unchanged. Homepage entry points and bilingual scope notes distinguish their existing solution submissions from the question-only call.
 
-## This revision — 2026-10-29
+## This revision — 2026-11-02
+
+- Synchronizes the single S2E module on both homepages with the supplied 2.2 introduction, preserving the Chinese source body text and providing its English translation.
+- Clarifies sharing without open-sourcing, expert control of original knowledge, authorized Agent access, agreed results, contribution verification, and source records.
+- Describes asynchronous collaboration and permissions that expand with verifiable results. Adds blockchain contribution registration and spare computing contributions whose validated useful computation converts into resource credits redeemable for higher-tier computing resources.
+- Updates the current stage to small-scale closed-loop testing in finance to assess collaboration, validation, and reward mechanisms.
+- Keeps all content outside the S2E homepage modules unchanged, apart from these package records. Retains version 4.0, its release date, the original identity and logo, and the SX-CH-003 closure.
+
+## Previous revision — 2026-10-29
 
 - Synchronizes the single S2E module on both homepages with the supplied 2.1 introduction, preserving the Chinese source body text and providing its English translation.
 - Updates the collaboration description to authorized asynchronous Agent work, progressive trust, controlled sharing, and blockchain-supported contribution traceability; specifies attribution, reputation, research funding, and resource use as contribution rewards.

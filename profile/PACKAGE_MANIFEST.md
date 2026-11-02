@@ -75,11 +75,11 @@ open-research/templates/question.zh-CN.md
 
 ## Main changes in this package
 
-### S2E collaboration platform module — 2026-10-29
+### S2E collaboration platform module — 2026-11-02
 
 - Keeps the SingularityX / 零界演化 identity, logo, original homepage content and section order, organization introductions, recruitment, contribution guide, question intake, and challenge pages.
-- Updates the single S2E section after the existing research introduction on each bilingual homepage to match the supplied 2.1 introduction. The Chinese module preserves the source body text and the English module provides its translation.
-- Describes authorized asynchronous Agent collaboration, progressive trust, controlled sharing, blockchain-supported contribution traceability, and recognition through attribution, reputation, research funding, and resource use. Replaces the small-sample demo wording with real financial-sector tasks that test collaboration, validation, and reward distribution mechanisms.
+- Updates the single S2E section after the existing research introduction on each bilingual homepage to match the supplied 2.2 introduction. The Chinese module preserves the source body text and the English module provides its translation.
+- Describes sharing without open-sourcing: experts retain control of original knowledge, agents access it within authorized boundaries and return agreed results, and permissions expand with verifiable results. Adds blockchain contribution registration and the conversion of validated useful computation into resource credits redeemable for higher-tier computing resources. Describes the current stage as small-scale closed-loop testing in finance to assess collaboration, validation, and reward mechanisms.
 - Retains version 4.0 (fourth edition), dated 2026-10-28, and the full closure of SX-CH-003. Challenge rules, awards, results, task files, and integrity records remain unchanged from the closure package.
 
 ### SX-CH-003 closure — 2026-10-28
