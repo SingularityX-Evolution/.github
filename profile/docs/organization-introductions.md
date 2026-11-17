@@ -10,6 +10,16 @@ Scientific discovery drives the evolution of intelligence. Evolving intelligence
 
 SingularityX Evolution is dedicated to building intelligent decision systems centered on AI self-evolution, while exploring an open, collaborative organization where humans and AI create value together.
 
+### Cross the Threshold and Create the Future
+
+The story of SingularityX Evolution (零界演化) begins with Ray Kurzweil’s *The Singularity Is Nearer*. In the book, Kurzweil predicts that technological progress will accelerate exponentially and that, by 2045, AI and nanotechnology will enable humans to merge with machines, expanding our thinking capacity millions of times over. We stand at a threshold where the boundaries between the physical and digital worlds are dissolving.
+
+The name “零界” honors the moment of breaking through limits and crossing the technological singularity. “演化” expresses the idea that humanity need no longer be confined to natural biological evolution, but can actively pursue a profound transformation of mind and body.
+
+Our mission is to help lead change during a transition in which converging technologies bring profound social disruption. We embrace the prospect of immense material abundance while taking on the moral responsibility to realize the potential of new technologies and reduce their risks. We strive to ensure that humanity’s journey toward the singularity is safe and successful, help unlock our boundless capacity for self-transformation, and lead the world across this threshold to create a future far beyond imagination.
+
+### Scientific Discovery and Evolving Intelligence
+
 Our research follows AI4S → RSI → AI4S: use artificial intelligence to advance scientific research, improve intelligent systems through that research, and apply more capable intelligence to further exploration, so scientific discovery and recursive self-improvement reinforce each other.
 
 Financial markets are our starting point. In a highly non-stationary, adversarial, and uncertain real-world environment, our research goes beyond “better predictive models” to ask: How can agents maintain reliable decision-making as conditions change? How can strategies be generated and validated, then compete and continually evolve through multi-agent collaboration and strategic interaction? How can a system improve the methods that produce strategies, rather than merely optimize an individual strategy?

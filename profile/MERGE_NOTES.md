@@ -10,7 +10,14 @@ The `open-research/` directory and research question Issue form provide an ongoi
 
 The package includes question and challenge-announcement templates only. When updating an earlier question-intake package, remove the superseded `open-research/templates/solution.md` and `open-research/templates/solution.zh-CN.md` files. Existing `SX-CH-001` through `SX-CH-004` task files, awards, results and SHA256 records are unchanged. Homepage entry points and bilingual scope notes distinguish their existing solution submissions from the question-only call.
 
-## This revision — 2026-11-02
+## This revision — 2026-11-17
+
+- Adds the supplied brand story before the research introduction on both GitHub homepages and within the website organization-introduction copy in both languages.
+- Preserves the complete Chinese text about the inspiration from Ray Kurzweil’s *The Singularity Is Nearer*, the meaning of “零界” and “演化”, and the organization’s mission. The English text is a corresponding translation, with the 2045 timeline attributed to the book’s prediction.
+- Uses the eight-character Chinese heading “跨越零界共创未来” without punctuation and links the organization-introduction documents from the homepage navigation.
+- Preserves the existing research, S2E, recruitment, question-intake, challenge, award, rule, and integrity content. Retains release version 4.0 and its original release date; this entry records the brand-copy update separately.
+
+## Previous revision — 2026-11-02
 
 - Synchronizes the single S2E module on both homepages with the supplied 2.2 introduction, preserving the Chinese source body text and providing its English translation.
 - Clarifies sharing without open-sourcing, expert control of original knowledge, authorized Agent access, agreed results, contribution verification, and source records.

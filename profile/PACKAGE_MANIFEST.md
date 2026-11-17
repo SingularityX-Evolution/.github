@@ -75,6 +75,13 @@ open-research/templates/question.zh-CN.md
 
 ## Main changes in this package
 
+### Brand story and mission — 2026-11-17
+
+- Adds the complete supplied brand story to the Chinese homepage and website organization-introduction copy, with synchronized English translations.
+- Places the story before the existing research introduction and covers the book inspiration, the meaning of the organization’s name, and its mission. The 2045 timeline remains attributed to Kurzweil’s prediction.
+- Uses the Chinese heading “跨越零界共创未来” and adds homepage navigation links to the organization-introduction documents.
+- Updates four content files and the two package records. Existing research, S2E, challenge statements, awards, rules, and integrity records are retained, together with release version 4.0 and its original release date.
+
 ### S2E collaboration platform module — 2026-11-02
 
 - Keeps the SingularityX / 零界演化 identity, logo, original homepage content and section order, organization introductions, recruitment, contribution guide, question intake, and challenge pages.

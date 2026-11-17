@@ -16,11 +16,19 @@ SingularityX Evolution is dedicated to building intelligent decision systems cen
 
 **All rights of interpretation are reserved by SingularityX Evolution (零界演化).**
 
-[Website](https://singularity-x.ai) | [Open research questions](open-research/README.md) | [中文](README.zh-CN.md)
+[Website](https://singularity-x.ai) | [Organization introduction](docs/organization-introductions.md) | [Open research questions](open-research/README.md) | [中文](README.zh-CN.md)
 
 </div>
 
 ---
+
+## Cross the Threshold and Create the Future
+
+The story of SingularityX Evolution (零界演化) begins with Ray Kurzweil’s *The Singularity Is Nearer*. In the book, Kurzweil predicts that technological progress will accelerate exponentially and that, by 2045, AI and nanotechnology will enable humans to merge with machines, expanding our thinking capacity millions of times over. We stand at a threshold where the boundaries between the physical and digital worlds are dissolving.
+
+The name “零界” honors the moment of breaking through limits and crossing the technological singularity. “演化” expresses the idea that humanity need no longer be confined to natural biological evolution, but can actively pursue a profound transformation of mind and body.
+
+Our mission is to help lead change during a transition in which converging technologies bring profound social disruption. We embrace the prospect of immense material abundance while taking on the moral responsibility to realize the potential of new technologies and reduce their risks. We strive to ensure that humanity’s journey toward the singularity is safe and successful, help unlock our boundless capacity for self-transformation, and lead the world across this threshold to create a future far beyond imagination.
 
 ## What we are exploring
 
